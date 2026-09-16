@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ielts-sprint-v4-ios-20260916';
+const CACHE_NAME = 'ielts-sprint-v5-listening-20260916';
 const APP_SHELL = [
   './',
   './index.html',
@@ -41,3 +41,4 @@ self.addEventListener('fetch', event => {
       .catch(() => caches.match(event.request).then(cached => cached || caches.match('./index.html')))
   );
 });
+
