@@ -1,0 +1,33 @@
+{
+  "name": "雅思7分冲刺台",
+  "short_name": "雅思冲刺台",
+  "description": "雅思四科官方公开真题训练、每日计划、复盘和口语AI优化工具",
+  "lang": "zh-CN",
+  "id": "./index.html",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f2e9",
+  "theme_color": "#123f3b",
+  "icons": [
+    {
+      "src": "./apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
