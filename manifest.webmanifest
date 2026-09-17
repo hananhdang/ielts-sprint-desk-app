@@ -1,7 +1,7 @@
 {
   "name": "雅思7分冲刺台",
   "short_name": "雅思冲刺台",
-  "description": "雅思四科官方公开真题、AI写作批改、AI语音对练、BBC每日听力和智能复习工具",
+  "description": "雅思四科官方公开真题、AI写作批改、AI语音对练、国内每日听力和智能复习工具",
   "lang": "zh-CN",
   "id": "./index.html",
   "start_url": "./index.html",

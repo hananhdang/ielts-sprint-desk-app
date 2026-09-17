@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-17T04:01:27Z",
+  "sourceUrl": "https://radio.cgtn.com/downapiRES/radio/v1/classification/detail/groupType1_id25.json",
+  "episodes": [
+    {
+      "title": "China-ASEAN expo to highlight FTA 3.0 opportunities",
+      "date": "2026-09-17",
+      "description": "Event organizer say the 23rd China-ASEAN Expo will spotlight new business opportunities under the China-ASEAN Free Trade Area 3.0 framework, with more than 3,400 companies from over 70 countries and regions set to participate.",
+      "audio": "https://radio-res.cgtn.com/ueditor/audio/2609/1089617308581.mp3",
+      "link": "https://radio.cgtn.com/news/otherHistory/China-ASEAN%20expo%20to%20highlight%20FTA%203.0%20opportunities/2722031",
+      "guid": "cgtn:2722031",
+      "duration": "04:45",
+      "programme": "Headline News"
+    },
+    {
+      "title": "Green hydrogen stands out as highlight of China-Namibia cooperation",
+      "date": "2026-09-04",
+      "description": "China-Namibia cooperation in the green energy sector is flourishing, with green hydrogen standing out as the highlight of their partnership. Leveraging their advantages in renewable energy equipment manufacturing and technologies, Chinese companies are playing an important role across Namibia's green hydrogen value chain.",
+      "audio": "https://radio-res.cgtn.com/ueditor/video/2609/31538a97-2c6e-3382-6041-4009f8f3f0c2.mp3",
+      "link": "https://radio.cgtn.com/news/recommend/Green%20hydrogen%20stands%20out%20as%20highlight%20of%20China-Namibia%20cooperation/3114",
+      "guid": "cgtn:3114",
+      "duration": "03:49",
+      "programme": "CGTN Radio"
+    },
+    {
+      "title": "Innovation and entrepreneurship emerge as core driving force in China-Egypt cooperation",
+      "date": "2026-09-04",
+      "description": "Innovation and entrepreneurship have emerged as core driving forces in higher education cooperation between China and Egypt. In recent years, bilateral collaboration has evolved from traditional academic exchanges to deeper synergy centered on technology transfer, industrial incubation, and entrepreneurship.",
+      "audio": "https://radio-res.cgtn.com/ueditor/video/2609/fa079462-e1e2-b8a5-8f8a-e407dac820b3.mp3",
+      "link": "https://radio.cgtn.com/news/recommend/Innovation%20and%20entrepreneurship%20emerge%20as%20core%20driving%20force%20in%20China-Egypt%20cooperation/3113",
+      "guid": "cgtn:3113",
+      "duration": "04:20",
+      "programme": "CGTN Radio"
+    },
+    {
+      "title": "Unearthed memory: Latin America’s largest slave graveyard found beneath Salvador car park",
+      "date": "2026-09-03",
+      "description": "An archaeological discovery beneath a Salvador city-center car park has uncovered a forgotten chapter of Brazil’s role as a major gateway of the transatlantic slave trade, where hundreds of thousands of enslaved Africans once arrived.",
+      "audio": "https://radio-res.cgtn.com/ueditor/video/2609/6f65ec3a-6b59-55ea-002a-444cc01cef07.mp3",
+      "link": "https://radio.cgtn.com/news/recommend/Unearthed%20memory%3A%20Latin%20America%E2%80%99s%20largest%20slave%20graveyard%20found%20beneath%20Salvador%20car%20park/3112",
+      "guid": "cgtn:3112",
+      "duration": "03:34",
+      "programme": "CGTN Radio"
+    },
+    {
+      "title": "Once Upon a Time in the Middle East: a new frame on anti-war films",
+      "date": "2026-08-21",
+      "description": "What makes Once Upon a Time in the Middle East stand out from traditional war films? Zhang Junnan, the film’s English subtitle translator, shares how its story of food, humanity and hope brings a fresh perspective to the genre.",
+      "audio": "https://radio-res.cgtn.com/ueditor/video/2608/9969103f-a1ef-2aa3-83af-78ed14a3bfa0.mp3",
+      "link": "https://radio.cgtn.com/news/recommend/Once%20Upon%20a%20Time%20in%20the%20Middle%20East%3A%20a%20new%20frame%20on%20anti-war%20films/3109",
+      "guid": "cgtn:3109",
+      "duration": "03:20",
+      "programme": "CGTN Radio"
+    },
+    {
+      "title": "SAR government releases third five-year plan for economic and social development",
+      "date": "2026-08-19",
+      "description": "The Macao Special Administrative Region has unveiled its third five-year plan for 2026 to 2030, charting the next phase of the region's economic and social development.",
+      "audio": "https://radio-res.cgtn.com/ueditor/video/2608/7bbc8da3-2ff3-9621-4ca1-4f89c4a0aac5.mp3",
+      "link": "https://radio.cgtn.com/news/recommend/SAR%20government%20releases%20third%20five-year%20plan%20for%20economic%20and%20social%20development/3108",
+      "guid": "cgtn:3108",
+      "duration": "02:33",
+      "programme": "CGTN Radio"
+    },
+    {
+      "title": "China unveils measures to boost county-level consumption",
+      "date": "2026-08-19",
+      "description": "China has unveiled a set of measures to further stimulate consumption in lower-tier markets and invigorate county-level consumer spending. The plan includes upgrading township commercial centers, rural markets, and local fairs.",
+      "audio": "https://radio-res.cgtn.com/ueditor/video/2608/89335c42-44c3-7c12-a297-d8e3f933ae81.mp3",
+      "link": "https://radio.cgtn.com/news/recommend/China%20unveils%20measures%20to%20boost%20county-level%20consumption/3107",
+      "guid": "cgtn:3107",
+      "duration": "04:48",
+      "programme": "CGTN Radio"
+    },
+    {
+      "title": "Technologies open new avenues for China-Africa media cooperation",
+      "date": "2026-08-19",
+      "description": "African media professionals are calling for deeper and more practical cooperation with their Chinese counterparts, as digital platforms and artificial intelligence reshape how stories are produced and shared.",
+      "audio": "https://radio-res.cgtn.com/ueditor/video/2608/39b8f886-002c-dbce-58e4-542b7469a2af.mp3",
+      "link": "https://radio.cgtn.com/news/recommend/Technologies%20open%20new%20avenues%20for%20China-Africa%20media%20cooperation/3106",
+      "guid": "cgtn:3106",
+      "duration": "03:29",
+      "programme": "CGTN Radio"
+    }
+  ]
+}

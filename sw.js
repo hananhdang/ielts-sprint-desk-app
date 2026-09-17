@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ielts-sprint-v10-bbc-click-to-load-20260917';
+const CACHE_NAME = 'ielts-sprint-v11-domestic-listening-20260917';
 const APP_SHELL = [
   './',
   './index.html',
@@ -7,6 +7,7 @@ const APP_SHELL = [
   './smart-features.js',
   './smart-features.css',
   './bbc-feed.json',
+  './cgtn-feed.json',
   './THIRD_PARTY_NOTICES.md',
   './apple-touch-icon.png',
   './icon-192.png',

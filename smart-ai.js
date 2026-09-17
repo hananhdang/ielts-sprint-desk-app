@@ -436,6 +436,38 @@
     return global.speechSynthesis.getVoices();
   }
 
+  let speechRunId = 0;
+  let activeUtterance = null;
+  let activeSpeechReject = null;
+
+  function splitSpeechChunks(text, maxLength) {
+    const limit = Math.max(120, Number(maxLength) || 220);
+    const sentences = String(text || '').match(/[^.!?;:\n]+[.!?;:]*(?:\s+|$)|[^\n]+$/g) || [String(text || '')];
+    const chunks = [];
+    let current = '';
+    const append = part => {
+      const value = part.trim();
+      if (!value) return;
+      if (!current) current = value;
+      else if ((current + ' ' + value).length <= limit) current += ' ' + value;
+      else { chunks.push(current); current = value; }
+    };
+    sentences.forEach(sentence => {
+      const value = sentence.trim();
+      if (value.length <= limit) { append(value); return; }
+      const words = value.split(/\s+/);
+      let piece = '';
+      words.forEach(word => {
+        if (!piece) piece = word;
+        else if ((piece + ' ' + word).length <= limit) piece += ' ' + word;
+        else { append(piece); piece = word; }
+      });
+      append(piece);
+    });
+    if (current) chunks.push(current);
+    return chunks;
+  }
+
   function speak(text, options) {
     const opts = options || {};
     const content = String(text || '').trim();
@@ -444,24 +476,57 @@
       return Promise.reject(new IELTSAIError('TTS_UNSUPPORTED', '当前浏览器不支持文字朗读。'));
     }
 
-    if (opts.cancelExisting !== false) global.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(content.slice(0, Number(opts.maxChars) || 1200));
-    utterance.lang = opts.lang || 'en-GB';
-    utterance.rate = Math.min(2, Math.max(0.5, Number(opts.rate) || 0.95));
-    utterance.pitch = Math.min(2, Math.max(0, Number(opts.pitch) || 1));
-    utterance.volume = Math.min(1, Math.max(0, Number(opts.volume) || 1));
-    const voice = getPreferredVoice(utterance.lang);
-    if (voice) utterance.voice = voice;
+    if (opts.cancelExisting !== false) stopSpeaking();
+    const runId = ++speechRunId;
+    const limited = content.slice(0, Number(opts.maxChars) || 1200);
+    const chunks = splitSpeechChunks(limited, opts.chunkChars);
+    const lang = opts.lang || 'en-GB';
+    const rate = Math.min(2, Math.max(0.5, Number(opts.rate) || 0.95));
+    const pitch = Math.min(2, Math.max(0, Number(opts.pitch) || 1));
+    const volume = Math.min(1, Math.max(0, Number(opts.volume) || 1));
+    const voice = getPreferredVoice(lang);
 
     return new Promise((resolve, reject) => {
-      utterance.onend = () => resolve({ utterance, voice: utterance.voice || null });
-      utterance.onerror = event => reject(new IELTSAIError('TTS_FAILED', '朗读失败，请点击播放按钮重试。', { cause: event.error || event }));
-      global.speechSynthesis.speak(utterance);
+      let index = 0;
+      activeSpeechReject = reject;
+      const finish = value => {
+        if (runId !== speechRunId) return;
+        activeUtterance = null;
+        activeSpeechReject = null;
+        resolve(value);
+      };
+      const playNext = () => {
+        if (runId !== speechRunId) return;
+        if (index >= chunks.length) { finish({ chunks:chunks.length, voice }); return; }
+        const utterance = new SpeechSynthesisUtterance(chunks[index++]);
+        activeUtterance = utterance;
+        utterance.lang = lang;
+        utterance.rate = rate;
+        utterance.pitch = pitch;
+        utterance.volume = volume;
+        if (voice) utterance.voice = voice;
+        utterance.onend = playNext;
+        utterance.onerror = event => {
+          if (runId !== speechRunId) return;
+          activeUtterance = null;
+          activeSpeechReject = null;
+          reject(new IELTSAIError('TTS_FAILED', '朗读失败，请点击播放按钮重试。', { cause:event.error || event }));
+        };
+        global.speechSynthesis.speak(utterance);
+      };
+      playNext();
     });
   }
 
   function stopSpeaking() {
+    speechRunId += 1;
     if (global.speechSynthesis) global.speechSynthesis.cancel();
+    activeUtterance = null;
+    if (activeSpeechReject) {
+      const reject = activeSpeechReject;
+      activeSpeechReject = null;
+      reject(new IELTSAIError('TTS_CANCELLED', '朗读已停止。'));
+    }
   }
 
   global.IELTSAI = Object.freeze({

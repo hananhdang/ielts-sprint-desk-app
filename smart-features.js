@@ -7,7 +7,7 @@
   const $$ = s => Array.from(document.querySelectorAll(s));
   const esc = value => String(value == null ? '' : value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const STORE_KEY = 'ielts-smart-features-v1';
-  const FEED_CACHE_KEY = 'ielts-bbc-feed-cache-v3';
+  const FEED_CACHE_KEY = 'ielts-listening-feed-cache-v4';
   const state = loadState();
 
   function loadState() {
@@ -37,9 +37,10 @@
     $$('[data-view]').forEach(b => b.classList.toggle('active', b.dataset.view === view));
     $$('.view').forEach(v => v.classList.toggle('active', v.id === 'view-' + view));
     const title = $('#topTitle');
-    if (title) title.textContent = view === 'bbc' ? 'BBC 每日听力' : title.textContent;
+    if (title) title.textContent = view === 'bbc' ? '每日英语听力' : title.textContent;
     scrollTo({ top: 0, behavior: 'smooth' });
   }
+  window.IELTSOpenView = openView;
   function buttonBusy(button, busy, busyText, idleText) {
     button.disabled = busy;
     button.textContent = busy ? busyText : idleText;
@@ -58,14 +59,14 @@
     if (desktop && !desktop.querySelector('[data-view="bbc"]')) {
       const button = document.createElement('button');
       button.dataset.view = 'bbc';
-      button.innerHTML = '<i>♫</i>BBC每日';
+      button.innerHTML = '<i>♫</i>每日听力';
       desktop.querySelector('[data-view="training"]')?.before(button);
       button.addEventListener('click', () => openView('bbc'));
     }
     if (mobile && !mobile.querySelector('[data-view="bbc"]')) {
       const button = document.createElement('button');
       button.dataset.view = 'bbc';
-      button.innerHTML = '<i>♫</i>BBC';
+      button.innerHTML = '<i>♫</i>听力';
       mobile.querySelector('[data-view="training"]')?.before(button);
       button.addEventListener('click', () => openView('bbc'));
     }
@@ -273,36 +274,55 @@
   }
 
   const FEEDS = {
-    six:{label:'6 Minute English',url:'https://podcasts.files.bbci.co.uk/p02pc9tn.rss',note:'工作日首选 · 约6分钟 · 生活与知识话题'},
-    news:{label:'Global News Podcast',url:'https://podcasts.files.bbci.co.uk/p02nq0gn.rss',note:'周末首选 · 新闻语速 · 练主旨与细节'},
-    drama:{label:'Learning English Drama',url:'https://podcasts.files.bbci.co.uk/p02pc9s1.rss',note:'轻松泛听 · 剧情对话 · 练语调和口语块'}
+    cgtn:{label:'CGTN 国内新闻',page:'https://radio.cgtn.com',note:'国内 CDN · 2–10 分钟短新闻 · 无需 VPN',domestic:true},
+    six:{label:'BBC 海外备用',page:'https://www.bbc.co.uk/learningenglish',rss:'https://podcasts.files.bbci.co.uk/p02pc9tn.rss',note:'海外备用 · 国内网络可能较慢 · 点击后才连接',domestic:false}
   };
+  const DAILY_TABS=[['cgtn','CGTN 国内新闻'],['local','本机精听 · 免联网'],['six','BBC 海外备用']];
   const FALLBACK_EPISODES=[{title:'How reading shapes your brain',date:'2026-05-14',description:'6 Minute English：阅读如何改变大脑。',audio:'https://downloads.bbc.co.uk/learningenglish/features/6min/260514_6_minute_english_how_reading_shapes_your_brain_download.mp3',link:'https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260514'}];
-  let bundledFeedPromise=null;
+  const bundledFeedPromises={};
   async function bundledEpisodes(key){
-    if(!bundledFeedPromise)bundledFeedPromise=fetch('./bbc-feed.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()});
-    const payload=await bundledFeedPromise,items=payload?.feeds?.[key]?.episodes;
+    const file=key==='cgtn'?'./cgtn-feed.json':'./bbc-feed.json';
+    if(!bundledFeedPromises[file])bundledFeedPromises[file]=fetch(file,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()});
+    const payload=await bundledFeedPromises[file],items=key==='cgtn'?payload?.episodes:payload?.feeds?.[key]?.episodes;
     return Array.isArray(items)?items:[];
   }
   function installBBC() {
     if ($('#view-bbc')) return;
     const section=document.createElement('section');section.className='view';section.id='view-bbc';
-    section.innerHTML=`<div class="section-title"><div><h2>BBC 每日听力</h2><p>每天一段真实英语：先抓主旨，再精听词块，最后60秒复述。</p></div><span class="badge" id="bbcRecommendation"></span></div><article class="card bbc-hero"><h3>今天只做一个 12–25 分钟闭环</h3><div class="listen-routine"><div><b>① 泛听</b><span>不暂停，写一句主旨</span></div><div><b>② 精听</b><span>重听一段，记3个词块</span></div><div><b>③ 输出</b><span>关掉音频，60秒英语复述</span></div></div></article><div class="feed-tabs" id="bbcFeedTabs">${Object.entries(FEEDS).map(([k,v])=>`<button class="btn smallbtn" data-feed="${k}">${esc(v.label)}</button>`).join('')}</div><div class="card"><p class="small muted" id="bbcFeedNote"></p><div class="episode-grid" id="bbcEpisodes"><div class="empty">正在读取 BBC 最新节目…</div></div></div>`;
+    section.innerHTML=`<div class="section-title"><div><h2>每日英语听力</h2><p>默认使用国内音频；BBC 仅作为网络条件允许时的拓展。</p></div><span class="badge" id="bbcRecommendation"></span></div><article class="card bbc-hero"><h3>每天只做一个 12–25 分钟闭环</h3><div class="listen-routine"><div><b>① 泛听</b><span>不暂停，写一句主旨</span></div><div><b>② 精听</b><span>重听一段，记3个词块</span></div><div><b>③ 输出</b><span>关掉音频，60秒英语复述</span></div></div><div class="smart-actions"><a class="btn smallbtn" href="https://radio.cgtn.com" target="_blank" rel="noopener noreferrer">CGTN Radio 国内站 ↗</a><a class="btn smallbtn" href="https://language.chinadaily.com.cn/news_bilingual" target="_blank" rel="noopener noreferrer">中国日报双语新闻 ↗</a></div></article><div class="feed-tabs" id="bbcFeedTabs">${DAILY_TABS.map(([k,label])=>`<button class="btn smallbtn" data-daily-feed="${k}">${esc(label)}</button>`).join('')}</div><div class="card"><p class="small muted" id="bbcFeedNote"></p><div class="episode-grid" id="bbcEpisodes"><div class="empty">正在读取国内听力…</div></div></div>`;
     $('#view-training')?.before(section);
-    const defaultFeed='six';
-    $('#bbcRecommendation').textContent='今日推荐：6 Minute English · iPhone 稳定直链';
-    $$('[data-feed]').forEach(b=>b.onclick=()=>loadFeed(b.dataset.feed));
-    loadFeed(defaultFeed);
+    $('#bbcRecommendation').textContent='今日推荐：CGTN 国内 CDN · 无需 VPN';
+    $$('[data-daily-feed]').forEach(b=>b.onclick=()=>loadDailyFeed(b.dataset.dailyFeed));
+    loadDailyFeed('cgtn');
   }
-  function readFeedCache(key){try{const all=JSON.parse(localStorage.getItem(FEED_CACHE_KEY)||'{}'),x=all[key],fresh=x&&Date.now()-x.at<21600000,stable=key!=='six'||(Array.isArray(x?.items)&&x.items.every(item=>/^https:\/\/downloads\.bbc\.co\.uk\//.test(item.audio||'')));return fresh&&stable?x.items:null}catch(_){return null}}
+  function activateDailyTab(key){$$('[data-daily-feed]').forEach(b=>b.classList.toggle('primary',b.dataset.dailyFeed===key));}
+  function openLocalPractice(index){
+    ($('#desktopNav [data-view="materials"]')||$('#mobileNav [data-view="materials"]'))?.click();
+    $('[data-material="original"]')?.click();
+    $('[data-original-subject="listening"]')?.click();
+    $(`[data-pick-listening="${index}"]`)?.click();
+  }
+  function renderLocalListening(message='使用手机或电脑自带英文语音，不访问境外音频；页面缓存后可离线使用。'){
+    const box=$('#bbcEpisodes'),items=window.IELTS_PRACTICE_LISTENING||[];if(!box)return;activateDailyTab('local');$('#bbcFeedNote').textContent=message;
+    if(!items.length){box.innerHTML='<div class="empty">本机听力材料尚未载入，请刷新页面后重试。</div>';return;}
+    const offset=Math.floor(Date.now()/86400000)%items.length,ordered=[...items.slice(offset),...items.slice(0,offset)];
+    box.innerHTML=ordered.map((x,i)=>{const originalIndex=items.indexOf(x);return`<article class="episode"><div class="meta">本机语音 · Section ${esc(x.section)} · ${esc(x.level)}</div><h3>${esc(x.title)}</h3><p class="small muted">建议先盲听两遍，再进入题目与判分。</p><label class="small">语速 <select data-local-rate><option value="0.85">0.85×</option><option value="0.95" selected>0.95×</option><option value="1.05">1.05×</option><option value="1.15">1.15×</option></select></label><div class="smart-actions"><button class="btn primary" type="button" data-local-speak="${i}">▶ 本机朗读</button><button class="btn smallbtn" type="button" data-local-stop>■ 停止</button><button class="btn smallbtn" type="button" data-local-practice="${originalIndex}">进入题目与判分</button></div><details><summary>完成后查看原文</summary><p class="small">${esc(x.transcript)}</p></details></article>`}).join('');
+    $$('[data-local-speak]').forEach(button=>button.onclick=()=>{const item=ordered[+button.dataset.localSpeak],rate=+(button.closest('.episode')?.querySelector('[data-local-rate]')?.value||.95);$$('[data-local-speak]').forEach(b=>{b.disabled=false;b.textContent='▶ 本机朗读'});button.disabled=true;button.textContent='正在朗读…';AI.speak(item.transcript,{lang:'en-GB',rate,maxChars:5000}).then(()=>{button.disabled=false;button.textContent='↻ 再听一遍'}).catch(()=>{button.disabled=false;button.textContent='▶ 本机朗读'});});
+    $$('[data-local-stop]').forEach(button=>button.onclick=()=>{AI.stopSpeaking();$$('[data-local-speak]').forEach(b=>{b.disabled=false;b.textContent='▶ 本机朗读'});});
+    $$('[data-local-practice]').forEach(button=>button.onclick=()=>openLocalPractice(+button.dataset.localPractice));
+  }
+  function loadDailyFeed(key){AI.stopSpeaking();if(key==='local'){renderLocalListening();return}loadFeed(key);}
+  function readFeedCache(key){try{const all=JSON.parse(localStorage.getItem(FEED_CACHE_KEY)||'{}'),x=all[key],fresh=x&&Date.now()-x.at<21600000,items=x?.items,stable=Array.isArray(items)&&items.length>0&&(key==='cgtn'?items.every(item=>/^https:\/\/radio-res\.cgtn\.com\//.test(item.audio||'')):key==='six'?items.every(item=>/^https:\/\/downloads\.bbc\.co\.uk\//.test(item.audio||'')):true);return fresh&&stable?items:null}catch(_){return null}}
   function writeFeedCache(key,items){try{const all=JSON.parse(localStorage.getItem(FEED_CACHE_KEY)||'{}');all[key]={at:Date.now(),items};localStorage.setItem(FEED_CACHE_KEY,JSON.stringify(all))}catch(_){}}
   async function loadFeed(key){
-    const feed=FEEDS[key],box=$('#bbcEpisodes');if(!feed||!box)return;$$('[data-feed]').forEach(b=>b.classList.toggle('primary',b.dataset.feed===key));$('#bbcFeedNote').textContent=feed.note;box.innerHTML='<div class="empty">正在读取 BBC 最新节目…</div>';
+    const feed=FEEDS[key],box=$('#bbcEpisodes');if(!feed||!box)return;activateDailyTab(key);$('#bbcFeedNote').textContent=feed.note;box.innerHTML=`<div class="empty">正在读取${feed.domestic?'国内':'海外'}听力…</div>`;
     let items=readFeedCache(key);
     if(!items){try{items=await bundledEpisodes(key);if(!items.length)throw Error('本地节目缓存为空');writeFeedCache(key,items);}catch(_){items=null;}}
-    if(!items){try{const response=await fetch(feed.url,{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const xml=new DOMParser().parseFromString(await response.text(),'application/xml');items=Array.from(xml.querySelectorAll('item')).slice(0,8).map(item=>{const enclosure=Array.from(item.children).find(el=>el.localName==='enclosureSecure')||item.querySelector('enclosure');const description=item.querySelector('description')?.textContent||'';const holder=document.createElement('div');holder.innerHTML=description;return{title:item.querySelector('title')?.textContent||'BBC episode',date:item.querySelector('pubDate')?.textContent||'',description:(holder.textContent||'').trim().slice(0,240),audio:(enclosure?.getAttribute('url')||'').replace(/^http:/,'https:'),link:(item.querySelector('link')?.textContent||feed.url).replace(/^http:/,'https:'),guid:item.querySelector('guid')?.textContent||''}}).filter(x=>x.audio);if(!items.length)throw Error('RSS 中没有音频');writeFeedCache(key,items);}catch(error){items=key==='six'?FALLBACK_EPISODES:[];if(!items.length){box.innerHTML=`<div class="empty">暂时无法读取节目列表。<a href="${esc(feed.url)}" target="_blank" rel="noopener noreferrer">打开 BBC 官方 RSS ↗</a></div>`;return;}}}
-    box.innerHTML=items.map((x,i)=>{const id=x.guid||x.audio,done=state.listenedEpisodes[id],direct=/^https:\/\/downloads\.bbc\.co\.uk\//.test(x.audio);return`<article class="episode"><div class="meta">${esc(formatDate(x.date))} · BBC 官方音频${direct?' · iPhone稳定直链':''}</div><h3>${esc(x.title)}</h3><p class="small muted">${esc(x.description)}</p><button class="btn smallbtn audio-start" type="button" data-audio-start="${i}">▶ 点击播放这条</button><audio controls preload="none" playsinline data-bbc-audio="${i}" data-audio-src="${esc(x.audio)}">当前浏览器不支持音频播放。</audio><div class="audio-help" data-audio-help="${i}" hidden><b>音频加载失败</b><span>当前网络可能拦截了 BBC 媒体，请先点“重试播放”。</span><div class="smart-actions"><button class="btn smallbtn" type="button" data-audio-retry="${i}">重试播放</button><a class="btn smallbtn" href="${esc(x.link)}" target="_blank" rel="noopener noreferrer">打开 BBC 官方页 ↗</a>${direct?`<a class="btn smallbtn" href="${esc(x.audio)}" target="_blank" rel="noopener noreferrer">单独打开 MP3 ↗</a>`:''}</div></div><div class="smart-actions"><a class="btn smallbtn" href="${esc(x.link)}" target="_blank" rel="noopener noreferrer">节目原页/文字稿 ↗</a><button class="btn smallbtn ${done?'primary':''}" data-listened="${esc(id)}">${done?'✓ 已完成':'标记听完'}</button></div></article>`}).join('');
-    $$('[data-bbc-audio]').forEach(audio=>{const index=audio.dataset.bbcAudio,help=$(`[data-audio-help="${index}"]`),start=$(`[data-audio-start="${index}"]`);let timeout=0,resetting=false;const clearWait=()=>{clearTimeout(timeout);timeout=0},setStart=(text,disabled=false)=>{if(start){start.textContent=text;start.disabled=disabled}},showError=()=>{if(resetting)return;clearWait();if(help)help.hidden=false;setStart('重试播放')},armTimeout=()=>{clearWait();timeout=setTimeout(()=>{if(audio.readyState<2)showError()},12000)},begin=(reset=false)=>{const src=audio.dataset.audioSrc;if(!src){showError();return}if(reset||!audio.getAttribute('src')){resetting=true;audio.pause();audio.removeAttribute('src');audio.load();audio.src=src;audio.load();resetting=false}if(help)help.hidden=true;setStart('正在连接…',true);armTimeout();audio.play().catch(showError)};audio._bbcBegin=begin;start?.addEventListener('click',()=>begin(false));audio.addEventListener('error',showError);audio.addEventListener('abort',showError);audio.addEventListener('play',armTimeout);audio.addEventListener('stalled',()=>{if(!audio.paused)armTimeout()});audio.addEventListener('playing',()=>{clearWait();if(help)help.hidden=true;setStart('正在播放')});audio.addEventListener('canplay',()=>{clearWait();if(help)help.hidden=true;setStart(audio.paused?'▶ 继续播放':'正在播放')});audio.addEventListener('pause',()=>{if(audio.getAttribute('src')&&!audio.ended)setStart('▶ 继续播放')});audio.addEventListener('ended',()=>setStart('↻ 再听一遍'));});
+    if(!items&&feed.rss){try{const response=await fetch(feed.rss,{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const xml=new DOMParser().parseFromString(await response.text(),'application/xml');items=Array.from(xml.querySelectorAll('item')).slice(0,8).map(item=>{const enclosure=Array.from(item.children).find(el=>el.localName==='enclosureSecure')||item.querySelector('enclosure');const description=item.querySelector('description')?.textContent||'';const holder=document.createElement('div');holder.innerHTML=description;return{title:item.querySelector('title')?.textContent||'BBC episode',date:item.querySelector('pubDate')?.textContent||'',description:(holder.textContent||'').trim().slice(0,240),audio:(enclosure?.getAttribute('url')||'').replace(/^http:/,'https:'),link:(item.querySelector('link')?.textContent||feed.page).replace(/^http:/,'https:'),guid:item.querySelector('guid')?.textContent||''}}).filter(x=>x.audio);if(!items.length)throw Error('RSS 中没有音频');writeFeedCache(key,items);}catch(_){items=key==='six'?FALLBACK_EPISODES:[];}}
+    if(!items?.length){renderLocalListening('国内新闻音频暂时不可用，已切换到本机免联网听力。');return;}
+    const sourceLabel=feed.domestic?'CGTN 国内官方音频':'BBC 海外音频';
+    box.innerHTML=items.map((x,i)=>{const id=x.guid||x.audio,done=state.listenedEpisodes[id];return`<article class="episode"><div class="meta">${esc(formatDate(x.date))}${x.duration?' · '+esc(x.duration):''} · ${sourceLabel}</div><h3>${esc(x.title)}</h3><p class="small muted">${esc(x.description)}</p><button class="btn smallbtn audio-start" type="button" data-audio-start="${i}">▶ 点击播放这条</button><audio controls preload="none" playsinline data-bbc-audio="${i}" data-audio-src="${esc(x.audio)}">当前浏览器不支持音频播放。</audio><div class="audio-help" data-audio-help="${i}" hidden><b>音频加载失败</b><span>${feed.domestic?'当前网络暂时无法连接 CGTN 国内媒体，请重试。':'当前网络可能限制了 BBC 海外媒体，可改用 CGTN 或本机精听。'}</span><div class="smart-actions"><button class="btn smallbtn" type="button" data-audio-retry="${i}">重试播放</button><a class="btn smallbtn" href="${esc(feed.page)}" target="_blank" rel="noopener noreferrer">打开${feed.domestic?'CGTN':'BBC'}官方页 ↗</a><a class="btn smallbtn" href="${esc(x.audio)}" target="_blank" rel="noopener noreferrer">单独打开 MP3 ↗</a></div></div><div class="smart-actions"><a class="btn smallbtn" href="${esc(x.link||feed.page)}" target="_blank" rel="noopener noreferrer">来源页 ↗</a><button class="btn smallbtn ${done?'primary':''}" data-listened="${esc(id)}">${done?'✓ 已完成':'标记听完'}</button></div></article>`}).join('');
+    $$('[data-bbc-audio]').forEach(audio=>{const index=audio.dataset.bbcAudio,help=$(`[data-audio-help="${index}"]`),start=$(`[data-audio-start="${index}"]`);let timeout=0;const clearWait=()=>{clearTimeout(timeout);timeout=0},setStart=(text,disabled=false)=>{if(start){start.textContent=text;start.disabled=disabled}},showError=()=>{clearWait();if(help)help.hidden=false;setStart('重试播放')},armTimeout=()=>{clearWait();timeout=setTimeout(()=>{if(audio.readyState<2)showError()},12000)},begin=(reset=false)=>{const src=audio.dataset.audioSrc;if(!src){showError();return}$$('[data-bbc-audio]').forEach(other=>{if(other!==audio&&!other.paused)other.pause()});if(reset||!audio.getAttribute('src')){audio.pause();audio.src=src;audio.load()}if(help)help.hidden=true;setStart('正在连接…',true);armTimeout();audio.play().catch(showError)};audio._bbcBegin=begin;start?.addEventListener('click',()=>begin(false));audio.addEventListener('error',showError);audio.addEventListener('play',armTimeout);audio.addEventListener('stalled',()=>{if(!audio.paused)armTimeout()});audio.addEventListener('playing',()=>{clearWait();if(help)help.hidden=true;setStart('正在播放')});audio.addEventListener('canplay',()=>{clearWait();if(help)help.hidden=true;setStart(audio.paused?'▶ 继续播放':'正在播放')});audio.addEventListener('pause',()=>{if(audio.getAttribute('src')&&!audio.ended)setStart('▶ 继续播放')});audio.addEventListener('ended',()=>setStart('↻ 再听一遍'));});
     $$('[data-audio-retry]').forEach(button=>button.onclick=()=>{const audio=$(`[data-bbc-audio="${button.dataset.audioRetry}"]`);audio?._bbcBegin?.(true);});
     $$('[data-listened]').forEach(button=>button.onclick=()=>{const id=button.dataset.listened;state.listenedEpisodes[id]=!state.listenedEpisodes[id];saveState();button.classList.toggle('primary',state.listenedEpisodes[id]);button.textContent=state.listenedEpisodes[id]?'✓ 已完成':'标记听完';});
   }

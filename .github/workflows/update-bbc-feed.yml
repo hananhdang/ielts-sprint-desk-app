@@ -1,4 +1,4 @@
-name: Update BBC feed cache
+name: Update listening feed caches
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-bbc-feed
+  group: update-listening-feeds
   cancel-in-progress: false
 
 jobs:
@@ -26,18 +26,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Refresh BBC feed cache
+      - name: Refresh CGTN feed cache
+        run: python scripts/update_cgtn_feed.py
+
+      - name: Refresh BBC backup feed cache
+        continue-on-error: true
         run: python scripts/update_bbc_feed.py
 
       - name: Commit updated episodes
         shell: bash
         run: |
-          if git diff --quiet -- bbc-feed.json; then
-            echo "BBC feeds are already current."
+          if git diff --quiet -- cgtn-feed.json bbc-feed.json; then
+            echo "Listening feeds are already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add bbc-feed.json
-          git commit -m "Update BBC feed cache"
+          git add cgtn-feed.json bbc-feed.json
+          git commit -m "Update listening feed caches"
           git push

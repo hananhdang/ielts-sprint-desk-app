@@ -2,7 +2,15 @@
 
 This application references and adapts selected instructional workflow ideas from the two MIT-licensed projects listed below. The implementation, browser state management, AI service integration, user interface, study content, and persistence in this application are independently implemented unless stated otherwise.
 
-These notices apply only to the cited open-source project materials. They do not grant rights to IELTS examination materials, audio, BBC content, trademarks, private services, unpublished editions, or other third-party content.
+These notices apply only to the cited open-source project materials. They do not grant rights to IELTS examination materials, audio, CGTN or BBC content, trademarks, private services, unpublished editions, or other third-party content.
+
+## Linked learning sources
+
+- CGTN Radio: https://radio.cgtn.com/
+- China Daily bilingual news: https://language.chinadaily.com.cn/news_bilingual
+- IELTS China / NEEA: https://ielts.neea.edu.cn/
+
+The application links to these publishers and, for the daily listening player, streams the current CGTN audio from CGTN's own server. It does not copy or redistribute that audio in this repository or in the application's hosting storage. Copyright and trademarks remain with their respective owners.
 
 ## 1. IELTS Claude Skills
 
