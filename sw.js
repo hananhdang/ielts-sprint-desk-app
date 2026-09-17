@@ -1,8 +1,13 @@
-const CACHE_NAME = 'ielts-sprint-v5-listening-20260916';
+const CACHE_NAME = 'ielts-sprint-v7-mobile-bbc-20260917';
 const APP_SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
+  './smart-ai.js',
+  './smart-features.js',
+  './smart-features.css',
+  './bbc-feed.json',
+  './THIRD_PARTY_NOTICES.md',
   './apple-touch-icon.png',
   './icon-192.png',
   './icon-512.png'
@@ -41,4 +46,3 @@ self.addEventListener('fetch', event => {
       .catch(() => caches.match(event.request).then(cached => cached || caches.match('./index.html')))
   );
 });
-

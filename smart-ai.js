@@ -1,0 +1,492 @@
+(function (global) {
+  'use strict';
+
+  const API_ROOT = 'https://generativelanguage.googleapis.com/v1beta/models';
+  const KEY_STORAGE = 'ielts-gemini-key-v1';
+  const MODEL_STORAGE = 'ielts-gemini-model-v1';
+  const DEFAULT_MODEL = 'gemini-2.5-flash';
+  const DEFAULT_TIMEOUT_MS = 60000;
+  const AUDIO_MIME_TYPES = [
+    'audio/mp4;codecs=mp4a.40.2',
+    'audio/mp4',
+    'audio/webm;codecs=opus',
+    'audio/webm'
+  ];
+
+  let memoryKey = '';
+  let memoryModel = '';
+
+  class IELTSAIError extends Error {
+    constructor(code, message, options) {
+      super(message);
+      this.name = 'IELTSAIError';
+      this.code = code;
+      this.status = options && options.status ? options.status : 0;
+      if (options && options.cause) this.cause = options.cause;
+    }
+  }
+
+  function storageGet(key) {
+    try {
+      return global.sessionStorage ? global.sessionStorage.getItem(key) : null;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  function storageSet(key, value) {
+    try {
+      if (!global.sessionStorage) return false;
+      global.sessionStorage.setItem(key, value);
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function storageRemove(key) {
+    try {
+      if (global.sessionStorage) global.sessionStorage.removeItem(key);
+    } catch (_) {
+      // The in-memory fallback is still cleared below.
+    }
+  }
+
+  function setApiKey(value) {
+    const key = String(value || '').trim();
+    if (!key) {
+      clearApiKey();
+      return;
+    }
+    memoryKey = key;
+    storageSet(KEY_STORAGE, key);
+  }
+
+  function getApiKey() {
+    return memoryKey || storageGet(KEY_STORAGE) || '';
+  }
+
+  function clearApiKey() {
+    memoryKey = '';
+    storageRemove(KEY_STORAGE);
+  }
+
+  function sanitizeModel(value) {
+    const model = String(value || DEFAULT_MODEL).trim();
+    if (!/^[A-Za-z0-9._-]+$/.test(model)) {
+      throw new IELTSAIError('INVALID_MODEL', '模型名称格式不正确。');
+    }
+    return model;
+  }
+
+  function setModel(value) {
+    const model = sanitizeModel(value);
+    memoryModel = model;
+    storageSet(MODEL_STORAGE, model);
+    return model;
+  }
+
+  function getModel() {
+    const stored = memoryModel || storageGet(MODEL_STORAGE) || DEFAULT_MODEL;
+    return sanitizeModel(stored);
+  }
+
+  function friendlyHttpError(status, apiMessage) {
+    const message = String(apiMessage || '').slice(0, 500);
+    if (status === 400) return new IELTSAIError('BAD_REQUEST', message || 'AI 请求格式不正确。', { status });
+    if (status === 401 || status === 403) return new IELTSAIError('AUTH_FAILED', 'Gemini API Key 无效、无权限或受到来源限制。', { status });
+    if (status === 429) return new IELTSAIError('RATE_LIMITED', 'Gemini 调用额度已用完或请求过于频繁，请稍后再试。', { status });
+    if (status >= 500) return new IELTSAIError('SERVICE_UNAVAILABLE', 'Gemini 服务暂时不可用，请稍后再试。', { status });
+    return new IELTSAIError('HTTP_ERROR', message || ('Gemini 请求失败，HTTP ' + status + '。'), { status });
+  }
+
+  function candidateText(payload) {
+    const candidates = payload && Array.isArray(payload.candidates) ? payload.candidates : [];
+    const text = candidates
+      .flatMap(candidate => candidate && candidate.content && Array.isArray(candidate.content.parts) ? candidate.content.parts : [])
+      .map(part => typeof part.text === 'string' ? part.text : '')
+      .filter(Boolean)
+      .join('\n')
+      .trim();
+
+    if (text) return text;
+    const blockReason = payload && payload.promptFeedback && payload.promptFeedback.blockReason;
+    if (blockReason) throw new IELTSAIError('BLOCKED', '请求被 Gemini 安全策略拦截：' + blockReason + '。');
+    throw new IELTSAIError('EMPTY_RESPONSE', 'Gemini 没有返回可用内容。');
+  }
+
+  function findBalancedJson(text) {
+    for (let start = 0; start < text.length; start += 1) {
+      const opening = text[start];
+      if (opening !== '{' && opening !== '[') continue;
+      const closing = opening === '{' ? '}' : ']';
+      let depth = 0;
+      let quoted = false;
+      let escaped = false;
+      for (let i = start; i < text.length; i += 1) {
+        const char = text[i];
+        if (quoted) {
+          if (escaped) escaped = false;
+          else if (char === '\\') escaped = true;
+          else if (char === '"') quoted = false;
+          continue;
+        }
+        if (char === '"') {
+          quoted = true;
+        } else if (char === opening) {
+          depth += 1;
+        } else if (char === closing) {
+          depth -= 1;
+          if (depth === 0) return text.slice(start, i + 1);
+        }
+      }
+    }
+    return '';
+  }
+
+  function extractJSON(value) {
+    if (value && typeof value === 'object') return value;
+    const text = String(value || '').trim();
+    if (!text) throw new IELTSAIError('INVALID_JSON', 'AI 返回了空的 JSON 内容。');
+
+    const unfenced = text
+      .replace(/^\s*```(?:json)?\s*/i, '')
+      .replace(/\s*```\s*$/i, '')
+      .trim();
+    const candidates = [unfenced, findBalancedJson(unfenced)].filter(Boolean);
+    for (const candidate of candidates) {
+      try {
+        return JSON.parse(candidate);
+      } catch (_) {
+        // Try the next candidate before returning a useful application error.
+      }
+    }
+    throw new IELTSAIError('INVALID_JSON', 'AI 返回内容不是有效 JSON，请重试。');
+  }
+
+  function blobToBase64(blob) {
+    if (!(blob instanceof Blob)) {
+      return Promise.reject(new IELTSAIError('INVALID_AUDIO', '需要提供有效的音频 Blob。'));
+    }
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const value = String(reader.result || '');
+        const comma = value.indexOf(',');
+        if (comma < 0) reject(new IELTSAIError('AUDIO_ENCODING_FAILED', '音频编码失败。'));
+        else resolve(value.slice(comma + 1));
+      };
+      reader.onerror = () => reject(new IELTSAIError('AUDIO_ENCODING_FAILED', '音频编码失败。', { cause: reader.error }));
+      reader.readAsDataURL(blob);
+    });
+  }
+
+  async function blobToInlineData(blob) {
+    if (!(blob instanceof Blob)) {
+      throw new IELTSAIError('INVALID_AUDIO', '需要提供有效的音频 Blob。');
+    }
+    if (blob.size > 14 * 1024 * 1024) {
+      throw new IELTSAIError('AUDIO_TOO_LARGE', '录音超过 14 MB，请缩短后重新录制。');
+    }
+    const rawType = String(blob.type || 'audio/mp4').split(';')[0].toLowerCase();
+    const mimeType = rawType === 'audio/m4a' || rawType === 'audio/x-m4a' ? 'audio/mp4' : rawType;
+    return {
+      inlineData: {
+        mimeType,
+        data: await blobToBase64(blob)
+      }
+    };
+  }
+
+  function normaliseParts(parts) {
+    if (!Array.isArray(parts)) return [];
+    return parts.filter(part => part && typeof part === 'object').map(part => {
+      if (typeof part.text === 'string') return { text: part.text };
+      if (part.inlineData && typeof part.inlineData.data === 'string') {
+        return {
+          inlineData: {
+            mimeType: String(part.inlineData.mimeType || 'application/octet-stream'),
+            data: part.inlineData.data
+          }
+        };
+      }
+      throw new IELTSAIError('INVALID_PART', 'AI 请求包含不支持的内容类型。');
+    });
+  }
+
+  async function generate(options) {
+    const opts = options || {};
+    const apiKey = String(opts.apiKey || getApiKey()).trim();
+    if (!apiKey) throw new IELTSAIError('MISSING_API_KEY', '请先在设置中填写 Gemini API Key。');
+
+    const model = sanitizeModel(opts.model || getModel());
+    const parts = normaliseParts(opts.parts);
+    if (typeof opts.prompt === 'string' && opts.prompt.trim()) parts.unshift({ text: opts.prompt.trim() });
+    if (opts.audioBlob) parts.push(await blobToInlineData(opts.audioBlob));
+    if (!parts.length && !Array.isArray(opts.contents)) {
+      throw new IELTSAIError('EMPTY_REQUEST', '请先提供需要分析的内容。');
+    }
+
+    const contents = Array.isArray(opts.contents) && opts.contents.length
+      ? opts.contents
+      : [{ role: 'user', parts }];
+    const generationConfig = {
+      temperature: Number.isFinite(opts.temperature) ? opts.temperature : 0.2,
+      maxOutputTokens: Number.isFinite(opts.maxOutputTokens) ? opts.maxOutputTokens : 2048
+    };
+    if (opts.responseSchema) {
+      generationConfig.responseMimeType = 'application/json';
+      generationConfig.responseJsonSchema = opts.responseSchema;
+    } else if (opts.json) {
+      generationConfig.responseMimeType = 'application/json';
+    }
+
+    const body = { contents, generationConfig };
+    if (typeof opts.systemInstruction === 'string' && opts.systemInstruction.trim()) {
+      body.systemInstruction = { parts: [{ text: opts.systemInstruction.trim() }] };
+    }
+
+    const timeoutMs = Math.max(1000, Number(opts.timeoutMs) || DEFAULT_TIMEOUT_MS);
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    let removeOuterAbort = null;
+    if (opts.signal) {
+      if (opts.signal.aborted) controller.abort();
+      else {
+        const abort = () => controller.abort();
+        opts.signal.addEventListener('abort', abort, { once: true });
+        removeOuterAbort = () => opts.signal.removeEventListener('abort', abort);
+      }
+    }
+
+    try {
+      const response = await fetch(API_ROOT + '/' + encodeURIComponent(model) + ':generateContent', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-goog-api-key': apiKey
+        },
+        body: JSON.stringify(body),
+        signal: controller.signal,
+        cache: 'no-store',
+        credentials: 'omit',
+        referrerPolicy: 'no-referrer'
+      });
+
+      let payload;
+      try {
+        payload = await response.json();
+      } catch (_) {
+        payload = null;
+      }
+      if (!response.ok) {
+        throw friendlyHttpError(response.status, payload && payload.error && payload.error.message);
+      }
+      const text = candidateText(payload);
+      return {
+        text,
+        json: opts.json || opts.responseSchema ? extractJSON(text) : null,
+        usage: payload && payload.usageMetadata ? payload.usageMetadata : null,
+        model
+      };
+    } catch (error) {
+      if (error instanceof IELTSAIError) throw error;
+      if (error && error.name === 'AbortError') {
+        const code = opts.signal && opts.signal.aborted ? 'CANCELLED' : 'TIMEOUT';
+        const message = code === 'CANCELLED' ? 'AI 请求已取消。' : 'AI 请求超时，请检查网络后重试。';
+        throw new IELTSAIError(code, message, { cause: error });
+      }
+      throw new IELTSAIError('NETWORK_ERROR', '无法连接 Gemini，请检查网络、API Key 来源限制或浏览器拦截设置。', { cause: error });
+    } finally {
+      clearTimeout(timer);
+      if (removeOuterAbort) removeOuterAbort();
+    }
+  }
+
+  async function generateText(prompt, options) {
+    const result = await generate(Object.assign({}, options || {}, { prompt, json: false, responseSchema: null }));
+    return result.text;
+  }
+
+  async function generateJSON(prompt, options) {
+    const result = await generate(Object.assign({}, options || {}, { prompt, json: true }));
+    return result.json;
+  }
+
+  function selectRecorderMime(preferred) {
+    if (!global.MediaRecorder) return '';
+    const candidates = Array.isArray(preferred) && preferred.length ? preferred : AUDIO_MIME_TYPES;
+    if (typeof global.MediaRecorder.isTypeSupported !== 'function') return '';
+    return candidates.find(type => global.MediaRecorder.isTypeSupported(type)) || '';
+  }
+
+  async function createAudioRecorder(options) {
+    const opts = options || {};
+    if (!global.isSecureContext) {
+      throw new IELTSAIError('INSECURE_CONTEXT', '录音需要 HTTPS 安全页面。');
+    }
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia || !global.MediaRecorder) {
+      throw new IELTSAIError('RECORDER_UNSUPPORTED', '当前浏览器不支持网页录音。');
+    }
+
+    let stream;
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({
+        audio: opts.constraints || { echoCancellation: true, noiseSuppression: true, autoGainControl: true }
+      });
+    } catch (error) {
+      const denied = error && (error.name === 'NotAllowedError' || error.name === 'SecurityError');
+      throw new IELTSAIError(denied ? 'MIC_PERMISSION_DENIED' : 'MIC_UNAVAILABLE', denied ? '麦克风权限被拒绝，请在 Safari 网站设置中允许访问。' : '无法打开麦克风。', { cause: error });
+    }
+
+    const mimeType = selectRecorderMime(opts.mimeTypes);
+    let recorder;
+    try {
+      recorder = mimeType ? new MediaRecorder(stream, { mimeType }) : new MediaRecorder(stream);
+    } catch (error) {
+      stream.getTracks().forEach(track => track.stop());
+      throw new IELTSAIError('RECORDER_START_FAILED', '浏览器无法创建录音器。', { cause: error });
+    }
+
+    let chunks = [];
+    let startedAt = 0;
+    let stopTimer = null;
+    let donePromise = null;
+    let resolveDone = null;
+    let rejectDone = null;
+    let cancelled = false;
+
+    function stopTracks() {
+      stream.getTracks().forEach(track => track.stop());
+    }
+
+    recorder.ondataavailable = event => {
+      if (event.data && event.data.size) chunks.push(event.data);
+    };
+    recorder.onerror = event => {
+      clearTimeout(stopTimer);
+      stopTracks();
+      if (rejectDone) rejectDone(new IELTSAIError('RECORDING_FAILED', '录音过程中发生错误。', { cause: event.error }));
+    };
+    recorder.onstop = () => {
+      clearTimeout(stopTimer);
+      stopTracks();
+      if (!resolveDone && !rejectDone) return;
+      if (cancelled) {
+        rejectDone(new IELTSAIError('RECORDING_CANCELLED', '录音已取消。'));
+      } else {
+        const actualType = recorder.mimeType || mimeType || (chunks[0] && chunks[0].type) || 'audio/mp4';
+        resolveDone({
+          blob: new Blob(chunks, { type: actualType }),
+          mimeType: actualType,
+          durationMs: Math.max(0, Date.now() - startedAt)
+        });
+      }
+      resolveDone = null;
+      rejectDone = null;
+    };
+
+    return {
+      get state() { return recorder.state; },
+      get mimeType() { return recorder.mimeType || mimeType; },
+      start(timeslice) {
+        if (recorder.state !== 'inactive' || donePromise) {
+          throw new IELTSAIError('RECORDER_BUSY', '录音器已经启动。');
+        }
+        chunks = [];
+        cancelled = false;
+        startedAt = Date.now();
+        donePromise = new Promise((resolve, reject) => {
+          resolveDone = resolve;
+          rejectDone = reject;
+        });
+        recorder.start(Number(timeslice) > 0 ? Number(timeslice) : 1000);
+        const maxDurationMs = Math.max(1000, Number(opts.maxDurationMs) || 90000);
+        stopTimer = setTimeout(() => {
+          if (recorder.state === 'recording') recorder.stop();
+        }, maxDurationMs);
+        return donePromise;
+      },
+      stop() {
+        if (!donePromise) return Promise.reject(new IELTSAIError('NOT_RECORDING', '录音尚未开始。'));
+        if (recorder.state === 'recording' || recorder.state === 'paused') recorder.stop();
+        return donePromise;
+      },
+      cancel() {
+        cancelled = true;
+        clearTimeout(stopTimer);
+        if (recorder.state === 'recording' || recorder.state === 'paused') recorder.stop();
+        else stopTracks();
+      }
+    };
+  }
+
+  function getPreferredVoice(lang) {
+    if (!global.speechSynthesis) return null;
+    const voices = global.speechSynthesis.getVoices();
+    const requested = String(lang || 'en-GB').toLowerCase();
+    return voices.find(voice => String(voice.lang).toLowerCase() === requested)
+      || voices.find(voice => String(voice.lang).toLowerCase().startsWith(requested.split('-')[0]))
+      || null;
+  }
+
+  function warmVoices() {
+    if (!global.speechSynthesis) return [];
+    global.speechSynthesis.getVoices();
+    return global.speechSynthesis.getVoices();
+  }
+
+  function speak(text, options) {
+    const opts = options || {};
+    const content = String(text || '').trim();
+    if (!content) return Promise.reject(new IELTSAIError('EMPTY_SPEECH', '没有可朗读的文字。'));
+    if (!global.speechSynthesis || !global.SpeechSynthesisUtterance) {
+      return Promise.reject(new IELTSAIError('TTS_UNSUPPORTED', '当前浏览器不支持文字朗读。'));
+    }
+
+    if (opts.cancelExisting !== false) global.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(content.slice(0, Number(opts.maxChars) || 1200));
+    utterance.lang = opts.lang || 'en-GB';
+    utterance.rate = Math.min(2, Math.max(0.5, Number(opts.rate) || 0.95));
+    utterance.pitch = Math.min(2, Math.max(0, Number(opts.pitch) || 1));
+    utterance.volume = Math.min(1, Math.max(0, Number(opts.volume) || 1));
+    const voice = getPreferredVoice(utterance.lang);
+    if (voice) utterance.voice = voice;
+
+    return new Promise((resolve, reject) => {
+      utterance.onend = () => resolve({ utterance, voice: utterance.voice || null });
+      utterance.onerror = event => reject(new IELTSAIError('TTS_FAILED', '朗读失败，请点击播放按钮重试。', { cause: event.error || event }));
+      global.speechSynthesis.speak(utterance);
+    });
+  }
+
+  function stopSpeaking() {
+    if (global.speechSynthesis) global.speechSynthesis.cancel();
+  }
+
+  global.IELTSAI = Object.freeze({
+    version: '1.0.0',
+    DEFAULT_MODEL,
+    AUDIO_MIME_TYPES: AUDIO_MIME_TYPES.slice(),
+    IELTSAIError,
+    setKey: setApiKey,
+    getKey: getApiKey,
+    setApiKey,
+    getApiKey,
+    clearApiKey,
+    setModel,
+    getModel,
+    extractJSON,
+    blobToBase64,
+    blobToInlineData,
+    generate,
+    generateText,
+    generateJSON,
+    selectRecorderMime,
+    createAudioRecorder,
+    getPreferredVoice,
+    warmVoices,
+    speak,
+    stopSpeaking
+  });
+})(window);

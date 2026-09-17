@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-17T02:15:26Z",
+  "feeds": {
+    "six": {
+      "label": "6 Minute English",
+      "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
+      "episodes": [
+        {
+          "title": "Can apps teach you a language?",
+          "date": "Thu, 10 Sep 2026 07:46:00 +0000",
+          "description": "Have you ever used Duolingo, Babbel, Busuu or perhaps another language-learning app? How did you get on? Some people love the convenience of these apps – you can learn on the go, like during your commute to work, rather than committing to a certain time each week, like learning in a class. But are they teaching the languages effectively? Neil and Pippa discuss this and teach you some new vocabulary. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglis…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p8w5by.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p8w5sh",
+          "guid": "urn:bbc:podcast:p0p8w5sh"
+        },
+        {
+          "title": "Climate change and extreme weather",
+          "date": "Thu, 03 Sep 2026 08:33:00 +0000",
+          "description": "Every year we see damage, death and destruction caused by hurricanes, cyclones and typhoons - tropical storms. Is climate change making this impact worse? Climate change may be making this destruction worse. Phil is joined by BBC weather presenter and meteorologist Sarah Keith-Lucas to learn more about this and teach you some new vocabulary. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260903 Practise…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p7p91r.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p7p9b8",
+          "guid": "urn:bbc:podcast:p0p7p9b8"
+        },
+        {
+          "title": "How do we describe smells?",
+          "date": "Thu, 27 Aug 2026 09:16:00 +0000",
+          "description": "What is the worst smell in the world? And what is the best smell? Are there any smells that you like, but that your friends or family hate? Smells are all around us all the time, but the English language is often quite general in the way it describes smells, as opposed to other senses like sounds or tastes. But why is this? Neil and Georgie discuss this and teach you some new vocabulary. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglish/english/fe…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p6j2hz.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p6j3xx",
+          "guid": "urn:bbc:podcast:p0p6j3xx"
+        },
+        {
+          "title": "Sharing the road with driverless cars",
+          "date": "Thu, 20 Aug 2026 13:13:00 +0000",
+          "description": "Imagine crossing a road and turning to see a car heading towards you... without a driver! While this might seem scary, driverless cars are already operating safely in many cities around the world. These autonomous cars contain huge amounts of technology to help them drive alongside other road users carefully. But will humans behave as carefully around them? Can we communicate clearly with these 'robotaxis', or are we simply incompatible? Phil and Pippa discuss this and teach you some new vocabu…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p5h6cg.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p5h8tg",
+          "guid": "urn:bbc:podcast:p0p5h8tg"
+        },
+        {
+          "title": "Who does the housework?",
+          "date": "Thu, 13 Aug 2026 08:30:00 +0000",
+          "description": "Unloading the dishwasher, mopping the floor, cleaning the loo... what is your most hated household chore? We all know there are jobs around the house which have to be done regularly, even if they are sometimes boring or unpleasant. But who tends to do the most amount of jobs in your household? And is there anyone who isn't pulling their weight...? Pippa and Neil discuss this and teach you some new vocabulary. Learn English from authentic BBC programme clips. Get a free worksheet, quiz and trans…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p4779b.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p478fw",
+          "guid": "urn:bbc:podcast:p0p478fw"
+        },
+        {
+          "title": "How do climate scientists make predictions?",
+          "date": "Thu, 06 Aug 2026 09:11:00 +0000",
+          "description": "Across the world, climate change is already beginning to change the way we live our lives. But how big will that change be and what kinds of change will occur? These are the kinds of questions that scientists have been asking for decades. So, how exactly do they try to find answers to such complex questions about the future? Understanding where we are heading might help humanity prepare for the consequences of climate change. Phil and Pippa discuss this and teach you some new vocabulary. Learn…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p2ygrc.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p2yh63",
+          "guid": "urn:bbc:podcast:p0p2yh63"
+        },
+        {
+          "title": "The Enhanced Games",
+          "date": "Thu, 30 Jul 2026 14:14:00 +0000",
+          "description": "What would the world of athletics look like if athletes were allowed to take drugs? Pippa and Neil discuss the Enhanced Games. Learn English from authentic BBC programme clips. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260730 Practise your listening with The Listening Room here: https://www.bbc.co.uk/learningenglish/english/features/the_listening_room Subscribe to our newsletters here: https://www.…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p1q8ns.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p1qc9j",
+          "guid": "urn:bbc:podcast:p0p1qc9j"
+        },
+        {
+          "title": "Children in warzones",
+          "date": "Thu, 23 Jul 2026 14:03:00 +0000",
+          "description": "The most recent figure from 2024 says that 520 million children are living in conflict zones. That's about one in every five children worldwide. Some of the discussions in this episode will be about death and trauma. Neil and Becca hear from a journalist who has spent some time with children in warzones and discuss the topic in simpler English. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260723 Pract…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ny2jn5.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ny2k8s",
+          "guid": "urn:bbc:podcast:p0ny2k8s"
+        }
+      ]
+    },
+    "news": {
+      "label": "Global News Podcast",
+      "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
+      "episodes": [
+        {
+          "title": "EU chief proposes Canada as first 'associate member'",
+          "date": "Wed, 16 Sep 2026 15:27:00 +0000",
+          "description": "The President of the European Commission, Ursula von der Leyen, has backed a proposal for Canada to become the EU's first \"associate member\". Canada's Prime Minister, Mark Carney, has been seeking closer ties with Europe as relations with the United States deteriorate over trade. Also: Rescuers in Gaza are searching for survivors after a war-damaged building collapsed overnight, killing more than twenty people; The former leader of Kosovo, Hashim Thaci, has been sentenced to 25 years in prison…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9xbmk.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p9xbyw",
+          "guid": "urn:bbc:podcast:p0p9xbyw"
+        },
+        {
+          "title": "Should we trust tech titans to control AI?",
+          "date": "Wed, 16 Sep 2026 04:39:00 +0000",
+          "description": "A conference in San Francisco hears from Open AI's boss, Sam Altman, who says the world should trust his industry's ability to do the right thing, amid concerns that it's developing too quickly. But speakers at a rival conference held in Washington, DC, call for greater regulation. Also: the Pentagon issues a report which says the Iran war has left the US military with a shortfall of munitions. All support acts for the British singer, Ed Sheeran, withdraw from his US tour in solidarity with Mac…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9t2rd.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p9t2y6",
+          "guid": "urn:bbc:podcast:p0p9t2y6"
+        },
+        {
+          "title": "Russia and Ukraine continue strikes on energy targets",
+          "date": "Tue, 15 Sep 2026 15:34:00 +0000",
+          "description": "There's been no pause in fighting between Russia and Ukraine, despite President Trump's claim that both sides would temporarily stop targeting critical infrastructure. Russia says a gas pipeline was hit in the south of the country in an attack overnight, while officials in Zaporizhzhia region in Ukraine said Russian attacks had disrupted power supplies to some areas. Also: a NATO fighter jet shoots down a drone which entered Lithuanian airspace. Train travel is brought to a halt in parts of the…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9r2wg.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p9r423",
+          "guid": "urn:bbc:podcast:p0p9r423"
+        },
+        {
+          "title": "US reveals it has deployed space weapons",
+          "date": "Tue, 15 Sep 2026 04:39:00 +0000",
+          "description": "US Air Force Secretary, Troy Meink, has revealed that America has weapons in space to protect its assets in orbit, but he didn't divulge which weapons were there. His comments will be seen as a warning to Russia and China, raising the prospect of warfare in space. A treaty from 1967 banned weapons of mass destruction in space but the US has, like its rivals, been developing technology that can target and defend satellites. Also: Anthropic's co-founder tells the BBC artificial intelligence may n…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9n94h.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p9n98m",
+          "guid": "urn:bbc:podcast:p0p9n98m"
+        },
+        {
+          "title": "NATO urged to intercept Russian drones after Ukraine attack",
+          "date": "Mon, 14 Sep 2026 14:40:00 +0000",
+          "description": "A US think tank says NATO should consider intercepting Russian drones in Ukrainian airspace, after a drone struck a train near the Polish border. The strike happened soon after a train carrying senior European officials had passed through the same station. The NATO chief, Mark Rutte, says the attack shows how \"desperate\" President Vladimir Putin has become. Also: Africa’s biggest ever share sale is launched in Nigeria by the billionaire Aliko Dangote. His oil refinery is offering more than 4bn…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9l6gn.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p9l8qg",
+          "guid": "urn:bbc:podcast:p0p9l8qg"
+        },
+        {
+          "title": "Centre Left coalition in Sweden on course for victory",
+          "date": "Mon, 14 Sep 2026 04:24:00 +0000",
+          "description": "Centre left coalition in Sweden likely to form new national government despite a slim majority. The far-right Sweden Democrats saw their support fall. Also: The state railway company in Ukraine says it's \"quite likely\" that a Russian drone attack was targeting a diplomatic train which had some of Europe’s most senior security officials on board. Alexander Zverev wins the men's US Open - his second Grand Slam tennis title of the year. The German beat America's Ben Shelton in four sets. People ar…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9h3ln.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p9h3m1",
+          "guid": "urn:bbc:podcast:p0p9h3m1"
+        },
+        {
+          "title": "The Global Story: Can Dubai’s luxe image survive the war with Iran?",
+          "date": "Sun, 13 Sep 2026 19:00:00 +0000",
+          "description": "As the summer holiday season draws to a close, foreigners travelling to and from Dubai in the United Arab Emirates are facing delays, cancellations and severe travel warnings. The disruption comes as a result of the UAE’s position in the ongoing US-Israel war with Iran. Throughout the conflict, Iran has attacked the UAE more times than any other country, including Israel. Until the war with Iran began, Dubai was a major tourist destination, famous for its modern skyscrapers, luxurious beaches a…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p948k3.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p9493n",
+          "guid": "urn:bbc:podcast:p0p9493n"
+        },
+        {
+          "title": "Dario Amodei from AI's Anthropic issues a stark warning",
+          "date": "Sun, 13 Sep 2026 03:48:00 +0000",
+          "description": "The CEO of Anthropic has warned that the increasing rate of development could lead to rogue artificial intelligence agents taking over the internet, potentially causing hundreds of billions of dollars in damage. Elon Musk and the OpenAI boss Sam Altman both said they agreed with Dario Amodei whilst a former Anthropic researcher, Jacob Coxon, has told the BBC there was a strong chance that all humans could die in the immediate future without a slowdown. Also, the Reform UK right-wing populist pa…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9cwzs.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p9cx38",
+          "guid": "urn:bbc:podcast:p0p9cx38"
+        }
+      ]
+    },
+    "drama": {
+      "label": "Learning English Drama",
+      "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9s1.rss",
+      "episodes": [
+        {
+          "title": "Classic Stories: Pygmalion",
+          "date": "Fri, 11 Sep 2026 08:22:00 +0000",
+          "description": "Enjoy a classic story in English and learn 8 uses of ‘round’ - in 5 minutes. FIND BBC LEARNING ENGLISH HERE: Visit our website ✔️ https://www.bbc.co.uk/learningenglish Follow us ✔️ https://www.bbc.co.uk/learningenglish/followus LIKE PODCASTS? Try some of our other popular podcasts including: ✔️ 6 Minute English ✔️ Learning English from the News ✔️ Learning English Conversations They're all available by searching in your podcast app.",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p93n3x.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p93njt",
+          "guid": "urn:bbc:podcast:p0p93njt"
+        },
+        {
+          "title": "Classic Stories: Orpheus and Eurydice",
+          "date": "Fri, 04 Sep 2026 09:02:00 +0000",
+          "description": "Enjoy a classic story in English and learn 13 uses of ‘long’ - in 5 minutes. FIND BBC LEARNING ENGLISH HERE: Visit our website ✔️ https://www.bbc.co.uk/learningenglish Follow us ✔️ https://www.bbc.co.uk/learningenglish/followus LIKE PODCASTS? Try some of our other popular podcasts including: ✔️ 6 Minute English ✔️ Learning English from the News ✔️ Learning English Conversations They're all available by searching in your podcast app.",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p7yhzq.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p7yky3",
+          "guid": "urn:bbc:podcast:p0p7yky3"
+        },
+        {
+          "title": "Classic Stories: The Murders in the Rue Morgue",
+          "date": "Fri, 28 Aug 2026 11:42:00 +0000",
+          "description": "Enjoy a classic story in English and learn 9 uses of ‘run’ - in 5 minutes. For more great language tips and programmes visit bbclearningenglish.com Did you know that we have many other podcasts to help you improve your English? Listen to a real conversation, learn English from the news and lots more. Check them out here https://www.bbc.co.uk/learningenglish/english/podcasts Sign up to weekly updates with our email newsletter: https://www.bbc.co.uk/send/u178220599 Explore our website to find ple…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p6t31b.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p6t4sq",
+          "guid": "urn:bbc:podcast:p0p6t4sq"
+        },
+        {
+          "title": "Classic Stories: Far From the Madding Crowd",
+          "date": "Fri, 07 Aug 2026 09:21:00 +0000",
+          "description": "Enjoy a classic story in English and boost your listening skills. Find more programmes to practise your reading, writing, speaking and listening skills here: https://www.bbc.co.uk/learningenglish/english/skills Have you tried learning English from the news? https://www.bbc.co.uk/learningenglish/english/news_english And as always... don't forget to sign up to our weekly newsletter to get tips and resources from your favourite presenters! https://www.bbc.co.uk/send/u178220599",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p36nk3.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p36p49",
+          "guid": "urn:bbc:podcast:p0p36p49"
+        },
+        {
+          "title": "Classic Stories: Frankenstein",
+          "date": "Fri, 31 Jul 2026 07:00:00 +0000",
+          "description": "Enjoy a classic story in English and learn 10 uses of ‘make’ - in 5 minutes. Visit our website https://www.bbc.co.uk/learningenglish Get our latest programmes. Subscribe to our free email newsletter https://www.bbc.co.uk/learningenglish/newsletters",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ny3h5g.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ny3jgz",
+          "guid": "urn:bbc:podcast:p0ny3jgz"
+        },
+        {
+          "title": "Classic Stories: Dr Jekyll and Mr Hyde",
+          "date": "Fri, 24 Jul 2026 07:00:00 +0000",
+          "description": "Enjoy a classic story in English and learn 9 uses of ‘sound’ - in 5 minutes. Visit our website https://www.bbc.co.uk/learningenglish Get our latest programmes. Subscribe to our free email newsletter https://www.bbc.co.uk/learningenglish/newsletters",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ny3fb1.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ny3gsg",
+          "guid": "urn:bbc:podcast:p0ny3gsg"
+        },
+        {
+          "title": "Classic Stories: David Copperfield",
+          "date": "Fri, 17 Jul 2026 07:00:00 +0000",
+          "description": "Enjoy a classic story in English and learn 13 uses of ‘take’ - in 5 minutes. Visit our website https://www.bbc.co.uk/learningenglish Get our latest programmes. Subscribe to our free email newsletter https://www.bbc.co.uk/learningenglish/newsletters",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ny3bkw.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ny3dz2",
+          "guid": "urn:bbc:podcast:p0ny3dz2"
+        },
+        {
+          "title": "Classic Stories: Oliver Twist",
+          "date": "Fri, 10 Jul 2026 09:09:00 +0000",
+          "description": "Enjoy a classic story in English and learn 7 uses of ‘light’ - in 5 minutes. FIND BBC LEARNING ENGLISH HERE: Visit our website ✔️ https://www.bbc.co.uk/learningenglish Follow us ✔️ https://www.bbc.co.uk/learningenglish/followus LIKE PODCASTS? Try some of our other popular podcasts including: ✔️ 6 Minute English ✔️ Learning English from the News ✔️ Learning English Conversations They're all available by searching in your podcast app.",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ny0bvw.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ny0crh",
+          "guid": "urn:bbc:podcast:p0ny0crh"
+        }
+      ]
+    }
+  }
+}
