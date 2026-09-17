@@ -7,7 +7,7 @@
   const $$ = s => Array.from(document.querySelectorAll(s));
   const esc = value => String(value == null ? '' : value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const STORE_KEY = 'ielts-smart-features-v1';
-  const FEED_CACHE_KEY = 'ielts-bbc-feed-cache-v2';
+  const FEED_CACHE_KEY = 'ielts-bbc-feed-cache-v3';
   const state = loadState();
 
   function loadState() {
@@ -294,7 +294,7 @@
     $$('[data-feed]').forEach(b=>b.onclick=()=>loadFeed(b.dataset.feed));
     loadFeed(defaultFeed);
   }
-  function readFeedCache(key){try{const all=JSON.parse(localStorage.getItem(FEED_CACHE_KEY)||'{}'),x=all[key];return x&&Date.now()-x.at<21600000?x.items:null}catch(_){return null}}
+  function readFeedCache(key){try{const all=JSON.parse(localStorage.getItem(FEED_CACHE_KEY)||'{}'),x=all[key],fresh=x&&Date.now()-x.at<21600000,stable=key!=='six'||(Array.isArray(x?.items)&&x.items.every(item=>/^https:\/\/downloads\.bbc\.co\.uk\//.test(item.audio||'')));return fresh&&stable?x.items:null}catch(_){return null}}
   function writeFeedCache(key,items){try{const all=JSON.parse(localStorage.getItem(FEED_CACHE_KEY)||'{}');all[key]={at:Date.now(),items};localStorage.setItem(FEED_CACHE_KEY,JSON.stringify(all))}catch(_){}}
   async function loadFeed(key){
     const feed=FEEDS[key],box=$('#bbcEpisodes');if(!feed||!box)return;$$('[data-feed]').forEach(b=>b.classList.toggle('primary',b.dataset.feed===key));$('#bbcFeedNote').textContent=feed.note;box.innerHTML='<div class="empty">正在读取 BBC 最新节目…</div>';
