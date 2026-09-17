@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ielts-sprint-v13-all-audio-bilingual-20260917';
+const CACHE_NAME = 'ielts-sprint-v14-domestic-free-ai-20260917';
 const APP_SHELL = [
   './',
   './index.html',

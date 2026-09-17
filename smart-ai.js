@@ -1,10 +1,37 @@
 (function (global) {
   'use strict';
 
-  const API_ROOT = 'https://generativelanguage.googleapis.com/v1beta/models';
-  const KEY_STORAGE = 'ielts-gemini-key-v1';
-  const MODEL_STORAGE = 'ielts-gemini-model-v1';
-  const DEFAULT_MODEL = 'gemini-2.5-flash';
+  const PROVIDER_STORAGE = 'ielts-ai-provider-v2';
+  const KEY_STORAGE = 'ielts-ai-key-v2:';
+  const MODEL_STORAGE = 'ielts-ai-model-v2:';
+  const DEFAULT_PROVIDER = 'zhipu';
+  const PROVIDERS = Object.freeze({
+    zhipu: Object.freeze({
+      label: '智谱 GLM · 国内免费模型',
+      endpoint: 'https://open.bigmodel.cn/api/paas/v4/chat/completions',
+      defaultModel: 'glm-4.7-flash',
+      keyUrl: 'https://bigmodel.cn/usercenter/proj-mgmt/apikeys',
+      supportsAudio: false,
+      kind: 'openai'
+    }),
+    bailian: Object.freeze({
+      label: '阿里百炼 · 通义千问',
+      endpoint: 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions',
+      defaultModel: 'qwen-flash',
+      keyUrl: 'https://bailian.console.aliyun.com/',
+      supportsAudio: false,
+      kind: 'openai'
+    }),
+    siliconflow: Object.freeze({
+      label: '硅基流动 · 国内模型',
+      endpoint: 'https://api.siliconflow.cn/v1/chat/completions',
+      defaultModel: 'Qwen/Qwen2.5-7B-Instruct',
+      keyUrl: 'https://cloud.siliconflow.cn/account/ak',
+      supportsAudio: false,
+      kind: 'openai'
+    })
+  });
+  const DEFAULT_MODEL = PROVIDERS[DEFAULT_PROVIDER].defaultModel;
   const DEFAULT_TIMEOUT_MS = 60000;
   const AUDIO_MIME_TYPES = [
     'audio/mp4;codecs=mp4a.40.2',
@@ -13,8 +40,9 @@
     'audio/webm'
   ];
 
-  let memoryKey = '';
-  let memoryModel = '';
+  let memoryProvider = '';
+  const memoryKeys = {};
+  const memoryModels = {};
 
   class IELTSAIError extends Error {
     constructor(code, message, options) {
@@ -52,52 +80,70 @@
     }
   }
 
-  function setApiKey(value) {
+  function setApiKey(value, providerValue) {
+    const provider = sanitizeProvider(providerValue || getProvider());
     const key = String(value || '').trim();
     if (!key) {
-      clearApiKey();
+      clearApiKey(provider);
       return;
     }
-    memoryKey = key;
-    storageSet(KEY_STORAGE, key);
+    memoryKeys[provider] = key;
+    storageSet(KEY_STORAGE + provider, key);
   }
 
-  function getApiKey() {
-    return memoryKey || storageGet(KEY_STORAGE) || '';
+  function getApiKey(providerValue) {
+    const provider = sanitizeProvider(providerValue || getProvider());
+    return memoryKeys[provider] || storageGet(KEY_STORAGE + provider) || '';
   }
 
-  function clearApiKey() {
-    memoryKey = '';
-    storageRemove(KEY_STORAGE);
+  function clearApiKey(providerValue) {
+    const provider = sanitizeProvider(providerValue || getProvider());
+    memoryKeys[provider] = '';
+    storageRemove(KEY_STORAGE + provider);
   }
 
-  function sanitizeModel(value) {
-    const model = String(value || DEFAULT_MODEL).trim();
-    if (!/^[A-Za-z0-9._-]+$/.test(model)) {
+  function sanitizeModel(value, providerValue) {
+    const fallback = getProviderInfo(providerValue).defaultModel;
+    const model = String(value || fallback).trim();
+    if (!/^[A-Za-z0-9._:/-]+$/.test(model)) {
       throw new IELTSAIError('INVALID_MODEL', '模型名称格式不正确。');
     }
     return model;
   }
 
-  function setModel(value) {
-    const model = sanitizeModel(value);
-    memoryModel = model;
-    storageSet(MODEL_STORAGE, model);
+  function setModel(value, providerValue) {
+    const provider = sanitizeProvider(providerValue || getProvider());
+    const model = sanitizeModel(value || PROVIDERS[provider].defaultModel, provider);
+    memoryModels[provider] = model;
+    storageSet(MODEL_STORAGE + provider, model);
     return model;
   }
 
-  function getModel() {
-    const stored = memoryModel || storageGet(MODEL_STORAGE) || DEFAULT_MODEL;
-    return sanitizeModel(stored);
+  function clearAllSettings() {
+    Object.keys(PROVIDERS).forEach(provider => {
+      memoryKeys[provider] = '';
+      memoryModels[provider] = '';
+      storageRemove(KEY_STORAGE + provider);
+      storageRemove(MODEL_STORAGE + provider);
+    });
+    memoryProvider = '';
+    storageRemove(PROVIDER_STORAGE);
   }
 
-  function friendlyHttpError(status, apiMessage) {
+  function getModel(providerValue) {
+    const provider = sanitizeProvider(providerValue || getProvider());
+    const stored = memoryModels[provider] || storageGet(MODEL_STORAGE + provider) || PROVIDERS[provider].defaultModel;
+    return sanitizeModel(stored, provider);
+  }
+
+  function friendlyHttpError(status, apiMessage, provider) {
+    const label = provider && provider.label ? provider.label : '国内 AI';
     const message = String(apiMessage || '').slice(0, 500);
     if (status === 400) return new IELTSAIError('BAD_REQUEST', message || 'AI 请求格式不正确。', { status });
-    if (status === 401 || status === 403) return new IELTSAIError('AUTH_FAILED', 'Gemini API Key 无效、无权限或受到来源限制。', { status });
-    if (status === 429) return new IELTSAIError('RATE_LIMITED', 'Gemini 调用额度已用完或请求过于频繁，请稍后再试。', { status });
-    if (status >= 500) return new IELTSAIError('SERVICE_UNAVAILABLE', 'Gemini 服务暂时不可用，请稍后再试。', { status });
-    return new IELTSAIError('HTTP_ERROR', message || ('Gemini 请求失败，HTTP ' + status + '。'), { status });
+    if (status === 401 || status === 403) return new IELTSAIError('AUTH_FAILED', label + ' API Key 无效或无权限。', { status });
+    if (status === 429) return new IELTSAIError('RATE_LIMITED', label + ' 免费额度已用完或请求过于频繁，请稍后再试。', { status });
+    if (status >= 500) return new IELTSAIError('SERVICE_UNAVAILABLE', label + ' 服务暂时不可用，请稍后再试。', { status });
+    return new IELTSAIError('HTTP_ERROR', message || (label + ' 请求失败，HTTP ' + status + '。'), { status });
   }
 
   function candidateText(payload) {
@@ -111,8 +157,17 @@
 
     if (text) return text;
     const blockReason = payload && payload.promptFeedback && payload.promptFeedback.blockReason;
-    if (blockReason) throw new IELTSAIError('BLOCKED', '请求被 Gemini 安全策略拦截：' + blockReason + '。');
-    throw new IELTSAIError('EMPTY_RESPONSE', 'Gemini 没有返回可用内容。');
+    if (blockReason) throw new IELTSAIError('BLOCKED', '请求被 AI 平台安全策略拦截：' + blockReason + '。');
+    throw new IELTSAIError('EMPTY_RESPONSE', 'AI 没有返回可用内容。');
+  }
+
+  function openAIText(payload) {
+    const content = payload && payload.choices && payload.choices[0] && payload.choices[0].message && payload.choices[0].message.content;
+    const text = Array.isArray(content)
+      ? content.map(part => part && (part.text || part.content) || '').join('\n').trim()
+      : String(content || '').trim();
+    if (!text) throw new IELTSAIError('EMPTY_RESPONSE', '国内 AI 没有返回可用内容。');
+    return text;
   }
 
   function findBalancedJson(text) {
@@ -202,49 +257,50 @@
     if (!Array.isArray(parts)) return [];
     return parts.filter(part => part && typeof part === 'object').map(part => {
       if (typeof part.text === 'string') return { text: part.text };
-      if (part.inlineData && typeof part.inlineData.data === 'string') {
-        return {
-          inlineData: {
-            mimeType: String(part.inlineData.mimeType || 'application/octet-stream'),
-            data: part.inlineData.data
-          }
-        };
-      }
+      if (part.inlineData && typeof part.inlineData.data === 'string') throw new IELTSAIError('AUDIO_UNSUPPORTED', '国内免费模型仅接收文字，录音不会上传。');
       throw new IELTSAIError('INVALID_PART', 'AI 请求包含不支持的内容类型。');
     });
   }
 
   async function generate(options) {
     const opts = options || {};
-    const apiKey = String(opts.apiKey || getApiKey()).trim();
-    if (!apiKey) throw new IELTSAIError('MISSING_API_KEY', '请先在设置中填写 Gemini API Key。');
+    const providerId = sanitizeProvider(opts.provider || getProvider());
+    const provider = getProviderInfo(providerId);
+    const apiKey = String(opts.apiKey || getApiKey(providerId)).trim();
+    if (!apiKey) throw new IELTSAIError('MISSING_API_KEY', '请先在设置中填写' + provider.label + '的 API Key。');
+    if (opts.audioBlob && !provider.supportsAudio) {
+      throw new IELTSAIError('AUDIO_UNSUPPORTED', '当前国内免费模型使用文字分析。请先用语音转写，录音不会上传。');
+    }
 
-    const model = sanitizeModel(opts.model || getModel());
+    const model = sanitizeModel(opts.model || getModel(providerId), providerId);
     const parts = normaliseParts(opts.parts);
     if (typeof opts.prompt === 'string' && opts.prompt.trim()) parts.unshift({ text: opts.prompt.trim() });
-    if (opts.audioBlob) parts.push(await blobToInlineData(opts.audioBlob));
     if (!parts.length && !Array.isArray(opts.contents)) {
       throw new IELTSAIError('EMPTY_REQUEST', '请先提供需要分析的内容。');
     }
 
-    const contents = Array.isArray(opts.contents) && opts.contents.length
-      ? opts.contents
-      : [{ role: 'user', parts }];
-    const generationConfig = {
-      temperature: Number.isFinite(opts.temperature) ? opts.temperature : 0.2,
-      maxOutputTokens: Number.isFinite(opts.maxOutputTokens) ? opts.maxOutputTokens : 2048
-    };
-    if (opts.responseSchema) {
-      generationConfig.responseMimeType = 'application/json';
-      generationConfig.responseJsonSchema = opts.responseSchema;
-    } else if (opts.json) {
-      generationConfig.responseMimeType = 'application/json';
-    }
-
-    const body = { contents, generationConfig };
+    const messages = [];
     if (typeof opts.systemInstruction === 'string' && opts.systemInstruction.trim()) {
-      body.systemInstruction = { parts: [{ text: opts.systemInstruction.trim() }] };
+      messages.push({ role: 'system', content: opts.systemInstruction.trim() });
     }
+    if (Array.isArray(opts.contents) && opts.contents.length) {
+      opts.contents.forEach(item => {
+        const text = Array.isArray(item.parts) ? item.parts.map(part => part && part.text || '').filter(Boolean).join('\n') : '';
+        if (text) messages.push({ role: item.role === 'model' ? 'assistant' : 'user', content: text });
+      });
+    } else {
+      let prompt = parts.map(part => part.text || '').filter(Boolean).join('\n').trim();
+      if (opts.responseSchema) prompt += '\n\n只返回符合以下 JSON Schema 的有效 JSON，不要使用 Markdown 代码块：\n' + JSON.stringify(opts.responseSchema);
+      else if (opts.json) prompt += '\n\n只返回有效 JSON，不要使用 Markdown 代码块。';
+      messages.push({ role: 'user', content: prompt });
+    }
+    const body = {
+      model,
+      messages,
+      temperature: Number.isFinite(opts.temperature) ? opts.temperature : 0.2,
+      max_tokens: Number.isFinite(opts.maxOutputTokens) ? opts.maxOutputTokens : 2048,
+      stream: false
+    };
 
     const timeoutMs = Math.max(1000, Number(opts.timeoutMs) || DEFAULT_TIMEOUT_MS);
     const controller = new AbortController();
@@ -260,11 +316,11 @@
     }
 
     try {
-      const response = await fetch(API_ROOT + '/' + encodeURIComponent(model) + ':generateContent', {
+      const response = await fetch(provider.endpoint, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'x-goog-api-key': apiKey
+          'Authorization': 'Bearer ' + apiKey
         },
         body: JSON.stringify(body),
         signal: controller.signal,
@@ -280,14 +336,16 @@
         payload = null;
       }
       if (!response.ok) {
-        throw friendlyHttpError(response.status, payload && payload.error && payload.error.message);
+        const apiMessage = payload && ((payload.error && payload.error.message) || payload.message || payload.msg);
+        throw friendlyHttpError(response.status, apiMessage, provider);
       }
-      const text = candidateText(payload);
+      const text = openAIText(payload);
       return {
         text,
         json: opts.json || opts.responseSchema ? extractJSON(text) : null,
-        usage: payload && payload.usageMetadata ? payload.usageMetadata : null,
-        model
+        usage: payload && payload.usage ? payload.usage : null,
+        model,
+        provider: providerId
       };
     } catch (error) {
       if (error instanceof IELTSAIError) throw error;
@@ -296,7 +354,7 @@
         const message = code === 'CANCELLED' ? 'AI 请求已取消。' : 'AI 请求超时，请检查网络后重试。';
         throw new IELTSAIError(code, message, { cause: error });
       }
-      throw new IELTSAIError('NETWORK_ERROR', '无法连接 Gemini，请检查网络、API Key 来源限制或浏览器拦截设置。', { cause: error });
+      throw new IELTSAIError('NETWORK_ERROR', '无法连接' + provider.label + '，请检查网络和 API Key。', { cause: error });
     } finally {
       clearTimeout(timer);
       if (removeOuterAbort) removeOuterAbort();
@@ -529,9 +587,33 @@
     }
   }
 
+  function sanitizeProvider(value) {
+    const provider = String(value || DEFAULT_PROVIDER).trim().toLowerCase();
+    if (!PROVIDERS[provider]) throw new IELTSAIError('INVALID_PROVIDER', '请选择受支持的国内 AI 平台。');
+    return provider;
+  }
+
+  function setProvider(value) {
+    const provider = sanitizeProvider(value);
+    memoryProvider = provider;
+    storageSet(PROVIDER_STORAGE, provider);
+    return provider;
+  }
+
+  function getProvider() {
+    const value = memoryProvider || storageGet(PROVIDER_STORAGE) || DEFAULT_PROVIDER;
+    return PROVIDERS[value] ? value : DEFAULT_PROVIDER;
+  }
+
+  function getProviderInfo(value) {
+    return PROVIDERS[sanitizeProvider(value || getProvider())];
+  }
+
   global.IELTSAI = Object.freeze({
-    version: '1.0.0',
+    version: '2.0.0',
+    DEFAULT_PROVIDER,
     DEFAULT_MODEL,
+    PROVIDERS,
     AUDIO_MIME_TYPES: AUDIO_MIME_TYPES.slice(),
     IELTSAIError,
     setKey: setApiKey,
@@ -539,6 +621,11 @@
     setApiKey,
     getApiKey,
     clearApiKey,
+    clearAllSettings,
+    setProvider,
+    getProvider,
+    getProviderInfo,
+    supportsAudio: providerValue => getProviderInfo(providerValue).supportsAudio,
     setModel,
     getModel,
     extractJSON,

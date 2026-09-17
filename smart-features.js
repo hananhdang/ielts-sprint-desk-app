@@ -28,9 +28,9 @@
   }
   function requireKey() {
     if (AI.getKey()) return true;
-    toast('请先到“设置”填写 Gemini API Key');
+    toast('请先填写免费的智谱 API Key，或使用豆包/通义/Kimi');
     openView('settings');
-    setTimeout(() => $('#smartGeminiKey')?.focus(), 100);
+    setTimeout(() => $('#smartAIKey')?.focus(), 100);
     return false;
   }
   function openView(view) {
@@ -85,28 +85,27 @@
     card.className = 'card';
     card.id = 'smartAISettings';
     card.style.gridColumn = 'span 12';
+    const providerOptions=Object.entries(AI.PROVIDERS).map(([id,p])=>`<option value="${esc(id)}">${esc(p.label)}</option>`).join('');
     card.innerHTML = `
-      <div class="card-head"><div><h3>AI 教练设置</h3><div class="small muted">写作批改、口语对话和错题复盘共用。Key 只保存在当前标签页。</div></div><span class="badge" id="aiReadyBadge">未连接</span></div>
-      <div class="key-box"><div class="inline-fields"><div class="field"><label>Gemini API Key</label><input type="password" id="smartGeminiKey" autocomplete="off" placeholder="AIza…"></div><div class="field"><label>模型</label><input id="smartGeminiModel" value="${esc(AI.getModel())}"></div></div>
-      <div class="smart-actions"><button class="btn primary" id="saveAISettings" type="button">保存到本次标签页</button><button class="btn" id="testAISettings" type="button">测试连接</button><button class="btn danger" id="clearAISettings" type="button">清除 Key</button><a class="btn" href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer">获取 Gemini Key ↗</a></div>
-      <p class="key-note">Key 通过 HTTPS 直接发送给 Google Gemini，不会进入本站源码、GitHub 仓库或长期学习备份。关闭这个标签页后会清除。AI 反馈是训练估分，不是官方成绩。训练流程参考的开源项目及许可见 <a href="./THIRD_PARTY_NOTICES.md" target="_blank" rel="noopener noreferrer">第三方许可</a>。</p></div>`;
+      <div class="card-head"><div><h3>国内免费 AI 教练</h3><div class="small muted">写作批改、口语对话和错题复盘共用。默认使用免费的智谱 GLM。</div></div><span class="badge" id="aiReadyBadge">未连接</span></div>
+      <div class="key-box"><div class="inline-fields"><div class="field"><label>AI 平台</label><select id="smartAIProvider">${providerOptions}</select></div><div class="field"><label>模型</label><input id="smartAIModel"></div></div><div class="field"><label>当前平台 API Key（仅本次标签页）</label><input type="password" id="smartAIKey" autocomplete="off" placeholder="粘贴你自己的免费 Key"></div>
+      <div class="smart-actions"><button class="btn primary" id="saveAISettings" type="button">保存到本次标签页</button><button class="btn" id="testAISettings" type="button">测试连接</button><button class="btn danger" id="clearAISettings" type="button">清除当前 Key</button><a class="btn" id="getAIKey" target="_blank" rel="noopener noreferrer">免费注册 / 获取 Key ↗</a></div>
+      <p class="key-note" id="aiProviderNote"></p><div class="smart-actions"><span class="small muted">不想配置 Key：</span><a class="btn smallbtn" href="https://www.doubao.com/chat/" target="_blank" rel="noopener noreferrer">打开豆包 ↗</a><a class="btn smallbtn" href="https://tongyi.aliyun.com/qianwen/" target="_blank" rel="noopener noreferrer">打开通义 ↗</a><a class="btn smallbtn" href="https://www.kimi.com/" target="_blank" rel="noopener noreferrer">打开 Kimi ↗</a></div></div>`;
     grid.appendChild(card);
-    const keyInput = $('#smartGeminiKey');
-    const modelInput = $('#smartGeminiModel');
-    keyInput.value = AI.getKey();
+    const providerInput=$('#smartAIProvider'),keyInput=$('#smartAIKey'),modelInput=$('#smartAIModel'),keyLink=$('#getAIKey');
+    providerInput.value=AI.getProvider();
+    function loadProvider(){const id=AI.setProvider(providerInput.value),info=AI.getProviderInfo(id);keyInput.value=AI.getKey(id);modelInput.value=AI.getModel(id);keyLink.href=info.keyUrl;$('#aiProviderNote').innerHTML=`默认推荐 <b>${esc(info.label)}</b>。智谱 glm-4.7-flash 当前官方标价免费；百炼是限期免费额度，硅基流动请以模型页实时标注为准。Key 只保存在 sessionStorage，关闭标签页即清除；练习文字通过 HTTPS 发送到所选平台，录音不发送。AI 反馈是训练估分。`;sync();}
     const sync = () => {
       const ready = Boolean(AI.getKey());
       const badge = $('#aiReadyBadge');
       badge.textContent = ready ? 'AI 已就绪' : '未连接';
       badge.classList.toggle('orange', !ready);
-      const oldKey = $('#geminiKey');
-      if (oldKey) oldKey.value = AI.getKey();
-      const oldModel = $('#geminiModel');
-      if (oldModel) oldModel.value = AI.getModel();
+      const status=$('#speechProviderStatus');if(status)status.textContent=AI.getProviderInfo().label+' · '+AI.getModel();
     };
     $('#saveAISettings').onclick = () => {
+      AI.setProvider(providerInput.value);
       AI.setKey(keyInput.value);
-      AI.setModel(modelInput.value || AI.DEFAULT_MODEL);
+      AI.setModel(modelInput.value || AI.getProviderInfo().defaultModel);
       sync();
       toast('AI 设置已保存到当前标签页');
     };
@@ -118,8 +117,9 @@
     };
     $('#testAISettings').onclick = async event => {
       const button = event.currentTarget;
+      AI.setProvider(providerInput.value);
       AI.setKey(keyInput.value);
-      AI.setModel(modelInput.value || AI.DEFAULT_MODEL);
+      AI.setModel(modelInput.value || AI.getProviderInfo().defaultModel);
       if (!requireKey()) return;
       buttonBusy(button, true, '测试中…', '测试连接');
       try {
@@ -128,14 +128,8 @@
       } catch (error) { toast(formatError(error)); }
       finally { buttonBusy(button, false, '测试中…', '测试连接'); sync(); }
     };
-    const oldKey = $('#geminiKey');
-    if (oldKey) {
-      oldKey.value = AI.getKey();
-      oldKey.addEventListener('input', () => { AI.setKey(oldKey.value); keyInput.value = oldKey.value; sync(); });
-    }
-    const oldModel = $('#geminiModel');
-    if (oldModel) oldModel.addEventListener('change', () => { AI.setModel(oldModel.value); modelInput.value = AI.getModel(); });
-    sync();
+    providerInput.onchange=loadProvider;
+    loadProvider();
   }
 
   function installSmartBackup() {
@@ -210,7 +204,7 @@
   const SPEAKING_SCHEMA = {
     type:'object', properties:{
       transcript:{type:'string'}, phase:{type:'string'}, next_question:{type:'string'}, brief_feedback:{type:'string'}, session_complete:{type:'boolean'},
-      scores:{type:'object',properties:{fluency_coherence:{type:'number'},lexical_resource:{type:'number'},grammatical_range_accuracy:{type:'number'},pronunciation:{type:'number'}}},
+      scores:{type:'object',properties:{fluency_coherence:{type:'number'},lexical_resource:{type:'number'},grammatical_range_accuracy:{type:'number'},pronunciation:{type:'string'}}},
       top_issues:{type:'array',items:{type:'string'}}, natural_version:{type:'string'}
     }, required:['transcript','phase','next_question','brief_feedback','session_complete']
   };
@@ -219,33 +213,33 @@
     if (!view || $('#liveSpeakingCoach')) return;
     const panel = document.createElement('article');
     panel.className = 'card'; panel.id = 'liveSpeakingCoach';
-    panel.innerHTML = `<div class="card-head"><div><h3>AI 连续语音对练</h3><div class="small muted">AI 一次问一题；你录音后，它会听懂回答并继续追问。</div></div><span class="badge">iPhone 可用</span></div><div class="coach-stage"><span data-phase="part1">Part 1</span><span data-phase="part2">Part 2</span><span data-phase="part3">Part 3</span><span data-phase="feedback">反馈与重答</span></div><div class="field"><label>训练模式</label><select id="speechCoachMode"><option value="quick">快速对练 · 3轮即时纠错</option><option value="exam">完整模拟 · Part 1–3结束后反馈</option></select></div><div class="coach-question" id="coachQuestion">点击“开始新对话”，AI 考官会朗读第一题。</div><div class="smart-actions"><button class="btn primary" id="startCoach" type="button">开始新对话</button><button class="btn orange" id="coachRecord" type="button" disabled>🎙 开始回答</button><button class="btn" id="speakCoachQuestion" type="button" disabled>🔊 重播题目</button></div><div class="field"><label>无法录音时可输入回答</label><textarea id="coachTypedAnswer" placeholder="也可以在这里输入英文回答"></textarea></div><button class="btn" id="sendTypedAnswer" type="button" disabled>发送文字回答</button><div class="coach-log" id="coachLog"></div><div class="smart-output" id="coachFinal" hidden></div><p class="key-note">点击“发送这段回答”后，本轮音频会发送至 Google Gemini；录音不会写入长期备份。音频存在时才会给 Pronunciation 训练估分。</p>`;
+    panel.innerHTML = `<div class="card-head"><div><h3>国内 AI 连续口语对练</h3><div class="small muted">浏览器先把英语语音转成文字，国内 AI 再逐题追问和纠错。</div></div><span class="badge">免费模型</span></div><div class="coach-stage"><span data-phase="part1">Part 1</span><span data-phase="part2">Part 2</span><span data-phase="part3">Part 3</span><span data-phase="feedback">反馈与重答</span></div><div class="field"><label>训练模式</label><select id="speechCoachMode"><option value="quick">快速对练 · 3轮即时纠错</option><option value="exam">完整模拟 · Part 1–3结束后反馈</option></select></div><div class="coach-question" id="coachQuestion">点击“开始新对话”，AI 考官会朗读第一题。</div><div class="smart-actions"><button class="btn primary" id="startCoach" type="button">开始新对话</button><button class="btn orange" id="coachRecord" type="button" disabled>🎙 语音回答</button><button class="btn" id="speakCoachQuestion" type="button" disabled>🔊 重播题目</button></div><div class="field"><label>实时转写 / 手动输入</label><textarea id="coachTypedAnswer" placeholder="语音识别不支持时，可直接在这里输入英文回答"></textarea></div><button class="btn" id="sendTypedAnswer" type="button" disabled>发送文字回答</button><div class="coach-log" id="coachLog"></div><div class="smart-output" id="coachFinal" hidden></div><p class="key-note">录音不会发送给所选 AI；模型只接收转写文字。语音转写由浏览器能力处理，支持情况及隐私规则以浏览器为准；不支持时可手动输入。仅凭文字不能可靠评价发音，因此 Pronunciation 显示“—”。</p>`;
     view.querySelector('.grid')?.before(panel);
-    let session = null, recorder = null, recordingPromise = null;
+    let session = null, recognition = null, recognitionFailed = false;
     const q = $('#coachQuestion'), recordButton = $('#coachRecord'), typedButton = $('#sendTypedAnswer');
     function paintPhase(phase) { $$('[data-phase]').forEach(x => x.classList.toggle('active', x.dataset.phase === phase)); }
     function addTurn(role, text) { const el=document.createElement('div');el.className='coach-turn '+role;el.innerHTML=`<b>${role==='user'?'你的回答':'AI 考官'}</b>${esc(text)}`;$('#coachLog').appendChild(el);el.scrollIntoView({block:'nearest'}); }
     function firstQuestion(mode) { return mode==='exam'?'Let’s talk about your work. What do you enjoy most about your current job?':'What is one part of your working day that you would like to describe?'; }
-    function buildPrompt(answerText, hasAudio) {
+    function buildPrompt(answerText) {
       const mode=session.mode, max=mode==='exam'?9:3, turn=session.turn+1, nextTurn=turn+1;
       const nextPhase=mode==='quick'?'part1':nextTurn===5?'part2':nextTurn>=6?'part3':'part1';
       const history=session.history.map(x=>`${x.role}: ${x.text}`).join('\n');
-      return `Act as an IELTS Speaking coach. Ask exactly one question at a time in natural British English. Mode=${mode}; this is answer ${turn} of ${max}. ${mode==='exam'?'Do not give feedback between questions. Questions 1-4 are Part 1, question 5 is one concise Part 2 cue card, and questions 6-9 are analytical Part 3 follow-ups.':'Give one short, useful correction after each answer.'} ${turn>=max?'End the session now and give four band estimates. Set phase=feedback and session_complete=true.':`The next question is number ${nextTurn}; it must be ${nextPhase}. Set phase=${nextPhase} and session_complete=false.`} Transcribe the current ${hasAudio?'audio':'typed'} answer faithfully. Do not invent words. Only score pronunciation when audio is supplied. Keep feedback to the top 3 issues, provide one natural improved version using the learner’s own meaning. Return JSON only.\n\nConversation so far:\n${history}\nCurrent question: ${session.question}\nTyped answer if present: ${answerText||'(audio attached)'}`;
+      return `Act as an IELTS Speaking coach. Ask exactly one question at a time in natural British English. Mode=${mode}; this is answer ${turn} of ${max}. ${mode==='exam'?'Do not give feedback between questions. Questions 1-4 are Part 1, question 5 is one concise Part 2 cue card, and questions 6-9 are analytical Part 3 follow-ups.':'Give one short, useful correction after each answer.'} ${turn>=max?'End the session now and give estimates for fluency/coherence, lexical resource, and grammatical range/accuracy. Set phase=feedback and session_complete=true.':`The next question is number ${nextTurn}; it must be ${nextPhase}. Set phase=${nextPhase} and session_complete=false.`} The current answer is browser-produced text. Copy it faithfully into transcript. Do not claim to hear audio and set pronunciation to "—" because audio is unavailable. Keep feedback to the top 3 issues and provide one natural improved version using the learner’s own meaning. Return JSON only.\n\nConversation so far:\n${history}\nCurrent question: ${session.question}\nCurrent transcribed answer: ${answerText}`;
     }
     function renderFinal(r) {
-      const scores=r.scores||{}, labels=[['fluency_coherence','FC'],['lexical_resource','LR'],['grammatical_range_accuracy','GRA'],['pronunciation','P']];
+      const scores=Object.assign({},r.scores||{},{pronunciation:'—'}), labels=[['fluency_coherence','FC'],['lexical_resource','LR'],['grammatical_range_accuracy','GRA'],['pronunciation','P · 仅文字不评分']];
       const out=$('#coachFinal'); out.hidden=false;
       out.innerHTML=`<h4>本场训练反馈</h4><div class="rubric-grid">${labels.map(([k,l])=>`<div class="rubric-card"><b>${esc(scores[k]??'—')}</b><span>${l}</span></div>`).join('')}</div><div class="issue-list">${(r.top_issues||[]).slice(0,3).map(x=>`<div class="issue">${esc(x)}</div>`).join('')}</div>${r.natural_version?`<h4>自然表达版本</h4><p>${esc(r.natural_version)}</p>`:''}`;
       paintPhase('feedback');
       state.speakingSessions.push({at:new Date().toISOString(),mode:session.mode,history:session.history,result:r});state.speakingSessions=state.speakingSessions.slice(-10);saveState();
     }
-    async function analyse(audioBlob, typedText) {
+    async function analyse(typedText) {
       if (!session || session.busy) return;
       session.busy=true; recordButton.disabled=true; typedButton.disabled=true;
-      q.textContent='AI 正在听你的回答并准备下一题…';
+      q.textContent='国内 AI 正在分析转写文字并准备下一题…';
       try {
-        const result=await AI.generateJSON(buildPrompt(typedText,Boolean(audioBlob)),{audioBlob,responseSchema:SPEAKING_SCHEMA,temperature:.35,maxOutputTokens:1800,timeoutMs:90000});
-        const transcript=(result.transcript||typedText||'（未识别到清晰语音）').trim();
+        const result=await AI.generateJSON(buildPrompt(typedText),{responseSchema:SPEAKING_SCHEMA,temperature:.35,maxOutputTokens:1800,timeoutMs:90000});
+        const transcript=(typedText||result.transcript||'（未识别到清晰语音）').trim();
         addTurn('user',transcript); session.history.push({role:'Learner',text:transcript}); session.turn++;
         if (result.brief_feedback && session.mode==='quick') addTurn('ai','反馈：'+result.brief_feedback);
         if (result.session_complete || session.turn >= (session.mode==='exam'?9:3)) {
@@ -254,29 +248,42 @@
           session.question=result.next_question||'Could you explain that in a little more detail?'; session.history.push({role:'Examiner',text:session.question}); q.textContent=session.question; addTurn('ai',session.question); paintPhase(result.phase||'part1'); AI.speak(session.question).catch(()=>{});
         }
       } catch(error) { q.textContent=session.question; toast(formatError(error)); }
-      finally { session.busy=false; buttonBusy(recordButton,false,'','🎙 开始回答'); recordButton.disabled=Boolean(session.done); typedButton.disabled=Boolean(session.done); recordButton.classList.remove('recording-now'); }
+      finally { session.busy=false; buttonBusy(recordButton,false,'','🎙 语音回答'); recordButton.disabled=Boolean(session.done); typedButton.disabled=Boolean(session.done); recordButton.classList.remove('recording-now'); }
     }
     $('#startCoach').onclick=()=>{
       if(!requireKey())return; const mode=$('#speechCoachMode').value,question=firstQuestion(mode);
       session={mode,turn:0,question,history:[{role:'Examiner',text:question}],busy:false,done:false};$('#coachLog').innerHTML='';$('#coachFinal').hidden=true;q.textContent=question;addTurn('ai',question);recordButton.disabled=false;typedButton.disabled=false;$('#speakCoachQuestion').disabled=false;paintPhase('part1');AI.speak(question).catch(()=>{});
     };
     $('#speakCoachQuestion').onclick=()=>session&&AI.speak(session.question).catch(error=>toast(formatError(error)));
-    recordButton.onclick=async()=>{
+    recordButton.onclick=()=>{
       if(!session||session.busy)return;
-      if(recorder){buttonBusy(recordButton,true,'正在处理…','🎙 开始回答');try{const captured=await recorder.stop();recorder=null;await analyse(captured.blob,'');}catch(error){recorder=null;toast(formatError(error));buttonBusy(recordButton,false,'','🎙 开始回答');}return;}
-      try{recorder=await AI.createAudioRecorder({maxDurationMs:125000});recordingPromise=recorder.start();recordButton.textContent='■ 发送这段回答';recordButton.classList.add('recording-now');toast('正在录音，再点一次即可发送');recordingPromise.catch(()=>{});}catch(error){recorder=null;toast(formatError(error));}
+      if(recognition){recognition.stop();return;}
+      const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+      if(!SR){$('#coachTypedAnswer').focus();toast('当前浏览器不支持语音转写，请在输入框中回答');return;}
+      const r=new SR();recognition=r;recognitionFailed=false;r.lang='en-GB';r.continuous=true;r.interimResults=true;let finalText='';$('#coachTypedAnswer').value='';
+      r.onresult=event=>{let interim='';for(let i=event.resultIndex;i<event.results.length;i++){const text=event.results[i][0].transcript;if(event.results[i].isFinal)finalText+=(finalText?' ':'')+text;else interim+=text;}$('#coachTypedAnswer').value=[finalText,interim].filter(Boolean).join(' ');};
+      r.onerror=event=>{recognitionFailed=true;toast('语音转写失败：'+(event.error||'请检查麦克风权限，可改用手动输入'));};
+      r.onend=()=>{recognition=null;recordButton.textContent='🎙 语音回答';recordButton.classList.remove('recording-now');const text=$('#coachTypedAnswer').value.trim();if(!recognitionFailed&&text){$('#coachTypedAnswer').value='';analyse(text);}else if(!text)$('#coachTypedAnswer').focus();};
+      try{r.start();recordButton.textContent='■ 停止并发送';recordButton.classList.add('recording-now');toast('正在语音转写；完成后再点一次发送');}catch(error){recognition=null;toast('无法开始语音转写，请改用手动输入');}
     };
-    typedButton.onclick=()=>{const text=$('#coachTypedAnswer').value.trim();if(!text)return toast('请先输入英文回答');$('#coachTypedAnswer').value='';analyse(null,text);};
+    typedButton.onclick=()=>{const text=$('#coachTypedAnswer').value.trim();if(!text)return toast('请先输入英文回答');$('#coachTypedAnswer').value='';analyse(text);};
   }
 
   function installLegacySpeechUpgrade() {
-    const button=$('#runSpeechAi'),key=$('#geminiKey'),model=$('#geminiModel'),transcript=$('#speechTranscript'),out=$('#speechAiResult');
+    const button=$('#runSpeechAi'),transcript=$('#speechTranscript'),out=$('#speechAiResult');
     if(!button)return;
     button.onclick=async()=>{
-      if(key?.value)AI.setKey(key.value);if(model?.value)AI.setModel(model.value);if(!transcript.value.trim())return toast('请先录音转写或粘贴回答');if(!requireKey())return;
+      if(!transcript.value.trim())return toast('请先录音转写或粘贴回答');
+      if(!AI.getKey()){
+        window.open('https://www.doubao.com/chat/','_blank','noopener,noreferrer');
+        $('#copySpeechPack')?.click();
+        toast('未配置 Key：诊断包已复制，请粘贴到刚打开的豆包');
+        return;
+      }
       buttonBusy(button,true,'分析中…','AI直接分析');out.textContent='AI 正在检查回答…';
       try{out.textContent=await AI.generateText(`你是严格的IELTS口语教练。题目：${$('#speechCue').textContent}\n学生原话：${transcript.value}\n请按FC、LR、GRA评估；只有文字，明确说明不能可靠评价发音。引用原句，只给三个重点问题、一个自然改写和两道追问。`,{temperature:.2,maxOutputTokens:1800});}catch(error){out.textContent='分析失败：'+formatError(error);}finally{buttonBusy(button,false,'','AI直接分析');}
     };
+    $$('[data-speech-chat]').forEach(link=>link.addEventListener('click',()=>$('#copySpeechPack')?.click()));
   }
 
   const FEEDS = {
