@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updatedAt": "2026-09-17T02:15:26Z",
+  "version": 2,
+  "updatedAt": "2026-09-17T02:47:20Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -10,64 +10,64 @@
           "title": "Can apps teach you a language?",
           "date": "Thu, 10 Sep 2026 07:46:00 +0000",
           "description": "Have you ever used Duolingo, Babbel, Busuu or perhaps another language-learning app? How did you get on? Some people love the convenience of these apps – you can learn on the go, like during your commute to work, rather than committing to a certain time each week, like learning in a class. But are they teaching the languages effectively? Neil and Pippa discuss this and teach you some new vocabulary. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglis…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p8w5by.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p8w5sh",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260910_6_minute_english_can_apps_teach_you_a_language_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260910",
           "guid": "urn:bbc:podcast:p0p8w5sh"
         },
         {
           "title": "Climate change and extreme weather",
           "date": "Thu, 03 Sep 2026 08:33:00 +0000",
           "description": "Every year we see damage, death and destruction caused by hurricanes, cyclones and typhoons - tropical storms. Is climate change making this impact worse? Climate change may be making this destruction worse. Phil is joined by BBC weather presenter and meteorologist Sarah Keith-Lucas to learn more about this and teach you some new vocabulary. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260903 Practise…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p7p91r.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p7p9b8",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260903_6_minute_english_storms_and_climate_change_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260903",
           "guid": "urn:bbc:podcast:p0p7p9b8"
         },
         {
           "title": "How do we describe smells?",
           "date": "Thu, 27 Aug 2026 09:16:00 +0000",
           "description": "What is the worst smell in the world? And what is the best smell? Are there any smells that you like, but that your friends or family hate? Smells are all around us all the time, but the English language is often quite general in the way it describes smells, as opposed to other senses like sounds or tastes. But why is this? Neil and Georgie discuss this and teach you some new vocabulary. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglish/english/fe…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p6j2hz.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p6j3xx",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260827_6_minute_english_smells_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260827",
           "guid": "urn:bbc:podcast:p0p6j3xx"
         },
         {
           "title": "Sharing the road with driverless cars",
           "date": "Thu, 20 Aug 2026 13:13:00 +0000",
           "description": "Imagine crossing a road and turning to see a car heading towards you... without a driver! While this might seem scary, driverless cars are already operating safely in many cities around the world. These autonomous cars contain huge amounts of technology to help them drive alongside other road users carefully. But will humans behave as carefully around them? Can we communicate clearly with these 'robotaxis', or are we simply incompatible? Phil and Pippa discuss this and teach you some new vocabu…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p5h6cg.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p5h8tg",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260820_6_minute_english_sharing_the_road_with_driverless_cars_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260820",
           "guid": "urn:bbc:podcast:p0p5h8tg"
         },
         {
           "title": "Who does the housework?",
           "date": "Thu, 13 Aug 2026 08:30:00 +0000",
           "description": "Unloading the dishwasher, mopping the floor, cleaning the loo... what is your most hated household chore? We all know there are jobs around the house which have to be done regularly, even if they are sometimes boring or unpleasant. But who tends to do the most amount of jobs in your household? And is there anyone who isn't pulling their weight...? Pippa and Neil discuss this and teach you some new vocabulary. Learn English from authentic BBC programme clips. Get a free worksheet, quiz and trans…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p4779b.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p478fw",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260813_6_minute_english_who_does_the_housework_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260813",
           "guid": "urn:bbc:podcast:p0p478fw"
         },
         {
           "title": "How do climate scientists make predictions?",
           "date": "Thu, 06 Aug 2026 09:11:00 +0000",
           "description": "Across the world, climate change is already beginning to change the way we live our lives. But how big will that change be and what kinds of change will occur? These are the kinds of questions that scientists have been asking for decades. So, how exactly do they try to find answers to such complex questions about the future? Understanding where we are heading might help humanity prepare for the consequences of climate change. Phil and Pippa discuss this and teach you some new vocabulary. Learn…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p2ygrc.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p2yh63",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260806_6_minute_english_how_do_climate_scientists_make_predictions_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260806",
           "guid": "urn:bbc:podcast:p0p2yh63"
         },
         {
           "title": "The Enhanced Games",
           "date": "Thu, 30 Jul 2026 14:14:00 +0000",
           "description": "What would the world of athletics look like if athletes were allowed to take drugs? Pippa and Neil discuss the Enhanced Games. Learn English from authentic BBC programme clips. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260730 Practise your listening with The Listening Room here: https://www.bbc.co.uk/learningenglish/english/features/the_listening_room Subscribe to our newsletters here: https://www.…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p1q8ns.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p1qc9j",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260730_6_minute_english_the_enhanced_games_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260730",
           "guid": "urn:bbc:podcast:p0p1qc9j"
         },
         {
           "title": "Children in warzones",
           "date": "Thu, 23 Jul 2026 14:03:00 +0000",
           "description": "The most recent figure from 2024 says that 520 million children are living in conflict zones. That's about one in every five children worldwide. Some of the discussions in this episode will be about death and trauma. Neil and Becca hear from a journalist who has spent some time with children in warzones and discuss the topic in simpler English. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260723 Pract…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ny2jn5.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0ny2k8s",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260723_6_minute_english_children_in_warzones.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260723",
           "guid": "urn:bbc:podcast:p0ny2k8s"
         }
       ]

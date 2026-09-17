@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ielts-sprint-v7-mobile-bbc-20260917';
+const CACHE_NAME = 'ielts-sprint-v8-bbc-direct-audio-20260917';
 const APP_SHELL = [
   './',
   './index.html',

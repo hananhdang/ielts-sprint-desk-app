@@ -38,6 +38,12 @@ FEEDS = {
 DEFAULT_OUTPUT = Path(__file__).resolve().parents[1] / "bbc-feed.json"
 ITEMS_PER_FEED = 8
 DESCRIPTION_LIMIT = 500
+LEARNING_EPISODE_RE = re.compile(
+    r"https://www\.bbc\.co\.uk/learningenglish/english/features/6-minute-english[^\"'<>\s]+"
+)
+DIRECT_AUDIO_RE = re.compile(
+    r"https://downloads\.bbc\.co\.uk/learningenglish/[^\"'<>\s]+\.mp3"
+)
 
 
 class _TextExtractor(HTMLParser):
@@ -98,35 +104,70 @@ def date_key(value: str) -> datetime:
         return datetime.min.replace(tzinfo=timezone.utc)
 
 
-def parse_feed(xml_data: bytes) -> list[dict[str, str]]:
+def direct_learning_audio(page_url: str) -> str:
+    if not page_url:
+        return ""
+    try:
+        html = fetch(
+            page_url,
+            retries=2,
+            timeout=30,
+            accept="text/html,application/xhtml+xml;q=0.9",
+        ).decode("utf-8", errors="ignore")
+    except RuntimeError as error:
+        print(f"Direct BBC audio lookup failed for {page_url}: {error}", file=sys.stderr)
+        return ""
+    match = DIRECT_AUDIO_RE.search(unescape(html).replace(r"\/", "/"))
+    return match.group(0) if match else ""
+
+
+def parse_feed(xml_data: bytes, feed_key: str) -> list[dict[str, str]]:
     root = ET.fromstring(xml_data)
     episodes: list[dict[str, str]] = []
     for item in (element for element in root.iter() if local_name(element.tag) == "item"):
         audio = audio_url(item)
         if not audio:
             continue
+        raw_description = child_text(item, "description")
         link = child_text(item, "link")
         if link.startswith("http://"):
             link = "https://" + link.removeprefix("http://")
+        learning_match = LEARNING_EPISODE_RE.search(unescape(raw_description)) if feed_key == "six" else None
         episodes.append(
             {
                 "title": child_text(item, "title") or "BBC episode",
                 "date": child_text(item, "pubDate"),
-                "description": clean_description(child_text(item, "description")),
+                "description": clean_description(raw_description),
                 "audio": audio,
                 "link": link,
                 "guid": child_text(item, "guid"),
+                "_learningUrl": learning_match.group(0) if learning_match else "",
             }
         )
     episodes.sort(key=lambda episode: date_key(episode["date"]), reverse=True)
-    return episodes[:ITEMS_PER_FEED]
+    selected = episodes[:ITEMS_PER_FEED]
+    if feed_key == "six":
+        for episode in selected:
+            learning_url = episode.get("_learningUrl", "")
+            direct_audio = direct_learning_audio(learning_url)
+            if direct_audio:
+                episode["audio"] = direct_audio
+                episode["link"] = learning_url
+    for episode in selected:
+        episode.pop("_learningUrl", None)
+    return selected
 
 
-def fetch(url: str, retries: int = 3, timeout: int = 45) -> bytes:
+def fetch(
+    url: str,
+    retries: int = 3,
+    timeout: int = 45,
+    accept: str = "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8",
+) -> bytes:
     request = urllib.request.Request(
         url,
         headers={
-            "Accept": "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8",
+            "Accept": accept,
             "User-Agent": "IELTS-Sprint-Desk/1.0 (+https://github.com/hananhdang/ielts-sprint-desk-app)",
         },
     )
@@ -149,7 +190,7 @@ def current_timestamp() -> str:
 def build_payload() -> dict[str, object]:
     feeds: dict[str, object] = {}
     for key, metadata in FEEDS.items():
-        episodes = parse_feed(fetch(metadata["url"]))
+        episodes = parse_feed(fetch(metadata["url"]), key)
         if len(episodes) < ITEMS_PER_FEED:
             raise RuntimeError(
                 f"{metadata['label']} returned only {len(episodes)} playable episodes; "
@@ -161,7 +202,7 @@ def build_payload() -> dict[str, object]:
             "episodes": episodes,
         }
         print(f"Fetched {len(episodes)} episodes: {metadata['label']}")
-    return {"version": 1, "updatedAt": current_timestamp(), "feeds": feeds}
+    return {"version": 2, "updatedAt": current_timestamp(), "feeds": feeds}
 
 
 def comparable(payload: dict[str, object]) -> dict[str, object]:
