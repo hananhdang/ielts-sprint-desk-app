@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-17T02:47:20Z",
+  "updatedAt": "2026-09-17T23:33:42Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
       "episodes": [
+        {
+          "title": "Is rejection good for us?",
+          "date": "Thu, 17 Sep 2026 08:34:00 +0000",
+          "description": "How would you feel about going up to a stranger on the street and asking them for a cheeky favour? If the idea makes you nervous, then don't worry – you are not alone! But recently, some people have been filming themselves doing this, as part of a social media trend called 'rejection therapy'. It's not an officially recognised form of therapy, but some have found that it improves their confidence. Georgie and Neil discuss this and teach you some new vocabulary. 6 Minute English now has a VIDEO…",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260917_6_minute_english_is_rejection_good_for_us_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260917",
+          "guid": "urn:bbc:podcast:p0pb0rd0"
+        },
         {
           "title": "Can apps teach you a language?",
           "date": "Thu, 10 Sep 2026 07:46:00 +0000",
@@ -61,14 +69,6 @@
           "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260730_6_minute_english_the_enhanced_games_download.mp3",
           "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260730",
           "guid": "urn:bbc:podcast:p0p1qc9j"
-        },
-        {
-          "title": "Children in warzones",
-          "date": "Thu, 23 Jul 2026 14:03:00 +0000",
-          "description": "The most recent figure from 2024 says that 520 million children are living in conflict zones. That's about one in every five children worldwide. Some of the discussions in this episode will be about death and trauma. Neil and Becca hear from a journalist who has spent some time with children in warzones and discuss the topic in simpler English. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260723 Pract…",
-          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260723_6_minute_english_children_in_warzones.mp3",
-          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260723",
-          "guid": "urn:bbc:podcast:p0ny2k8s"
         }
       ]
     },
@@ -76,6 +76,22 @@
       "label": "Global News Podcast",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
+        {
+          "title": "UN warns fresh water supplies under threat",
+          "date": "Thu, 17 Sep 2026 15:43:00 +0000",
+          "description": "The UN says climate change is having a serious effect on the global supply of fresh water. Rivers and lakes are drying up while glaciers are retreating according to a new report. Also: South African police have found the body of a ninth murdered woman since July, as concern grows over a string of unexplained deaths near Johannesburg; Canada's prime minister has told the European Parliament he welcomes ambitions for associate EU membership in a speech containing thinly veiled criticism of Donald…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pb3t36.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pb3wbt",
+          "guid": "urn:bbc:podcast:p0pb3wbt"
+        },
+        {
+          "title": "US hikes interest rates - to Trump's annoyance",
+          "date": "Thu, 17 Sep 2026 04:27:00 +0000",
+          "description": "The US central bank has raised interest rates for the first time in more than three years, to try to curb inflation. The Federal Reserve lifted its benchmark rate by a quarter of a percentage point and suggested it could do so again before the end of the year. In a social media post, President Trump demanded \"lower interest rates... and fast.\" Also: Nepal has sharply revised upwards the number of people missing after last month's flash flood to 6,150. Hundreds more are missing across the border…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9zsq6.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0p9zstm",
+          "guid": "urn:bbc:podcast:p0p9zstm"
+        },
         {
           "title": "EU chief proposes Canada as first 'associate member'",
           "date": "Wed, 16 Sep 2026 15:27:00 +0000",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9h3ln.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0p9h3m1",
           "guid": "urn:bbc:podcast:p0p9h3m1"
-        },
-        {
-          "title": "The Global Story: Can Dubai’s luxe image survive the war with Iran?",
-          "date": "Sun, 13 Sep 2026 19:00:00 +0000",
-          "description": "As the summer holiday season draws to a close, foreigners travelling to and from Dubai in the United Arab Emirates are facing delays, cancellations and severe travel warnings. The disruption comes as a result of the UAE’s position in the ongoing US-Israel war with Iran. Throughout the conflict, Iran has attacked the UAE more times than any other country, including Israel. Until the war with Iran began, Dubai was a major tourist destination, famous for its modern skyscrapers, luxurious beaches a…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p948k3.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p9493n",
-          "guid": "urn:bbc:podcast:p0p9493n"
-        },
-        {
-          "title": "Dario Amodei from AI's Anthropic issues a stark warning",
-          "date": "Sun, 13 Sep 2026 03:48:00 +0000",
-          "description": "The CEO of Anthropic has warned that the increasing rate of development could lead to rogue artificial intelligence agents taking over the internet, potentially causing hundreds of billions of dollars in damage. Elon Musk and the OpenAI boss Sam Altman both said they agreed with Dario Amodei whilst a former Anthropic researcher, Jacob Coxon, has told the BBC there was a strong chance that all humans could die in the immediate future without a slowdown. Also, the Reform UK right-wing populist pa…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9cwzs.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p9cx38",
-          "guid": "urn:bbc:podcast:p0p9cx38"
         }
       ]
     },
