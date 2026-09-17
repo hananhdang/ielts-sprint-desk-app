@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ielts-sprint-v9-bbc-direct-audio-20260917';
+const CACHE_NAME = 'ielts-sprint-v10-bbc-click-to-load-20260917';
 const APP_SHELL = [
   './',
   './index.html',
