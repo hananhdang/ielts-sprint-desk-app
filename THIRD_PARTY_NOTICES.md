@@ -12,6 +12,10 @@ These notices apply only to the cited open-source project materials. They do not
 
 The application links to these publishers and, for the daily listening player, streams the current CGTN audio from CGTN's own server. It does not copy or redistribute that audio in this repository or in the application's hosting storage. Copyright and trademarks remain with their respective owners.
 
+The English text shown beside CGTN audio is an AI-generated transcription that has been checked and corrected for listening practice. It is not an official CGTN transcript and may contain minor errors in names or specialized terms. The Chinese translation is provided as an in-app learning aid.
+
+For IDP public sample recordings, the app either organizes the publisher's public transcript (speaking samples) or provides an AI-generated transcription checked against the public questions and answers (listening samples). Chinese translations are independent learning aids. The original recordings, questions, transcripts, trademarks, and associated rights remain with IDP IELTS and their respective owners.
+
 ## 1. IELTS Claude Skills
 
 - Project: `YANZHANLIN/ielts-claude-skills`

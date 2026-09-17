@@ -20,6 +20,7 @@ SOURCE_URL = "https://radio.cgtn.com/downapiRES/radio/v1/classification/detail/g
 SOURCE_PAGE = "https://radio.cgtn.com"
 DEFAULT_OUTPUT = Path(__file__).resolve().parents[1] / "cgtn-feed.json"
 ITEMS_PER_FEED = 8
+TEXT_FIELDS = ("transcript", "translationZh", "transcriptSource")
 
 
 def clean_text(value: str) -> str:
@@ -60,7 +61,22 @@ def fetch_json() -> dict:
         raise RuntimeError(f"failed to download CGTN feed: {error}") from error
 
 
-def build_payload() -> dict[str, object]:
+def load_existing(output: Path) -> dict[str, dict[str, object]]:
+    if not output.exists():
+        return {}
+    try:
+        payload = json.loads(output.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    return {
+        str(item.get("guid")): item
+        for item in payload.get("episodes", [])
+        if isinstance(item, dict) and item.get("guid")
+    }
+
+
+def build_payload(existing: dict[str, dict[str, object]] | None = None) -> dict[str, object]:
+    existing = existing or {}
     candidates: list[dict[str, str]] = []
     seen: set[str] = set()
     for item in walk(fetch_json()):
@@ -86,8 +102,7 @@ def build_payload() -> dict[str, object]:
             if item_id
             else SOURCE_PAGE
         )
-        candidates.append(
-            {
+        episode = {
                 "title": title,
                 "date": str(item.get("date") or "").strip(),
                 "description": clean_text(str(item.get("info") or item.get("detail") or "")),
@@ -97,9 +112,30 @@ def build_payload() -> dict[str, object]:
                 "duration": duration,
                 "programme": str(item.get("columnName") or "CGTN Radio").strip(),
             }
-        )
+        previous = existing.get(episode["guid"], {})
+        for field in TEXT_FIELDS:
+            if previous.get(field):
+                episode[field] = previous[field]
+        candidates.append(episode)
     candidates.sort(key=lambda item: (item["date"], item["guid"]), reverse=True)
-    episodes = candidates[:ITEMS_PER_FEED]
+    bilingual = [
+        item for item in candidates
+        if item.get("transcript") and item.get("translationZh")
+    ]
+    existing_bilingual = [
+        item for item in existing.values()
+        if item.get("transcript") and item.get("translationZh")
+    ]
+    if bilingual or existing_bilingual:
+        known_guids = {item["guid"] for item in bilingual}
+        retained = [
+            item for guid, item in existing.items()
+            if guid not in known_guids and item.get("transcript") and item.get("translationZh")
+        ]
+        retained.sort(key=lambda item: (str(item.get("date", "")), str(item.get("guid", ""))), reverse=True)
+        episodes = (bilingual + retained)[:ITEMS_PER_FEED]
+    else:
+        episodes = candidates[:ITEMS_PER_FEED]
     if len(episodes) < ITEMS_PER_FEED:
         raise RuntimeError(f"CGTN feed returned only {len(episodes)} suitable short episodes")
     return {
@@ -142,7 +178,8 @@ def main() -> int:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     args = parser.parse_args()
     try:
-        write_if_changed(args.output.resolve(), build_payload())
+        output = args.output.resolve()
+        write_if_changed(output, build_payload(load_existing(output)))
     except RuntimeError as error:
         print(f"CGTN feed update failed: {error}")
         return 1
