@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-17T23:33:42Z",
+  "updatedAt": "2026-09-18T23:19:10Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Chaos as migrants moved off beaches in Ceuta",
+          "date": "Fri, 18 Sep 2026 15:15:00 +0000",
+          "description": "Police in Spain's North African territory of Ceuta fired rubber bullets into the air to control crowds as hundreds of migrants were moved from beaches to the port where a tent city has sprung up. South Korea's president says he will not be sending troops to help the US in its war in Iran - defying growing pressure from the Trump administration. People in Russia are voting in the first parliamentary election since Russia's full-scale invasion of Ukraine. South Africa's President Cyril Ramaphosa…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbbrnj.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pbbt24",
+          "guid": "urn:bbc:podcast:p0pbbt24"
+        },
+        {
+          "title": "Did the US carry out war crimes in Iran?",
+          "date": "Fri, 18 Sep 2026 04:24:00 +0000",
+          "description": "A UN fact-finding mission on Iran says there are reasonable grounds to believe the United States was behind two military strikes on a school and sports facility in Iran in February, and that these constituted war crimes. A State Department official said the US did not give credibility to the findings in the report. The UN experts also accused Tehran of violent repression of anti-government protesters. Also: Nato secretary general, Mark Rutte, tells the BBC the Russian President, Vladimir Putin,…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pb6xyg.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pb6y51",
+          "guid": "urn:bbc:podcast:p0pb6y51"
+        },
+        {
           "title": "UN warns fresh water supplies under threat",
           "date": "Thu, 17 Sep 2026 15:43:00 +0000",
           "description": "The UN says climate change is having a serious effect on the global supply of fresh water. Rivers and lakes are drying up while glaciers are retreating according to a new report. Also: South African police have found the body of a ninth murdered woman since July, as concern grows over a string of unexplained deaths near Johannesburg; Canada's prime minister has told the European Parliament he welcomes ambitions for associate EU membership in a speech containing thinly veiled criticism of Donald…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9n94h.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0p9n98m",
           "guid": "urn:bbc:podcast:p0p9n98m"
-        },
-        {
-          "title": "NATO urged to intercept Russian drones after Ukraine attack",
-          "date": "Mon, 14 Sep 2026 14:40:00 +0000",
-          "description": "A US think tank says NATO should consider intercepting Russian drones in Ukrainian airspace, after a drone struck a train near the Polish border. The strike happened soon after a train carrying senior European officials had passed through the same station. The NATO chief, Mark Rutte, says the attack shows how \"desperate\" President Vladimir Putin has become. Also: Africa’s biggest ever share sale is launched in Nigeria by the billionaire Aliko Dangote. His oil refinery is offering more than 4bn…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9l6gn.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p9l8qg",
-          "guid": "urn:bbc:podcast:p0p9l8qg"
-        },
-        {
-          "title": "Centre Left coalition in Sweden on course for victory",
-          "date": "Mon, 14 Sep 2026 04:24:00 +0000",
-          "description": "Centre left coalition in Sweden likely to form new national government despite a slim majority. The far-right Sweden Democrats saw their support fall. Also: The state railway company in Ukraine says it's \"quite likely\" that a Russian drone attack was targeting a diplomatic train which had some of Europe’s most senior security officials on board. Alexander Zverev wins the men's US Open - his second Grand Slam tennis title of the year. The German beat America's Ben Shelton in four sets. People ar…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9h3ln.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p9h3m1",
-          "guid": "urn:bbc:podcast:p0p9h3m1"
         }
       ]
     },
@@ -146,6 +146,14 @@
       "label": "Learning English Drama",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9s1.rss",
       "episodes": [
+        {
+          "title": "Classic Stories: Pride and Prejudice",
+          "date": "Fri, 18 Sep 2026 07:14:00 +0000",
+          "description": "Enjoy a classic story in English and learn 11 uses of ‘look’ - in 5 minutes. FIND BBC LEARNING ENGLISH HERE: Visit our website ✔️ https://www.bbc.co.uk/learningenglish Follow us ✔️ https://www.bbc.co.uk/learningenglish/followus LIKE PODCASTS? Try some of our other popular podcasts including: ✔️ 6 Minute English ✔️ Learning English from the News ✔️ Learning English Conversations They're all available by searching in your podcast app.",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pb8478.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pb7tyv",
+          "guid": "urn:bbc:podcast:p0pb7tyv"
+        },
         {
           "title": "Classic Stories: Pygmalion",
           "date": "Fri, 11 Sep 2026 08:22:00 +0000",
@@ -201,14 +209,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ny3bkw.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0ny3dz2",
           "guid": "urn:bbc:podcast:p0ny3dz2"
-        },
-        {
-          "title": "Classic Stories: Oliver Twist",
-          "date": "Fri, 10 Jul 2026 09:09:00 +0000",
-          "description": "Enjoy a classic story in English and learn 7 uses of ‘light’ - in 5 minutes. FIND BBC LEARNING ENGLISH HERE: Visit our website ✔️ https://www.bbc.co.uk/learningenglish Follow us ✔️ https://www.bbc.co.uk/learningenglish/followus LIKE PODCASTS? Try some of our other popular podcasts including: ✔️ 6 Minute English ✔️ Learning English from the News ✔️ Learning English Conversations They're all available by searching in your podcast app.",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ny0bvw.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0ny0crh",
-          "guid": "urn:bbc:podcast:p0ny0crh"
         }
       ]
     }
