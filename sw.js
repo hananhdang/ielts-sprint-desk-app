@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ielts-sprint-v14-domestic-free-ai-20260917';
+const CACHE_NAME = 'ielts-sprint-v15-hiker-icon-20260918';
 const APP_SHELL = [
   './',
   './index.html',
@@ -9,9 +9,9 @@ const APP_SHELL = [
   './bbc-feed.json',
   './cgtn-feed.json',
   './THIRD_PARTY_NOTICES.md',
-  './apple-touch-icon.png',
-  './icon-192.png',
-  './icon-512.png'
+  './apple-touch-icon-hiker.png',
+  './icon-hiker-192.png',
+  './icon-hiker-512.png'
 ];
 
 self.addEventListener('install', event => {
