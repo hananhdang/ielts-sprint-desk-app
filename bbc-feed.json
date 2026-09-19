@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-18T23:19:10Z",
+  "updatedAt": "2026-09-19T23:06:28Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Happy Pod: The best friends who turned out to be sisters",
+          "date": "Sat, 19 Sep 2026 11:00:00 +0000",
+          "description": "Meena and Minal were born in India, but adopted by different families and raised near each other in the Netherlands. When they first met in their early teens at an event hosted by the adoption agency their parents had used, they were struck by the uncanny similarities in their appearance and mannerisms. This year, Minal took a DNA test, which revealed the Meena she already knew was her biological sister. Also, we hear from the Cateura Orchestra of Recycled Instruments -- a group in Paraguay whi…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pb38hf.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pb39f6",
+          "guid": "urn:bbc:podcast:p0pb39f6"
+        },
+        {
+          "title": "US and Denmark reach deal over Greenland",
+          "date": "Sat, 19 Sep 2026 03:53:00 +0000",
+          "description": "The US and Denmark announce a deal on Greenland's security, resolving a diplomatic dispute sparked by President Donald Trump's threats to seize the territory by force. In a post on social media, Mr Trump said the deal would mean \"no US adversary can ever have a base in Greenland\". Greenland and Denmark have said the deal strengthens security in the Arctic and is good for the Nato military alliance. Also: President Trump has signed a bill authorising sweeping new sanctions on Russia, designed to…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbf4j0.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pbf6ql",
+          "guid": "urn:bbc:podcast:p0pbf6ql"
+        },
+        {
           "title": "Chaos as migrants moved off beaches in Ceuta",
           "date": "Fri, 18 Sep 2026 15:15:00 +0000",
           "description": "Police in Spain's North African territory of Ceuta fired rubber bullets into the air to control crowds as hundreds of migrants were moved from beaches to the port where a tent city has sprung up. South Korea's president says he will not be sending troops to help the US in its war in Iran - defying growing pressure from the Trump administration. People in Russia are voting in the first parliamentary election since Russia's full-scale invasion of Ukraine. South Africa's President Cyril Ramaphosa…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9t2rd.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0p9t2y6",
           "guid": "urn:bbc:podcast:p0p9t2y6"
-        },
-        {
-          "title": "Russia and Ukraine continue strikes on energy targets",
-          "date": "Tue, 15 Sep 2026 15:34:00 +0000",
-          "description": "There's been no pause in fighting between Russia and Ukraine, despite President Trump's claim that both sides would temporarily stop targeting critical infrastructure. Russia says a gas pipeline was hit in the south of the country in an attack overnight, while officials in Zaporizhzhia region in Ukraine said Russian attacks had disrupted power supplies to some areas. Also: a NATO fighter jet shoots down a drone which entered Lithuanian airspace. Train travel is brought to a halt in parts of the…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9r2wg.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p9r423",
-          "guid": "urn:bbc:podcast:p0p9r423"
-        },
-        {
-          "title": "US reveals it has deployed space weapons",
-          "date": "Tue, 15 Sep 2026 04:39:00 +0000",
-          "description": "US Air Force Secretary, Troy Meink, has revealed that America has weapons in space to protect its assets in orbit, but he didn't divulge which weapons were there. His comments will be seen as a warning to Russia and China, raising the prospect of warfare in space. A treaty from 1967 banned weapons of mass destruction in space but the US has, like its rivals, been developing technology that can target and defend satellites. Also: Anthropic's co-founder tells the BBC artificial intelligence may n…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9n94h.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p9n98m",
-          "guid": "urn:bbc:podcast:p0p9n98m"
         }
       ]
     },
