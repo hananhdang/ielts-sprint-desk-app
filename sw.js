@@ -1,9 +1,10 @@
-const CACHE_NAME = 'ielts-sprint-v15-hiker-icon-20260918';
+const CACHE_NAME = 'ielts-sprint-v16-daily-100-20260920';
 const APP_SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
   './smart-ai.js',
+  './notion-speaking-materials.js',
   './smart-features.js',
   './smart-features.css',
   './bbc-feed.json',
