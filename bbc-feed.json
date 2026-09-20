@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-19T23:06:28Z",
+  "updatedAt": "2026-09-20T23:15:25Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Global Story: Dave Ramsey - Iran, tariffs and affordability",
+          "date": "Sun, 20 Sep 2026 19:00:00 +0000",
+          "description": "As the midterm elections in America approach, the economy is one of the deciding factors for how people will vote. Before his second term started, President Trump promised to tackle the so-called affordabilty crisis. But since then, the war in Iran has led to soaring gas prices and a range of tariffs have made some goods more expensive. How do global events impact people’s finances and in turn how they vote in elections? The talk show host and financial expert Dave Ramsey joins us to discuss. F…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pb9chg.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pb9cxc",
+          "guid": "urn:bbc:podcast:p0pb9cxc"
+        },
+        {
+          "title": "Ed Sheeran speaks out on Gaza",
+          "date": "Sun, 20 Sep 2026 03:22:00 +0000",
+          "description": "Ed Sheeran has spoken out at the start of his first show since the rapper Macklemore was dropped from his US tour over pro-Palestinian comments. The British singer said the Hamas attacks on Israel in October 2023 were horrific, but Israel's subsequent response had been disproportionate. He said his heart had been broken by the scale of devastation. Also: for the first time since those Hamas attacks on Israel sparked the war on Gaza, half a million children inside the territory are returning to…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbk79s.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pbk7cj",
+          "guid": "urn:bbc:podcast:p0pbk7cj"
+        },
+        {
           "title": "The Happy Pod: The best friends who turned out to be sisters",
           "date": "Sat, 19 Sep 2026 11:00:00 +0000",
           "description": "Meena and Minal were born in India, but adopted by different families and raised near each other in the Netherlands. When they first met in their early teens at an event hosted by the adoption agency their parents had used, they were struck by the uncanny similarities in their appearance and mannerisms. This year, Minal took a DNA test, which revealed the Meena she already knew was her biological sister. Also, we hear from the Cateura Orchestra of Recycled Instruments -- a group in Paraguay whi…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9zsq6.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0p9zstm",
           "guid": "urn:bbc:podcast:p0p9zstm"
-        },
-        {
-          "title": "EU chief proposes Canada as first 'associate member'",
-          "date": "Wed, 16 Sep 2026 15:27:00 +0000",
-          "description": "The President of the European Commission, Ursula von der Leyen, has backed a proposal for Canada to become the EU's first \"associate member\". Canada's Prime Minister, Mark Carney, has been seeking closer ties with Europe as relations with the United States deteriorate over trade. Also: Rescuers in Gaza are searching for survivors after a war-damaged building collapsed overnight, killing more than twenty people; The former leader of Kosovo, Hashim Thaci, has been sentenced to 25 years in prison…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9xbmk.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p9xbyw",
-          "guid": "urn:bbc:podcast:p0p9xbyw"
-        },
-        {
-          "title": "Should we trust tech titans to control AI?",
-          "date": "Wed, 16 Sep 2026 04:39:00 +0000",
-          "description": "A conference in San Francisco hears from Open AI's boss, Sam Altman, who says the world should trust his industry's ability to do the right thing, amid concerns that it's developing too quickly. But speakers at a rival conference held in Washington, DC, call for greater regulation. Also: the Pentagon issues a report which says the Iran war has left the US military with a shortfall of munitions. All support acts for the British singer, Ed Sheeran, withdraw from his US tour in solidarity with Mac…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9t2rd.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p9t2y6",
-          "guid": "urn:bbc:podcast:p0p9t2y6"
         }
       ]
     },
