@@ -69,7 +69,7 @@
       </section>
 
       <section class="view" id="view-materials">
-        <div class="section-title"><div><h2>真题训练库</h2><p>国内资料和应用内练习优先；官方真题保留原始来源，可能受跨境网络影响。</p></div><div class="material-tabs" id="materialTabs"><button class="btn smallbtn primary" data-material="daily100">每日100期</button><button class="btn smallbtn" data-material="domestic">国内资料</button><button class="btn smallbtn" data-material="official">官方总库</button><button class="btn smallbtn" data-material="listening">听力官方题</button><button class="btn smallbtn" data-material="reading">阅读真题</button><button class="btn smallbtn" data-material="writing">写作真题</button><button class="btn smallbtn" data-material="speaking">口语真题</button><button class="btn smallbtn" data-material="original">原创加练</button><button class="btn smallbtn" data-material="videos">海外视频</button></div></div>
+        <div class="section-title"><div><h2>真题训练库</h2><p>国内资料和应用内练习优先；官方真题保留原始来源，可能受跨境网络影响。</p></div><div class="material-tabs" id="materialTabs"><button class="btn smallbtn primary" data-material="daily100">每日素材 Day10+</button><button class="btn smallbtn" data-material="domestic">国内资料</button><button class="btn smallbtn" data-material="official">官方总库</button><button class="btn smallbtn" data-material="listening">听力官方题</button><button class="btn smallbtn" data-material="reading">阅读真题</button><button class="btn smallbtn" data-material="writing">写作真题</button><button class="btn smallbtn" data-material="speaking">口语真题</button><button class="btn smallbtn" data-material="original">原创加练</button><button class="btn smallbtn" data-material="videos">海外视频</button></div></div>
         <div id="materialContent"></div>
       </section>
 
@@ -121,6 +121,7 @@
   const KEY='ielts-sprint-desk-v1';
   const START='2026-09-17';
   const DAILY_MATERIAL_START='2026-09-20';
+  const DAILY_MATERIAL_FIRST_DAY=10;
   const DEFAULTS={settings:{exam:'2026-11-28',type:'A类机考',targets:{listening:7.5,reading:7,writing:6.5,speaking:6.5},commute:true,weekend:true},completed:{},training:[],mocks:[],errors:[],speaking:[],writing:{type:'Task 2',title:'',text:'',versions:[]}};
   const deepCopy=o=>JSON.parse(JSON.stringify(o));
   function load(){try{const x=JSON.parse(localStorage.getItem(KEY));return merge(deepCopy(DEFAULTS),x||{})}catch(e){return deepCopy(DEFAULTS)}}
@@ -190,10 +191,10 @@
   function listeningAssignmentFor(date){const n=Math.max(0,diffDays(START,date)),item=LISTENING_SEQUENCE[n%LISTENING_SEQUENCE.length],round=Math.floor(n/LISTENING_SEQUENCE.length),mode=LISTENING_MODES[Math.min(round,LISTENING_MODES.length-1)];return {...item,mode,round:round+1}}
   function decorateListeningPlan(date,tasks){if(!tasks.length||date===state.settings.exam)return tasks;const a=listeningAssignmentFor(date),kind=dayKind(date),isFull=a.id==='BC-L-FULL',minutes=isFull?(kind.key==='work'||kind.key==='adjust'?50:90):(kind.key==='work'||kind.key==='adjust'?25:40),listen=task('listening',`官方听力 · ${a.label}`,minutes,`${a.mode.steps} · 第${a.round}轮 ${a.mode.label}`,a.id,a.mode.key),rest=tasks.filter(t=>t.subject!=='listening');const daily=task('listening','CGTN 国内新闻泛听',kind.key==='weekend'||kind.key==='holiday'?20:12,'在“每日听力”页完成：首听抓主旨 → 复听记3个词块 → 60秒复述；网络不佳时用本机精听','','','bbc');return [daily,listen,...rest]}
   function addDays(date,days){const d=parse(date);d.setDate(d.getDate()+days);return iso(d)}
-  function dailyMaterialDate(day){return addDays(DAILY_MATERIAL_START,Math.floor((day-1)/2))}
+  function dailyMaterialDate(day){return addDays(DAILY_MATERIAL_START,Math.floor((day-DAILY_MATERIAL_FIRST_DAY)/2))}
   function dailyMaterialsFor(date){
     if(date<DAILY_MATERIAL_START||date===state.settings.exam)return [];
-    const offset=diffDays(DAILY_MATERIAL_START,date),start=offset*2;
+    const offset=diffDays(DAILY_MATERIAL_START,date),start=DAILY_MATERIAL_FIRST_DAY-1+offset*2;
     if(start<0||start>=100)return [];
     return (window.IELTS_DAILY_MATERIALS||[]).slice().sort((a,b)=>a.day-b.day).slice(start,start+2);
   }
@@ -362,10 +363,10 @@
   function bilingualFolds(x){if(!x?.transcript&&!x?.translationZh)return'';return `<div class="audio-text-folds">${x.transcript?`<details><summary>英文原文${x.transcriptSource?' · '+safe(x.transcriptSource):''}</summary><div class="audio-text">${safe(x.transcript)}</div></details>`:''}${x.translationZh?`<details><summary>中文翻译</summary><div class="audio-text">${safe(x.translationZh)}</div></details>`:''}</div>`}
   function resourceCards(items){const withText=r=>[...AUTHENTIC_PRACTICE.listening,...AUTHENTIC_PRACTICE.speaking].find(x=>x.audio===r.audio)||r;return `<div class="resource-grid">${items.map(r=>`<article class="resource-card"><span class="source">${safe(r.source)} · ${safe(r.free)}</span><h3>${safe(r.title)}</h3><p>${safe(r.note)}</p>${r.video?`<div style="position:relative;padding-top:56.25%;margin:0 0 12px;border-radius:12px;overflow:hidden;background:#111"><iframe src="https://www.youtube-nocookie.com/embed/${safe(r.video)}" title="${safe(r.title)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0"></iframe></div>`:''}${r.audio?`<audio controls preload="none" src="${safe(r.audio)}" style="width:100%;height:36px;margin:0 0 12px"></audio>${bilingualFolds(withText(r))}`:''}<div class="quick" style="margin-top:auto"><a class="btn primary" href="${safe(r.url)}" target="_blank" rel="noopener noreferrer">${/\.pdf(?:$|\?)/i.test(r.url)?'打开题目PDF ↗':'打开资料 ↗'}</a>${r.answerUrl?`<a class="btn" href="${safe(r.answerUrl)}" target="_blank" rel="noopener noreferrer">答案/范例 ↗</a>`:''}</div></article>`).join('')}</div>`}
   function renderDailyMaterialBank(){
-    const items=(window.IELTS_DAILY_MATERIALS||[]).slice().sort((a,b)=>a.day-b.day),today=appToday();
+    const items=(window.IELTS_DAILY_MATERIALS||[]).filter(x=>x.day>=DAILY_MATERIAL_FIRST_DAY).sort((a,b)=>a.day-b.day),today=appToday();
     const done=items.filter(x=>state.completed[taskKey(dailyMaterialDate(x.day),0,{contentId:`notion-day-${x.day}`})]).length;
     const cards=items.map(x=>{const date=dailyMaterialDate(x.day),key=taskKey(date,0,{contentId:`notion-day-${x.day}`}),isDone=!!state.completed[key],isToday=date===today,notion=httpUrl(x.notionUrl),video=httpUrl(x.videoUrl);return `<article class="resource-card daily-card ${isDone?'done':''}"><span class="source">${isToday?'今天必看 · ':''}${safe(cnDate(date))} · ${safe(x.topic)} · ${safe(x.difficulty)}</span><h3>Day${x.day} · ${safe(x.videoTitle||x.topic)}</h3><p>${safe(x.vlogger)}｜中文口述 → 盲听 → 英文对照 → 重点表达 → 跟读复述</p><div class="quick" style="margin-top:auto">${notion?`<a class="btn primary" href="${safe(notion)}" target="_blank" rel="noopener noreferrer">完整材料 ↗</a>`:''}${video?`<a class="btn" href="${safe(video)}" target="_blank" rel="noopener noreferrer">原视频 ↗</a>`:''}</div><button class="btn smallbtn ${isDone?'':'orange'}" style="margin-top:8px" data-complete-daily="${x.day}">${isDone?'✓ 已完成':'标记完成'}</button></article>`}).join('');
-    return `<div class="official-proof"><b>100期口语素材已排进日历：</b>从 9 月 20 日起每天两期，11 月 8 日完成；当前 ${done}/100。每期先做中文口述和盲听，再看英文、学3个表达，最后跟读并做60秒复述。素材版权归原作者，本工具只整理日程和公开入口。</div><div class="resource-grid">${cards}</div>`;
+    return `<div class="official-proof"><b>已从 Day10 开始排进日历：</b>Day1–9 已看过，不再重复安排；从 9 月 20 日起每天两期，11 月 4 日完成 Day100；当前 ${done}/${items.length}。每期先做中文口述和盲听，再看英文、学3个表达，最后跟读并做60秒复述。素材版权归原作者，本工具只整理日程和公开入口。</div><div class="resource-grid">${cards}</div>`;
   }
   function renderAuthentic(subject){
     const xs=AUTHENTIC_PRACTICE[subject],x=xs[authIndex[subject]%xs.length],minutes=x.minutes||{listening:30,reading:60,writing:60,speaking:15}[subject],primary=x.url||x.pdf;

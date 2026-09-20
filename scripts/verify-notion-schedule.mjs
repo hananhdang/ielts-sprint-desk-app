@@ -16,18 +16,21 @@ for (const item of materials) {
 }
 
 const start = new Date('2026-09-20T00:00:00Z');
-const schedule = Array.from({ length: 50 }, (_, offset) => ({
+const planned = Array.from(materials).filter(x => x.day >= 10);
+const schedule = Array.from({ length: Math.ceil(planned.length / 2) }, (_, offset) => ({
   date: new Date(start.getTime() + offset * 86400000).toISOString().slice(0, 10),
-  days: Array.from(materials.slice(offset * 2, offset * 2 + 2), x => x.day),
+  days: planned.slice(offset * 2, offset * 2 + 2).map(x => x.day),
 }));
-assert.deepEqual(schedule[0], { date: '2026-09-20', days: [1, 2] });
-assert.deepEqual(schedule.at(-1), { date: '2026-11-08', days: [99, 100] });
+assert.equal(planned.length, 91);
+assert.deepEqual(schedule[0], { date: '2026-09-20', days: [10, 11] });
+assert.deepEqual(schedule.at(-1), { date: '2026-11-04', days: [100] });
 
 const html = fs.readFileSync('index.html', 'utf8');
 const sw = fs.readFileSync('sw.js', 'utf8');
 assert.match(html, /DAILY_MATERIAL_START='2026-09-20'/);
+assert.match(html, /DAILY_MATERIAL_FIRST_DAY=10/);
 assert.match(html, /data-material="daily100"/);
 assert.match(html, /\.\/notion-speaking-materials\.js/);
 assert.match(sw, /\.\/notion-speaking-materials\.js/);
 
-console.log('Notion schedule verified: Day1-100, two per day, 2026-09-20 to 2026-11-08.');
+console.log('Notion schedule verified: Day10-100, two per day, 2026-09-20 to 2026-11-04.');

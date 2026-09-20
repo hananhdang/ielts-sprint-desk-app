@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ielts-sprint-v16-daily-100-20260920';
+const CACHE_NAME = 'ielts-sprint-v17-daily-from-day10-20260920';
 const APP_SHELL = [
   './',
   './index.html',
