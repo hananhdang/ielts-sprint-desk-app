@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-20T23:15:25Z",
+  "updatedAt": "2026-09-22T00:08:06Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Typhoon hits Japan causing landslides and cancelled flights",
+          "date": "Mon, 21 Sep 2026 15:27:00 +0000",
+          "description": "A powerful typhoon passing Japan's east coast is bringing heavy rainfall and major disruption. More than 1.9 million people in and around Tokyo have been told to evacuate. Winds from Typhoon Dujuan have caused power cuts for thousands of people, and hundreds of flights have been cancelled. Large events - including the Asian Games and Tokyo Game Show - have been postponed or called off. Also in this podcast: Nearly 500 people have been arrested in a major transatlantic operation targeting crimin…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbs1dv.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pbs229",
+          "guid": "urn:bbc:podcast:p0pbs229"
+        },
+        {
+          "title": "Elections pile pressure on German Chancellor",
+          "date": "Mon, 21 Sep 2026 04:46:00 +0000",
+          "description": "Chancellor Friedrich Merz calls a state election result in Germany a \"disaster\" for his ruling CDU party but vows to remain in office. Preliminary results indicate the CDU has suffered heavy losses to the far-right AfD party in Mecklenburg-Western Pomerania, while in Berlin it was defeated by the far-left party Die Linke. Also: US officials say 18 suspects in the assassination of the Haitian president Juvenal Moise five years ago are being extradicted to Florida to face trial. The sister of Pak…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbndgw.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pbndrl",
+          "guid": "urn:bbc:podcast:p0pbndrl"
+        },
+        {
           "title": "The Global Story: Dave Ramsey - Iran, tariffs and affordability",
           "date": "Sun, 20 Sep 2026 19:00:00 +0000",
           "description": "As the midterm elections in America approach, the economy is one of the deciding factors for how people will vote. Before his second term started, President Trump promised to tackle the so-called affordabilty crisis. But since then, the war in Iran has led to soaring gas prices and a range of tariffs have made some goods more expensive. How do global events impact people’s finances and in turn how they vote in elections? The talk show host and financial expert Dave Ramsey joins us to discuss. F…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pb6xyg.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pb6y51",
           "guid": "urn:bbc:podcast:p0pb6y51"
-        },
-        {
-          "title": "UN warns fresh water supplies under threat",
-          "date": "Thu, 17 Sep 2026 15:43:00 +0000",
-          "description": "The UN says climate change is having a serious effect on the global supply of fresh water. Rivers and lakes are drying up while glaciers are retreating according to a new report. Also: South African police have found the body of a ninth murdered woman since July, as concern grows over a string of unexplained deaths near Johannesburg; Canada's prime minister has told the European Parliament he welcomes ambitions for associate EU membership in a speech containing thinly veiled criticism of Donald…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pb3t36.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pb3wbt",
-          "guid": "urn:bbc:podcast:p0pb3wbt"
-        },
-        {
-          "title": "US hikes interest rates - to Trump's annoyance",
-          "date": "Thu, 17 Sep 2026 04:27:00 +0000",
-          "description": "The US central bank has raised interest rates for the first time in more than three years, to try to curb inflation. The Federal Reserve lifted its benchmark rate by a quarter of a percentage point and suggested it could do so again before the end of the year. In a social media post, President Trump demanded \"lower interest rates... and fast.\" Also: Nepal has sharply revised upwards the number of people missing after last month's flash flood to 6,150. Hundreds more are missing across the border…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p9zsq6.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p9zstm",
-          "guid": "urn:bbc:podcast:p0p9zstm"
         }
       ]
     },
