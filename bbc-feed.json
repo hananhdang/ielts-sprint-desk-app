@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-22T00:08:06Z",
+  "updatedAt": "2026-09-22T23:36:18Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "UN accuses Nicaragua of crimes against humanity",
+          "date": "Tue, 22 Sep 2026 14:47:00 +0000",
+          "description": "Nicaraguan authorities are alleged to have carried out enforced disappearances, torture and arbitrary detention of political opponents as part of widespread and systematic attacks on civilians. Also: weather experts warn that the El Niño developing in the Pacific Ocean is already the strongest ever recorded. The Star Wars museum, housing George Lucas' vast art collection, finally opens in Los Angeles. The purchase of a 17th-century painting in the Netherlands reignites debate about the origins…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbx7j0.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pbx93f",
+          "guid": "urn:bbc:podcast:p0pbx93f"
+        },
+        {
+          "title": "US media outlets take legal action after White House ban",
+          "date": "Tue, 22 Sep 2026 04:23:00 +0000",
+          "description": "Several US news organisations have temporarily stopped their pooled coverage of White House events, after Donald Trump revoked access for CNN, Politico and MS NOW. The president accused them of writing \"lies\" about him. Donald Trump has launched his own TV channel in response. Also, the UK's prime minister Andy Burnham has said Britain will provide \"defensive air-to-air refuelling\" support for Saudi Arabia. World leaders are gathering in New York City for the UN General Assembly. Fifa president…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbtmd9.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pbtmfl",
+          "guid": "urn:bbc:podcast:p0pbtmfl"
+        },
+        {
           "title": "Typhoon hits Japan causing landslides and cancelled flights",
           "date": "Mon, 21 Sep 2026 15:27:00 +0000",
           "description": "A powerful typhoon passing Japan's east coast is bringing heavy rainfall and major disruption. More than 1.9 million people in and around Tokyo have been told to evacuate. Winds from Typhoon Dujuan have caused power cuts for thousands of people, and hundreds of flights have been cancelled. Large events - including the Asian Games and Tokyo Game Show - have been postponed or called off. Also in this podcast: Nearly 500 people have been arrested in a major transatlantic operation targeting crimin…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbf4j0.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pbf6ql",
           "guid": "urn:bbc:podcast:p0pbf6ql"
-        },
-        {
-          "title": "Chaos as migrants moved off beaches in Ceuta",
-          "date": "Fri, 18 Sep 2026 15:15:00 +0000",
-          "description": "Police in Spain's North African territory of Ceuta fired rubber bullets into the air to control crowds as hundreds of migrants were moved from beaches to the port where a tent city has sprung up. South Korea's president says he will not be sending troops to help the US in its war in Iran - defying growing pressure from the Trump administration. People in Russia are voting in the first parliamentary election since Russia's full-scale invasion of Ukraine. South Africa's President Cyril Ramaphosa…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbbrnj.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pbbt24",
-          "guid": "urn:bbc:podcast:p0pbbt24"
-        },
-        {
-          "title": "Did the US carry out war crimes in Iran?",
-          "date": "Fri, 18 Sep 2026 04:24:00 +0000",
-          "description": "A UN fact-finding mission on Iran says there are reasonable grounds to believe the United States was behind two military strikes on a school and sports facility in Iran in February, and that these constituted war crimes. A State Department official said the US did not give credibility to the findings in the report. The UN experts also accused Tehran of violent repression of anti-government protesters. Also: Nato secretary general, Mark Rutte, tells the BBC the Russian President, Vladimir Putin,…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pb6xyg.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pb6y51",
-          "guid": "urn:bbc:podcast:p0pb6y51"
         }
       ]
     },
