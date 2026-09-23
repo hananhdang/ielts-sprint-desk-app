@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-22T23:36:18Z",
+  "updatedAt": "2026-09-23T23:42:49Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Gunmen attack South African house party",
+          "date": "Wed, 23 Sep 2026 14:48:00 +0000",
+          "description": "Gunmen kill 11 people after storming a house in KwaMakhutha township near Durban in South Africa. Police are investigating links to a feud between rival groups, as the nation grapples with sky-high murder rates and violence. Also: the IMF warns that record global debt requires urgent fiscal action, urging economies such as the US and UK to reduce borrowing. China's plans for the future of AI. The family feud over Dolly Parton's estate involving the country music star's nephew Bryan Seaver. Astr…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pc273z.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pc29mb",
+          "guid": "urn:bbc:podcast:p0pc29mb"
+        },
+        {
+          "title": "US and Iran hold talks on sidelines of UN General Assembly",
+          "date": "Wed, 23 Sep 2026 04:28:00 +0000",
+          "description": "President Donald Trump says talks held in New York between US and Iranian officials were productive. Earlier in a speech to the UN General Assembly he threatened to annihilate Iran if a deal was not agreed. Also: the US introduces global sanctions that could ground most Iranian aircraft. A Sri Lankan court hands long prison sentences to 15 men in connection with the Easter Sunday bomb attacks in 2019 that killed 270 people. The British broadcaster Piers Morgan calls for a newly-released book by…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbzgmb.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pbzgv1",
+          "guid": "urn:bbc:podcast:p0pbzgv1"
+        },
+        {
           "title": "UN accuses Nicaragua of crimes against humanity",
           "date": "Tue, 22 Sep 2026 14:47:00 +0000",
           "description": "Nicaraguan authorities are alleged to have carried out enforced disappearances, torture and arbitrary detention of political opponents as part of widespread and systematic attacks on civilians. Also: weather experts warn that the El Niño developing in the Pacific Ocean is already the strongest ever recorded. The Star Wars museum, housing George Lucas' vast art collection, finally opens in Los Angeles. The purchase of a 17th-century painting in the Netherlands reignites debate about the origins…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbk79s.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pbk7cj",
           "guid": "urn:bbc:podcast:p0pbk7cj"
-        },
-        {
-          "title": "The Happy Pod: The best friends who turned out to be sisters",
-          "date": "Sat, 19 Sep 2026 11:00:00 +0000",
-          "description": "Meena and Minal were born in India, but adopted by different families and raised near each other in the Netherlands. When they first met in their early teens at an event hosted by the adoption agency their parents had used, they were struck by the uncanny similarities in their appearance and mannerisms. This year, Minal took a DNA test, which revealed the Meena she already knew was her biological sister. Also, we hear from the Cateura Orchestra of Recycled Instruments -- a group in Paraguay whi…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pb38hf.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pb39f6",
-          "guid": "urn:bbc:podcast:p0pb39f6"
-        },
-        {
-          "title": "US and Denmark reach deal over Greenland",
-          "date": "Sat, 19 Sep 2026 03:53:00 +0000",
-          "description": "The US and Denmark announce a deal on Greenland's security, resolving a diplomatic dispute sparked by President Donald Trump's threats to seize the territory by force. In a post on social media, Mr Trump said the deal would mean \"no US adversary can ever have a base in Greenland\". Greenland and Denmark have said the deal strengthens security in the Arctic and is good for the Nato military alliance. Also: President Trump has signed a bill authorising sweeping new sanctions on Russia, designed to…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbf4j0.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pbf6ql",
-          "guid": "urn:bbc:podcast:p0pbf6ql"
         }
       ]
     },
