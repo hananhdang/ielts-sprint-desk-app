@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-23T23:42:49Z",
+  "updatedAt": "2026-09-24T23:52:55Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
       "episodes": [
+        {
+          "title": "Why do we itch?",
+          "date": "Thu, 24 Sep 2026 07:47:00 +0000",
+          "description": "Feeling itchy is unpleasant, and the feeling of finally scratching that itch can be very satisfying! But why do we feel itchy in the first place? And is it possible to catch an itch from someone else? Neil and Georgie discuss this and teach you some new vocabulary. 6 Minute English now has a VIDEO VERSION! 6 Minute English now comes with a video! It's the same programme that you know and love, but now you can see us! Watch this podcast here (and find a free worksheet): https://www.bbc.co.uk/lea…",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260924_6_minute_english_why_do_we_itch_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260924",
+          "guid": "urn:bbc:podcast:p0pc61lm"
+        },
         {
           "title": "Is rejection good for us?",
           "date": "Thu, 17 Sep 2026 08:34:00 +0000",
@@ -61,14 +69,6 @@
           "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260806_6_minute_english_how_do_climate_scientists_make_predictions_download.mp3",
           "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260806",
           "guid": "urn:bbc:podcast:p0p2yh63"
-        },
-        {
-          "title": "The Enhanced Games",
-          "date": "Thu, 30 Jul 2026 14:14:00 +0000",
-          "description": "What would the world of athletics look like if athletes were allowed to take drugs? Pippa and Neil discuss the Enhanced Games. Learn English from authentic BBC programme clips. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260730 Practise your listening with The Listening Room here: https://www.bbc.co.uk/learningenglish/english/features/the_listening_room Subscribe to our newsletters here: https://www.…",
-          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260730_6_minute_english_the_enhanced_games_download.mp3",
-          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260730",
-          "guid": "urn:bbc:podcast:p0p1qc9j"
         }
       ]
     },
@@ -76,6 +76,22 @@
       "label": "Global News Podcast",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
+        {
+          "title": "Rogue OpenAI agent hacks government site",
+          "date": "Thu, 24 Sep 2026 14:41:00 +0000",
+          "description": "Australia launches an urgent review after an AI agent belonging to OpenAI hacked a government healthcare portal. The government has set up a taskforce to examine what happened and whether laws were broken. The Prime Minister Anthony Albanese accused OpenAI of an \"unacceptable delay\" in informing the authorities about the intrusion. In response, OpenAI said \"our models took actions we did not intend\" and that it found no record of patient data being accessed. Also: Three US news outlets are deni…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pc9cc1.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pc9f1y",
+          "guid": "urn:bbc:podcast:p0pc9f1y"
+        },
+        {
+          "title": "China's Xi Jinping meets Trump for high-stakes summit",
+          "date": "Thu, 24 Sep 2026 04:27:00 +0000",
+          "description": "Xi Jinping has arrived in Washington for a three-day state visit and was met by Donald Trump in a rare planeside welcome. As President Xi touched down, the US treasury secretary announced that a bilateral trade truce has been extended. Also, the US-backed group, known as the Board of Peace, has presented a partial plan for reconstruction in Gaza, despite the lack of progress in the peace agreement between Israel and Hamas. An AI agent developed by OpenAI hacked Australia's government health web…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pc5djw.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pc5dm6",
+          "guid": "urn:bbc:podcast:p0pc5dm6"
+        },
         {
           "title": "Gunmen attack South African house party",
           "date": "Wed, 23 Sep 2026 14:48:00 +0000",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbndgw.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pbndrl",
           "guid": "urn:bbc:podcast:p0pbndrl"
-        },
-        {
-          "title": "The Global Story: Dave Ramsey - Iran, tariffs and affordability",
-          "date": "Sun, 20 Sep 2026 19:00:00 +0000",
-          "description": "As the midterm elections in America approach, the economy is one of the deciding factors for how people will vote. Before his second term started, President Trump promised to tackle the so-called affordabilty crisis. But since then, the war in Iran has led to soaring gas prices and a range of tariffs have made some goods more expensive. How do global events impact people’s finances and in turn how they vote in elections? The talk show host and financial expert Dave Ramsey joins us to discuss. F…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pb9chg.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pb9cxc",
-          "guid": "urn:bbc:podcast:p0pb9cxc"
-        },
-        {
-          "title": "Ed Sheeran speaks out on Gaza",
-          "date": "Sun, 20 Sep 2026 03:22:00 +0000",
-          "description": "Ed Sheeran has spoken out at the start of his first show since the rapper Macklemore was dropped from his US tour over pro-Palestinian comments. The British singer said the Hamas attacks on Israel in October 2023 were horrific, but Israel's subsequent response had been disproportionate. He said his heart had been broken by the scale of devastation. Also: for the first time since those Hamas attacks on Israel sparked the war on Gaza, half a million children inside the territory are returning to…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbk79s.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pbk7cj",
-          "guid": "urn:bbc:podcast:p0pbk7cj"
         }
       ]
     },
