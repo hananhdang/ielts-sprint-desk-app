@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-24T23:52:55Z",
+  "updatedAt": "2026-09-25T23:57:14Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Rapid new test transforms brain tumour diagnosis",
+          "date": "Fri, 25 Sep 2026 15:51:00 +0000",
+          "description": "A rapid new test for brain tumours can slash the time it takes for an accurate diagnosis from up to eight weeks to two hours. It means surgeons can get results even while they are operating, and patients are spared weeks of uncertainty whilst being able to start their treatment sooner. Also: Ukrainian President, Volodymyr Zelensky says that President Trump has made a “final decision” to give Ukraine licences to produce patriot missiles. Indonesia pardons a former Filipino maid, who was sentence…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcjb64.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pcjcv9",
+          "guid": "urn:bbc:podcast:p0pcjcv9"
+        },
+        {
+          "title": "Trump hosts President Xi at state banquet",
+          "date": "Fri, 25 Sep 2026 04:25:00 +0000",
+          "description": "Tech billionaires join Donald Trump and Xi Jinping for dinner at the White House at the end of the first full day of the Chinese President's visit to the US. Mr Xi said that in their discussions earlier, he and his host had reached \"common understanding on many issues\" but didn't elaborate. No concrete breakthroughs have been reported on contentious matters such as Iran and AI. Also: Israeli Prime Minister Benjamin Netanyahu fiercely defends military action in the Middle East to a half empty UN…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcf0g3.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pcf0l3",
+          "guid": "urn:bbc:podcast:p0pcf0l3"
+        },
+        {
           "title": "Rogue OpenAI agent hacks government site",
           "date": "Thu, 24 Sep 2026 14:41:00 +0000",
           "description": "Australia launches an urgent review after an AI agent belonging to OpenAI hacked a government healthcare portal. The government has set up a taskforce to examine what happened and whether laws were broken. The Prime Minister Anthony Albanese accused OpenAI of an \"unacceptable delay\" in informing the authorities about the intrusion. In response, OpenAI said \"our models took actions we did not intend\" and that it found no record of patient data being accessed. Also: Three US news outlets are deni…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbtmd9.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pbtmfl",
           "guid": "urn:bbc:podcast:p0pbtmfl"
-        },
-        {
-          "title": "Typhoon hits Japan causing landslides and cancelled flights",
-          "date": "Mon, 21 Sep 2026 15:27:00 +0000",
-          "description": "A powerful typhoon passing Japan's east coast is bringing heavy rainfall and major disruption. More than 1.9 million people in and around Tokyo have been told to evacuate. Winds from Typhoon Dujuan have caused power cuts for thousands of people, and hundreds of flights have been cancelled. Large events - including the Asian Games and Tokyo Game Show - have been postponed or called off. Also in this podcast: Nearly 500 people have been arrested in a major transatlantic operation targeting crimin…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbs1dv.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pbs229",
-          "guid": "urn:bbc:podcast:p0pbs229"
-        },
-        {
-          "title": "Elections pile pressure on German Chancellor",
-          "date": "Mon, 21 Sep 2026 04:46:00 +0000",
-          "description": "Chancellor Friedrich Merz calls a state election result in Germany a \"disaster\" for his ruling CDU party but vows to remain in office. Preliminary results indicate the CDU has suffered heavy losses to the far-right AfD party in Mecklenburg-Western Pomerania, while in Berlin it was defeated by the far-left party Die Linke. Also: US officials say 18 suspects in the assassination of the Haitian president Juvenal Moise five years ago are being extradicted to Florida to face trial. The sister of Pak…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbndgw.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pbndrl",
-          "guid": "urn:bbc:podcast:p0pbndrl"
         }
       ]
     },
@@ -146,6 +146,14 @@
       "label": "Learning English Drama",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9s1.rss",
       "episodes": [
+        {
+          "title": "Classic Stories: Robin Hood",
+          "date": "Fri, 25 Sep 2026 12:03:00 +0000",
+          "description": "Enjoy a classic story in English and learn 9 uses of ‘stand’ - in 5 minutes. FIND BBC LEARNING ENGLISH HERE: Visit our website ✔️ https://www.bbc.co.uk/learningenglish Follow us ✔️ https://www.bbc.co.uk/learningenglish/followus LIKE PODCASTS? Try some of our other popular podcasts including: ✔️ 6 Minute English ✔️ Learning English from the News ✔️ Learning English Conversations They're all available by searching in your podcast app.",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcgxq0.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pcgyjt",
+          "guid": "urn:bbc:podcast:p0pcgyjt"
+        },
         {
           "title": "Classic Stories: Pride and Prejudice",
           "date": "Fri, 18 Sep 2026 07:14:00 +0000",
@@ -201,14 +209,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ny3fb1.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0ny3gsg",
           "guid": "urn:bbc:podcast:p0ny3gsg"
-        },
-        {
-          "title": "Classic Stories: David Copperfield",
-          "date": "Fri, 17 Jul 2026 07:00:00 +0000",
-          "description": "Enjoy a classic story in English and learn 13 uses of ‘take’ - in 5 minutes. Visit our website https://www.bbc.co.uk/learningenglish Get our latest programmes. Subscribe to our free email newsletter https://www.bbc.co.uk/learningenglish/newsletters",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ny3bkw.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0ny3dz2",
-          "guid": "urn:bbc:podcast:p0ny3dz2"
         }
       ]
     }
