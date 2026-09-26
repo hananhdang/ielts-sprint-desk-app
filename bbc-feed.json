@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-25T23:57:14Z",
+  "updatedAt": "2026-09-26T23:38:09Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Happy Pod: The 'privilege' of helping brain tumour patients",
+          "date": "Sat, 26 Sep 2026 11:00:00 +0000",
+          "description": "A rapid new test for brain tumours is taking diagnosis time from weeks to hours. It means patients are spared weeks of uncertainty and can start treatment sooner. The Happy Pod speaks to the doctors behind this breakthrough, who say it's a \"privilege\" to be developing something that can help people. Also, a baby has been born on one of the most remote and northernly Scottish islands for the first time since 1992. An entrepreneur in Ghana has worked out a way to turn plastic packaging waste into…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pck7sx.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pck825",
+          "guid": "urn:bbc:podcast:p0pck825"
+        },
+        {
+          "title": "Manchester City could face historic punishment",
+          "date": "Sat, 26 Sep 2026 03:44:00 +0000",
+          "description": "One of the world's richest football clubs, Manchester City, is found guilty of breaching dozens of financial rules and could face compensation claims from rivals. Also; Iran extends a new offer to the US to reopen the Strait of Hormuz within a week; Pope Leo warns against the dangers of AI on a state visit to France; The head of the BBC, Matt Brittin, says AI could be used to create and present programmes in the future; South Africa's new ambassador to the US rejects President Trump's claims of…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcl81p.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pcl84l",
+          "guid": "urn:bbc:podcast:p0pcl84l"
+        },
+        {
           "title": "Rapid new test transforms brain tumour diagnosis",
           "date": "Fri, 25 Sep 2026 15:51:00 +0000",
           "description": "A rapid new test for brain tumours can slash the time it takes for an accurate diagnosis from up to eight weeks to two hours. It means surgeons can get results even while they are operating, and patients are spared weeks of uncertainty whilst being able to start their treatment sooner. Also: Ukrainian President, Volodymyr Zelensky says that President Trump has made a “final decision” to give Ukraine licences to produce patriot missiles. Indonesia pardons a former Filipino maid, who was sentence…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbzgmb.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pbzgv1",
           "guid": "urn:bbc:podcast:p0pbzgv1"
-        },
-        {
-          "title": "UN accuses Nicaragua of crimes against humanity",
-          "date": "Tue, 22 Sep 2026 14:47:00 +0000",
-          "description": "Nicaraguan authorities are alleged to have carried out enforced disappearances, torture and arbitrary detention of political opponents as part of widespread and systematic attacks on civilians. Also: weather experts warn that the El Niño developing in the Pacific Ocean is already the strongest ever recorded. The Star Wars museum, housing George Lucas' vast art collection, finally opens in Los Angeles. The purchase of a 17th-century painting in the Netherlands reignites debate about the origins…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbx7j0.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pbx93f",
-          "guid": "urn:bbc:podcast:p0pbx93f"
-        },
-        {
-          "title": "US media outlets take legal action after White House ban",
-          "date": "Tue, 22 Sep 2026 04:23:00 +0000",
-          "description": "Several US news organisations have temporarily stopped their pooled coverage of White House events, after Donald Trump revoked access for CNN, Politico and MS NOW. The president accused them of writing \"lies\" about him. Donald Trump has launched his own TV channel in response. Also, the UK's prime minister Andy Burnham has said Britain will provide \"defensive air-to-air refuelling\" support for Saudi Arabia. World leaders are gathering in New York City for the UN General Assembly. Fifa president…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbtmd9.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pbtmfl",
-          "guid": "urn:bbc:podcast:p0pbtmfl"
         }
       ]
     },
