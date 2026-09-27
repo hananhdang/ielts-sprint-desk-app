@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-26T23:38:09Z",
+  "updatedAt": "2026-09-27T23:48:34Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Global Story: Why the world wants American surrogates",
+          "date": "Sun, 27 Sep 2026 19:00:00 +0000",
+          "description": "The United States is one of the few wealthy countries where commercial surrogacy remains legal. Bans elsewhere in the world, combined with a largely free-market approach at home, have made the US an international destination for would-be parents from around the globe – fuelling the industry’s rapid expansion. But could it all come to an end? Today on The Global Story, we speak to fertility technology reporter Emi Nietfeld about how the US became a global hub for surrogacy – and why a series of…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcgck2.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pcgd22",
+          "guid": "urn:bbc:podcast:p0pcgd22"
+        },
+        {
+          "title": "OpenAI warns of dozens more potential bot hacks",
+          "date": "Sun, 27 Sep 2026 03:58:00 +0000",
+          "description": "OpenAI says it has alerted dozens of global institutions, including governments, that their websites may have been accessed improperly by rogue AI agents. The US company says the bots sometimes tried to get information using \"extreme means\". Also: President Trump rejects Iran's proposal to reopen the Strait of Hormuz within a week; fighting erupts in Ethiopia's Tigray region stoking fears of a return to civil war; a court battle ends with a contentious Protestant march set to take place in Nort…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcpf8s.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pcpghn",
+          "guid": "urn:bbc:podcast:p0pcpghn"
+        },
+        {
           "title": "The Happy Pod: The 'privilege' of helping brain tumour patients",
           "date": "Sat, 26 Sep 2026 11:00:00 +0000",
           "description": "A rapid new test for brain tumours is taking diagnosis time from weeks to hours. It means patients are spared weeks of uncertainty and can start treatment sooner. The Happy Pod speaks to the doctors behind this breakthrough, who say it's a \"privilege\" to be developing something that can help people. Also, a baby has been born on one of the most remote and northernly Scottish islands for the first time since 1992. An entrepreneur in Ghana has worked out a way to turn plastic packaging waste into…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pc5djw.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pc5dm6",
           "guid": "urn:bbc:podcast:p0pc5dm6"
-        },
-        {
-          "title": "Gunmen attack South African house party",
-          "date": "Wed, 23 Sep 2026 14:48:00 +0000",
-          "description": "Gunmen kill 11 people after storming a house in KwaMakhutha township near Durban in South Africa. Police are investigating links to a feud between rival groups, as the nation grapples with sky-high murder rates and violence. Also: the IMF warns that record global debt requires urgent fiscal action, urging economies such as the US and UK to reduce borrowing. China's plans for the future of AI. The family feud over Dolly Parton's estate involving the country music star's nephew Bryan Seaver. Astr…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pc273z.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pc29mb",
-          "guid": "urn:bbc:podcast:p0pc29mb"
-        },
-        {
-          "title": "US and Iran hold talks on sidelines of UN General Assembly",
-          "date": "Wed, 23 Sep 2026 04:28:00 +0000",
-          "description": "President Donald Trump says talks held in New York between US and Iranian officials were productive. Earlier in a speech to the UN General Assembly he threatened to annihilate Iran if a deal was not agreed. Also: the US introduces global sanctions that could ground most Iranian aircraft. A Sri Lankan court hands long prison sentences to 15 men in connection with the Easter Sunday bomb attacks in 2019 that killed 270 people. The British broadcaster Piers Morgan calls for a newly-released book by…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pbzgmb.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pbzgv1",
-          "guid": "urn:bbc:podcast:p0pbzgv1"
         }
       ]
     },
