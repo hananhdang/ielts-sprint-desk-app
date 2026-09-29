@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-27T23:48:34Z",
+  "updatedAt": "2026-09-29T01:00:04Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Israel PM made secret visit to UAE, reports say",
+          "date": "Mon, 28 Sep 2026 15:10:00 +0000",
+          "description": "The Israeli prime minister Benjamin Netanyahu may have asked the UAE leader to deny reports by Haaretz newspaper that he had been warned about an imminent Hamas attack just days before October 7th. With elections now just a month away, Mr Netanyahu's rivals have seized on the report as just the latest example of warnings that he ignored. Also: we hear how unproven rape claims led to violent demonstrations erupting at an Indian university this weekend; we have the latest on protests in Spain spa…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcwvbw.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pcwvm0",
+          "guid": "urn:bbc:podcast:p0pcwvm0"
+        },
+        {
+          "title": "Five arrested over suspected plot to attack UK military base",
+          "date": "Mon, 28 Sep 2026 04:36:00 +0000",
+          "description": "Five men have been arrested over a suspected plot to attack a UK air base also used by the US military. Donald Trump said the men had planned to cause significant damage. Since March, the US has been launching attacks against Iran from the base in southern England. Police say they received a call during the night about three suspicious vehicles driving towards the area. Counter terrorism police are reportedly investigating whether Iran is linked to the incident. Also: We take you to the front l…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcspdh.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pcspqh",
+          "guid": "urn:bbc:podcast:p0pcspqh"
+        },
+        {
           "title": "The Global Story: Why the world wants American surrogates",
           "date": "Sun, 27 Sep 2026 19:00:00 +0000",
           "description": "The United States is one of the few wealthy countries where commercial surrogacy remains legal. Bans elsewhere in the world, combined with a largely free-market approach at home, have made the US an international destination for would-be parents from around the globe – fuelling the industry’s rapid expansion. But could it all come to an end? Today on The Global Story, we speak to fertility technology reporter Emi Nietfeld about how the US became a global hub for surrogacy – and why a series of…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcf0g3.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pcf0l3",
           "guid": "urn:bbc:podcast:p0pcf0l3"
-        },
-        {
-          "title": "Rogue OpenAI agent hacks government site",
-          "date": "Thu, 24 Sep 2026 14:41:00 +0000",
-          "description": "Australia launches an urgent review after an AI agent belonging to OpenAI hacked a government healthcare portal. The government has set up a taskforce to examine what happened and whether laws were broken. The Prime Minister Anthony Albanese accused OpenAI of an \"unacceptable delay\" in informing the authorities about the intrusion. In response, OpenAI said \"our models took actions we did not intend\" and that it found no record of patient data being accessed. Also: Three US news outlets are deni…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pc9cc1.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pc9f1y",
-          "guid": "urn:bbc:podcast:p0pc9f1y"
-        },
-        {
-          "title": "China's Xi Jinping meets Trump for high-stakes summit",
-          "date": "Thu, 24 Sep 2026 04:27:00 +0000",
-          "description": "Xi Jinping has arrived in Washington for a three-day state visit and was met by Donald Trump in a rare planeside welcome. As President Xi touched down, the US treasury secretary announced that a bilateral trade truce has been extended. Also, the US-backed group, known as the Board of Peace, has presented a partial plan for reconstruction in Gaza, despite the lack of progress in the peace agreement between Israel and Hamas. An AI agent developed by OpenAI hacked Australia's government health web…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pc5djw.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pc5dm6",
-          "guid": "urn:bbc:podcast:p0pc5dm6"
         }
       ]
     },
