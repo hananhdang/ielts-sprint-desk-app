@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-29T01:00:04Z",
+  "updatedAt": "2026-09-30T00:28:02Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Israeli settlers attack West Bank village",
+          "date": "Tue, 29 Sep 2026 15:34:00 +0000",
+          "description": "More than 100 Israeli settlers have attacked a Palestinian village in the occupied West Bank, preventing the return of a family who'd been forced to flee their home. The Israeli army said settlers, defying a High Court order which allowed the return of the Palestinians, had hurled rocks, blocked roads and set fire to houses and vehicles in Jalud. Also: Spain's government has agreed plans to ban evictions until 2030, as it attempts to deal with a housing crisis. The proposal follows nationwide p…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pd1s13.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pd1tdm",
+          "guid": "urn:bbc:podcast:p0pd1tdm"
+        },
+        {
+          "title": "Too much screen time 'can damage children as badly as poverty'",
+          "date": "Tue, 29 Sep 2026 04:43:00 +0000",
+          "description": "Researchers at the University of Calgary say spending too much time on social media, gaming or streaming can affect young people's wellbeing in similar ways to being poor, born prematurely or having bad parenting. The study also links excessive screen time to obesity, diabetes and heart problems. Critics say the findings are \"not insignificant\" but insist that screen time is not the only reason teenagers become emotionally distressed or fail to reach their academic goals. Also: Russian drone st…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcysk2.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pcysqf",
+          "guid": "urn:bbc:podcast:p0pcysqf"
+        },
+        {
           "title": "Israel PM made secret visit to UAE, reports say",
           "date": "Mon, 28 Sep 2026 15:10:00 +0000",
           "description": "The Israeli prime minister Benjamin Netanyahu may have asked the UAE leader to deny reports by Haaretz newspaper that he had been warned about an imminent Hamas attack just days before October 7th. With elections now just a month away, Mr Netanyahu's rivals have seized on the report as just the latest example of warnings that he ignored. Also: we hear how unproven rape claims led to violent demonstrations erupting at an Indian university this weekend; we have the latest on protests in Spain spa…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcl81p.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pcl84l",
           "guid": "urn:bbc:podcast:p0pcl84l"
-        },
-        {
-          "title": "Rapid new test transforms brain tumour diagnosis",
-          "date": "Fri, 25 Sep 2026 15:51:00 +0000",
-          "description": "A rapid new test for brain tumours can slash the time it takes for an accurate diagnosis from up to eight weeks to two hours. It means surgeons can get results even while they are operating, and patients are spared weeks of uncertainty whilst being able to start their treatment sooner. Also: Ukrainian President, Volodymyr Zelensky says that President Trump has made a “final decision” to give Ukraine licences to produce patriot missiles. Indonesia pardons a former Filipino maid, who was sentence…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcjb64.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pcjcv9",
-          "guid": "urn:bbc:podcast:p0pcjcv9"
-        },
-        {
-          "title": "Trump hosts President Xi at state banquet",
-          "date": "Fri, 25 Sep 2026 04:25:00 +0000",
-          "description": "Tech billionaires join Donald Trump and Xi Jinping for dinner at the White House at the end of the first full day of the Chinese President's visit to the US. Mr Xi said that in their discussions earlier, he and his host had reached \"common understanding on many issues\" but didn't elaborate. No concrete breakthroughs have been reported on contentious matters such as Iran and AI. Also: Israeli Prime Minister Benjamin Netanyahu fiercely defends military action in the Middle East to a half empty UN…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcf0g3.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pcf0l3",
-          "guid": "urn:bbc:podcast:p0pcf0l3"
         }
       ]
     },
