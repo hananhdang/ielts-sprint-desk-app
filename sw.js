@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ielts-sprint-v19-vocabulary-20261001';
+const CACHE_NAME = 'ielts-sprint-v20-word-audio-20261002';
 const APP_SHELL = [
   './',
   './index.html',
