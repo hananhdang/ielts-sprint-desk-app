@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-30T00:28:02Z",
+  "updatedAt": "2026-10-01T00:33:30Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Israel-bound flight diverted after fight between pilots",
+          "date": "Wed, 30 Sep 2026 14:57:00 +0000",
+          "description": "An Israel-bound flight with about 170 people on board has landed safely in Saudi Arabia after a fight broke out between pilots, triggering a hijacking alert. Two Israeli officials said the co-pilot is believed to have stabbed the captain and tried to crash the plane. Officials from Tabuk airport, where the Flydubai flight landed, say they are being treated in hospital. Also; Russia has carried out another massive overnight attack on Ukraine's Kyiv region, hitting energy infrastructure and resid…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pd6n9q.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pd6wf5",
+          "guid": "urn:bbc:podcast:p0pd6wf5"
+        },
+        {
+          "title": "AI bosses sign self-regulation accord",
+          "date": "Wed, 30 Sep 2026 04:53:00 +0000",
+          "description": "After talks with AI industry executives at the White House, President Trump says they've signed a deal to police themselves which is \"morally binding\". Meanwhile, he has ruled out a joint venture with China on Artificial Intelligence, saying it would amount to \"giving away secrets\" to Ameria's main economic rival. Also: South Africa's president Cyril Ramaphosa addresses the nation amid growing alarm about violence against women. The English Premier League confirms Manchester City have been foun…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pd3pfq.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pd3pkd",
+          "guid": "urn:bbc:podcast:p0pd3pkd"
+        },
+        {
           "title": "Israeli settlers attack West Bank village",
           "date": "Tue, 29 Sep 2026 15:34:00 +0000",
           "description": "More than 100 Israeli settlers have attacked a Palestinian village in the occupied West Bank, preventing the return of a family who'd been forced to flee their home. The Israeli army said settlers, defying a High Court order which allowed the return of the Palestinians, had hurled rocks, blocked roads and set fire to houses and vehicles in Jalud. Also: Spain's government has agreed plans to ban evictions until 2030, as it attempts to deal with a housing crisis. The proposal follows nationwide p…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcpf8s.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pcpghn",
           "guid": "urn:bbc:podcast:p0pcpghn"
-        },
-        {
-          "title": "The Happy Pod: The 'privilege' of helping brain tumour patients",
-          "date": "Sat, 26 Sep 2026 11:00:00 +0000",
-          "description": "A rapid new test for brain tumours is taking diagnosis time from weeks to hours. It means patients are spared weeks of uncertainty and can start treatment sooner. The Happy Pod speaks to the doctors behind this breakthrough, who say it's a \"privilege\" to be developing something that can help people. Also, a baby has been born on one of the most remote and northernly Scottish islands for the first time since 1992. An entrepreneur in Ghana has worked out a way to turn plastic packaging waste into…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pck7sx.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pck825",
-          "guid": "urn:bbc:podcast:p0pck825"
-        },
-        {
-          "title": "Manchester City could face historic punishment",
-          "date": "Sat, 26 Sep 2026 03:44:00 +0000",
-          "description": "One of the world's richest football clubs, Manchester City, is found guilty of breaching dozens of financial rules and could face compensation claims from rivals. Also; Iran extends a new offer to the US to reopen the Strait of Hormuz within a week; Pope Leo warns against the dangers of AI on a state visit to France; The head of the BBC, Matt Brittin, says AI could be used to create and present programmes in the future; South Africa's new ambassador to the US rejects President Trump's claims of…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcl81p.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pcl84l",
-          "guid": "urn:bbc:podcast:p0pcl84l"
         }
       ]
     },
