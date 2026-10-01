@@ -136,10 +136,10 @@
     const exportButton=$('#exportData'),importInput=$('#importData');
     if(exportButton)exportButton.onclick=()=>{
       let app={};try{app=JSON.parse(localStorage.getItem('ielts-sprint-desk-v1')||'{}')}catch(_){}
-      const payload={schema:'ielts-sprint-smart-backup-v2',exportedAt:new Date().toISOString(),app,smart:state};
-      const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`ielts-smart-backup-${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('完整备份已导出（不含 API Key）');
+      const payload={schema:'ielts-sprint-smart-backup-v2',exportedAt:new Date().toISOString(),app,smart:state,sprint:window.IELTSSprint?.export()||null,words:window.IELTSWords?.export()||null};
+      const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`ielts-smart-backup-${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('备份已导出（含真题/生词/口语；不含音频和 API Key）');
     };
-    if(importInput)importInput.onchange=async event=>{const file=event.target.files?.[0];if(!file)return;try{const data=JSON.parse(await file.text()),app=data.schema==='ielts-sprint-smart-backup-v2'?data.app:data;if(!app?.settings||!Array.isArray(app.training))throw Error('invalid');localStorage.setItem('ielts-sprint-desk-v1',JSON.stringify(app));if(data.smart)localStorage.setItem(STORE_KEY,JSON.stringify(data.smart));toast('备份已导入，即将刷新');setTimeout(()=>location.reload(),500);}catch(_){toast('备份文件格式不正确');}event.target.value='';};
+    if(importInput)importInput.onchange=async event=>{const file=event.target.files?.[0];if(!file)return;try{const data=JSON.parse(await file.text()),app=data.schema==='ielts-sprint-smart-backup-v2'?data.app:data;if(!app?.settings||!Array.isArray(app.training))throw Error('invalid');localStorage.setItem('ielts-sprint-desk-v1',JSON.stringify(app));if(data.words){if(data.words.version!==1||!data.words.cards||!Array.isArray(data.words.custom)||!Array.isArray(data.words.imported))throw Error('invalid words');localStorage.setItem('ielts-word-adventure-v1',JSON.stringify(data.words));}if(data.smart)localStorage.setItem(STORE_KEY,JSON.stringify(data.smart));if(data.sprint){if(data.sprint.version!==1||!Array.isArray(data.sprint.attempts)||!Array.isArray(data.sprint.vocab)||!data.sprint.papers)throw Error('invalid sprint');localStorage.setItem('ielts-cambridge-sprint-v1',JSON.stringify(data.sprint));}toast('备份已导入，即将刷新');setTimeout(()=>location.reload(),500);}catch(_){toast('备份文件格式不正确');}event.target.value='';};
   }
 
   const WRITING_SCHEMA = {

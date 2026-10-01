@@ -1,7 +1,13 @@
-const CACHE_NAME = 'ielts-sprint-v17-daily-from-day10-20260920';
+const CACHE_NAME = 'ielts-sprint-v19-vocabulary-20261001';
 const APP_SHELL = [
   './',
   './index.html',
+  './sprint-data.js',
+  './sprint.js',
+  './sprint.css',
+  './word-articles.js',
+  './words.js',
+  './word-module.css',
   './manifest.webmanifest',
   './smart-ai.js',
   './notion-speaking-materials.js',
