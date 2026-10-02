@@ -1,12 +1,12 @@
-const CACHE_NAME = 'ielts-sprint-v20-word-audio-20261002';
+const CACHE_NAME = 'ielts-sprint-v21-shared-audio-20261002';
 const APP_SHELL = [
   './',
   './index.html',
   './sprint-data.js',
-  './sprint.js',
+  './sprint.js?v=20261002-audio-3',
   './sprint.css',
   './word-articles.js',
-  './words.js',
+  './words.js?v=20261002-audio-3',
   './word-module.css',
   './manifest.webmanifest',
   './smart-ai.js',
