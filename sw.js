@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ielts-sprint-v21-shared-audio-20261002';
+const CACHE_NAME = 'ielts-sprint-v22-voice-lab-20261002';
 const APP_SHELL = [
   './',
   './index.html',
@@ -6,12 +6,12 @@ const APP_SHELL = [
   './sprint.js?v=20261002-audio-3',
   './sprint.css',
   './word-articles.js',
-  './words.js?v=20261002-audio-3',
+  './words.js?v=20261002-voice-4',
   './word-module.css',
   './manifest.webmanifest',
   './smart-ai.js',
   './notion-speaking-materials.js',
-  './smart-features.js',
+  './smart-features.js?v=20261002-voice-4',
   './smart-features.css',
   './bbc-feed.json',
   './cgtn-feed.json',
