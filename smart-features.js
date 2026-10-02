@@ -290,7 +290,7 @@
     cgtn:{label:'CGTN 国内新闻',page:'https://radio.cgtn.com',note:'国内 CDN · 2–10 分钟短新闻 · 无需 VPN',domestic:true},
     six:{label:'BBC 海外备用',page:'https://www.bbc.co.uk/learningenglish',rss:'https://podcasts.files.bbci.co.uk/p02pc9tn.rss',note:'海外备用 · 国内网络可能较慢 · 点击后才连接',domestic:false}
   };
-  const DAILY_TABS=[['cgtn','CGTN 国内新闻'],['local','本机精听 · 免联网']];
+  const DAILY_TABS=[['six','BBC 6 Minute English'],['cgtn','CGTN 国内新闻'],['local','本机精听 · 免联网']];
   const FALLBACK_EPISODES=[{title:'How reading shapes your brain',date:'2026-05-14',description:'6 Minute English：阅读如何改变大脑。',audio:'https://downloads.bbc.co.uk/learningenglish/features/6min/260514_6_minute_english_how_reading_shapes_your_brain_download.mp3',link:'https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260514'}];
   const bundledFeedPromises={};
   async function bundledEpisodes(key){
@@ -302,11 +302,11 @@
   function installBBC() {
     if ($('#view-bbc')) return;
     const section=document.createElement('section');section.className='view';section.id='view-bbc';
-    section.innerHTML=`<div class="section-title"><div><h2>每日英语听力</h2><p>CGTN 国内音频优先；网络不佳时切到本机精听。</p></div><span class="badge" id="bbcRecommendation"></span></div><article class="card bbc-hero"><h3>每天只做一个 12–25 分钟闭环</h3><div class="listen-routine"><div><b>① 泛听</b><span>不暂停，写一句主旨</span></div><div><b>② 精听</b><span>重听一段，记3个词块</span></div><div><b>③ 输出</b><span>关掉音频，60秒英语复述</span></div></div><div class="smart-actions"><a class="btn smallbtn" href="https://radio.cgtn.com" target="_blank" rel="noopener noreferrer">CGTN Radio 国内站 ↗</a><a class="btn smallbtn" href="https://language.chinadaily.com.cn/news_bilingual" target="_blank" rel="noopener noreferrer">中国日报双语新闻 ↗</a></div></article><div class="feed-tabs" id="bbcFeedTabs">${DAILY_TABS.map(([k,label])=>`<button class="btn smallbtn" data-daily-feed="${k}">${esc(label)}</button>`).join('')}</div><div class="card"><p class="small muted" id="bbcFeedNote"></p><div class="episode-grid" id="bbcEpisodes"><div class="empty">正在读取国内听力…</div></div></div>`;
+    section.innerHTML=`<div class="section-title"><div><h2>每日英语听力</h2><p>BBC 每日选一集，结合原文、翻译和口语复述。网络不佳时可切换国内听力。</p></div><span class="badge" id="bbcRecommendation"></span></div><article class="card bbc-hero"><h3>每天只做一个 12–25 分钟闭环</h3><div class="listen-routine"><div><b>① 泛听</b><span>不暂停，写一句主旨</span></div><div><b>② 精听</b><span>重听一段，记3个词块</span></div><div><b>③ 输出</b><span>关掉音频，60秒英语复述</span></div></div><div class="smart-actions"><a class="btn smallbtn" href="https://radio.cgtn.com" target="_blank" rel="noopener noreferrer">CGTN Radio 国内站 ↗</a><a class="btn smallbtn" href="https://language.chinadaily.com.cn/news_bilingual" target="_blank" rel="noopener noreferrer">中国日报双语新闻 ↗</a></div></article><div class="feed-tabs" id="bbcFeedTabs">${DAILY_TABS.map(([k,label])=>`<button class="btn smallbtn" data-daily-feed="${k}">${esc(label)}</button>`).join('')}</div><div class="card"><p class="small muted" id="bbcFeedNote"></p><div class="episode-grid" id="bbcEpisodes"><div class="empty">正在读取国内听力…</div></div></div>`;
     $('#view-training')?.before(section);
-    $('#bbcRecommendation').textContent='今日推荐：CGTN 国内 CDN · 无需 VPN';
+    $('#bbcRecommendation').textContent='BBC 每日选一集 · 每周更新的新节目';
     $$('[data-daily-feed]').forEach(b=>b.onclick=()=>loadDailyFeed(b.dataset.dailyFeed));
-    loadDailyFeed('cgtn');
+    loadDailyFeed('six');
   }
   function activateDailyTab(key){$$('[data-daily-feed]').forEach(b=>b.classList.toggle('primary',b.dataset.dailyFeed===key));}
   function openLocalPractice(index){
