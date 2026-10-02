@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-01T00:33:30Z",
+  "updatedAt": "2026-10-02T00:48:13Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
       "episodes": [
+        {
+          "title": "Why does heartbreak hurt so much?",
+          "date": "Thu, 01 Oct 2026 09:47:00 +0000",
+          "description": "Anyone who has had their heart broken will know how horrible it feels. But did you know that the pain you feel is not just imaginary – it registers in the same part of the brain that processes physical pain. So, why do we feel this pain? And if it feels so bad, what is the point of being in love in the first place? Neil and Georgie discuss this and teach you some new vocabulary. 6 Minute English now has a VIDEO VERSION! 6 Minute English now comes with a video! It's the same programme that you k…",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261001_6_minute_english_why_does_heartbreak_hurt_so_much_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261001",
+          "guid": "urn:bbc:podcast:p0pdc9cq"
+        },
         {
           "title": "Why do we itch?",
           "date": "Thu, 24 Sep 2026 07:47:00 +0000",
@@ -61,14 +69,6 @@
           "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260813_6_minute_english_who_does_the_housework_download.mp3",
           "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260813",
           "guid": "urn:bbc:podcast:p0p478fw"
-        },
-        {
-          "title": "How do climate scientists make predictions?",
-          "date": "Thu, 06 Aug 2026 09:11:00 +0000",
-          "description": "Across the world, climate change is already beginning to change the way we live our lives. But how big will that change be and what kinds of change will occur? These are the kinds of questions that scientists have been asking for decades. So, how exactly do they try to find answers to such complex questions about the future? Understanding where we are heading might help humanity prepare for the consequences of climate change. Phil and Pippa discuss this and teach you some new vocabulary. Learn…",
-          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260806_6_minute_english_how_do_climate_scientists_make_predictions_download.mp3",
-          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260806",
-          "guid": "urn:bbc:podcast:p0p2yh63"
         }
       ]
     },
@@ -76,6 +76,22 @@
       "label": "Global News Podcast",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
+        {
+          "title": "US death row inmate survives execution attempt",
+          "date": "Thu, 01 Oct 2026 15:25:00 +0000",
+          "description": "The US state of Tennessee fails to execute a woman on death row, who survived two lethal injection attempts. Christa Pike, who was convicted of murder thirty years ago, has been taken to hospital. The governor of Tennessee has ordered a temporary halt to executions. Also: A sell-off in global bond markets intensifies; government forces in Ethiopia appear to have captured the strategic town of Alamata, in the Northern Tigray Region; Cubans living in Florida create a new organisation to plan for…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdgqz9.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pdgrtm",
+          "guid": "urn:bbc:podcast:p0pdgrtm"
+        },
+        {
+          "title": "FlyDubai passengers recount terrifying ordeal",
+          "date": "Thu, 01 Oct 2026 04:35:00 +0000",
+          "description": "The Israeli prime minister Benjamin Netanyahu says it's too early to say who was behind the foiled attempt to crash an airliner travelling from Dubai to Tel Aviv. Israeli passengers have described how they overpowered the co-pilot after he stabbed the pilot and sent the plane into a nosedive. Two other aircrew who were on board then took control and made an emergency landing in Saudi Arabia. Mr Netanyahu said investigators would examine whether the attacker had accomplices or ties to Iran. Also…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pd9pz7.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pd9q13",
+          "guid": "urn:bbc:podcast:p0pd9q13"
+        },
         {
           "title": "Israel-bound flight diverted after fight between pilots",
           "date": "Wed, 30 Sep 2026 14:57:00 +0000",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcspdh.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pcspqh",
           "guid": "urn:bbc:podcast:p0pcspqh"
-        },
-        {
-          "title": "The Global Story: Why the world wants American surrogates",
-          "date": "Sun, 27 Sep 2026 19:00:00 +0000",
-          "description": "The United States is one of the few wealthy countries where commercial surrogacy remains legal. Bans elsewhere in the world, combined with a largely free-market approach at home, have made the US an international destination for would-be parents from around the globe – fuelling the industry’s rapid expansion. But could it all come to an end? Today on The Global Story, we speak to fertility technology reporter Emi Nietfeld about how the US became a global hub for surrogacy – and why a series of…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcgck2.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pcgd22",
-          "guid": "urn:bbc:podcast:p0pcgd22"
-        },
-        {
-          "title": "OpenAI warns of dozens more potential bot hacks",
-          "date": "Sun, 27 Sep 2026 03:58:00 +0000",
-          "description": "OpenAI says it has alerted dozens of global institutions, including governments, that their websites may have been accessed improperly by rogue AI agents. The US company says the bots sometimes tried to get information using \"extreme means\". Also: President Trump rejects Iran's proposal to reopen the Strait of Hormuz within a week; fighting erupts in Ethiopia's Tigray region stoking fears of a return to civil war; a court battle ends with a contentious Protestant march set to take place in Nort…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcpf8s.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pcpghn",
-          "guid": "urn:bbc:podcast:p0pcpghn"
         }
       ]
     },
