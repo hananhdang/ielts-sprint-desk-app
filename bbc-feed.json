@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-02T00:48:13Z",
+  "updatedAt": "2026-10-03T00:31:04Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Hero pilot tells his story from hospital bed",
+          "date": "Fri, 02 Oct 2026 15:12:00 +0000",
+          "description": "An Indian pilot, Smit Machchhar, says he fought to open the cockpit door of the stricken Flydubai airliner because he was determined to save the lives of his passengers and crew. Also: Washington urges European countries to start using their diesel reserves. We look at the student demonstrations against school conditions in France, where there have been more violent clashes. Kenya is at a crossroads, as its young people challenge the political elites who've governed the country for decades. The…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdpn9y.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pdpprq",
+          "guid": "urn:bbc:podcast:p0pdpprq"
+        },
+        {
+          "title": "France rocked by student protests",
+          "date": "Fri, 02 Oct 2026 04:48:00 +0000",
+          "description": "French students set fire to bins and erected blockades outside schools, as they protest against overcrowded classrooms, teacher shortages and crumbling facilities. Hundreds of people have been arrested and dozens injured. Fires have broken out at some schools that are being blockaded. President Macron said concerns over funding and studying conditions were legitimate but do not justify violence. Also, from the US: the family of Renee Good, who was killed by an ICE agent in Minneapolis, is suing…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdkxgd.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pdkxtf",
+          "guid": "urn:bbc:podcast:p0pdkxtf"
+        },
+        {
           "title": "US death row inmate survives execution attempt",
           "date": "Thu, 01 Oct 2026 15:25:00 +0000",
           "description": "The US state of Tennessee fails to execute a woman on death row, who survived two lethal injection attempts. Christa Pike, who was convicted of murder thirty years ago, has been taken to hospital. The governor of Tennessee has ordered a temporary halt to executions. Also: A sell-off in global bond markets intensifies; government forces in Ethiopia appear to have captured the strategic town of Alamata, in the Northern Tigray Region; Cubans living in Florida create a new organisation to plan for…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcysk2.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pcysqf",
           "guid": "urn:bbc:podcast:p0pcysqf"
-        },
-        {
-          "title": "Israel PM made secret visit to UAE, reports say",
-          "date": "Mon, 28 Sep 2026 15:10:00 +0000",
-          "description": "The Israeli prime minister Benjamin Netanyahu may have asked the UAE leader to deny reports by Haaretz newspaper that he had been warned about an imminent Hamas attack just days before October 7th. With elections now just a month away, Mr Netanyahu's rivals have seized on the report as just the latest example of warnings that he ignored. Also: we hear how unproven rape claims led to violent demonstrations erupting at an Indian university this weekend; we have the latest on protests in Spain spa…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcwvbw.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pcwvm0",
-          "guid": "urn:bbc:podcast:p0pcwvm0"
-        },
-        {
-          "title": "Five arrested over suspected plot to attack UK military base",
-          "date": "Mon, 28 Sep 2026 04:36:00 +0000",
-          "description": "Five men have been arrested over a suspected plot to attack a UK air base also used by the US military. Donald Trump said the men had planned to cause significant damage. Since March, the US has been launching attacks against Iran from the base in southern England. Police say they received a call during the night about three suspicious vehicles driving towards the area. Counter terrorism police are reportedly investigating whether Iran is linked to the incident. Also: We take you to the front l…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcspdh.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pcspqh",
-          "guid": "urn:bbc:podcast:p0pcspqh"
         }
       ]
     },
@@ -146,6 +146,14 @@
       "label": "Learning English Drama",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9s1.rss",
       "episodes": [
+        {
+          "title": "Classic Stories: The Snow Queen",
+          "date": "Fri, 02 Oct 2026 09:05:00 +0000",
+          "description": "Enjoy a classic story in English, read by Tim. Find more programmes where you can learn English through stories here: https://www.bbc.co.uk/learningenglish/english/stories Get weekly tips and updates from your favourite BBC Learning English presenters by signing up to our email newsletter: https://www.bbc.co.uk/send/u178220599 Get in touch! Why not email us at learningenglish@bbc.co.uk",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdm5cz.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pdm6jq",
+          "guid": "urn:bbc:podcast:p0pdm6jq"
+        },
         {
           "title": "Classic Stories: Robin Hood",
           "date": "Fri, 25 Sep 2026 12:03:00 +0000",
@@ -201,14 +209,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ny3h5g.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0ny3jgz",
           "guid": "urn:bbc:podcast:p0ny3jgz"
-        },
-        {
-          "title": "Classic Stories: Dr Jekyll and Mr Hyde",
-          "date": "Fri, 24 Jul 2026 07:00:00 +0000",
-          "description": "Enjoy a classic story in English and learn 9 uses of ‘sound’ - in 5 minutes. Visit our website https://www.bbc.co.uk/learningenglish Get our latest programmes. Subscribe to our free email newsletter https://www.bbc.co.uk/learningenglish/newsletters",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ny3fb1.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0ny3gsg",
-          "guid": "urn:bbc:podcast:p0ny3gsg"
         }
       ]
     }
