@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-03T00:31:04Z",
+  "updatedAt": "2026-10-03T23:46:52Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Happy Pod: Fat Bear Week returns",
+          "date": "Sat, 03 Oct 2026 11:00:00 +0000",
+          "description": "Fat Bear Week is back! The annual contest sees people around the world vote for their favourite bear, ahead of hibernation season. More than two million votes were cast this year's tournament which is based at Katmai National Park and Preserve in Alaska. Also, meet the tattoo artist covering people's scars with artwork to make them feel more confident. Cath Bowie, aka GrumpyGran 1948, tells us how she got into streaming and the game Fortnite. She's just been recognised by Guiness World Records…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdnrp9.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pdntpt",
+          "guid": "urn:bbc:podcast:p0pdntpt"
+        },
+        {
+          "title": "Christa Pike: What next after failed execution?",
+          "date": "Sat, 03 Oct 2026 04:09:00 +0000",
+          "description": "Christa Pike's legal representatives say the convicted murderer is unconscious and on a ventilator in hospital in Tennessee, after surviving two lethal injections on Wednesday. They have requested that all evidence related to the incident be preserved. We hear the account of Nashville reporter Steven Hale, one of a small number of journalists who witnessed the botched execution. Also: G7 leaders agree to release up to 100 million barrels of diesel and crude reserves, days after President Trump'…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pds2d5.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pds379",
+          "guid": "urn:bbc:podcast:p0pds379"
+        },
+        {
           "title": "Hero pilot tells his story from hospital bed",
           "date": "Fri, 02 Oct 2026 15:12:00 +0000",
           "description": "An Indian pilot, Smit Machchhar, says he fought to open the cockpit door of the stricken Flydubai airliner because he was determined to save the lives of his passengers and crew. Also: Washington urges European countries to start using their diesel reserves. We look at the student demonstrations against school conditions in France, where there have been more violent clashes. Kenya is at a crossroads, as its young people challenge the political elites who've governed the country for decades. The…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pd3pfq.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pd3pkd",
           "guid": "urn:bbc:podcast:p0pd3pkd"
-        },
-        {
-          "title": "Israeli settlers attack West Bank village",
-          "date": "Tue, 29 Sep 2026 15:34:00 +0000",
-          "description": "More than 100 Israeli settlers have attacked a Palestinian village in the occupied West Bank, preventing the return of a family who'd been forced to flee their home. The Israeli army said settlers, defying a High Court order which allowed the return of the Palestinians, had hurled rocks, blocked roads and set fire to houses and vehicles in Jalud. Also: Spain's government has agreed plans to ban evictions until 2030, as it attempts to deal with a housing crisis. The proposal follows nationwide p…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pd1s13.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pd1tdm",
-          "guid": "urn:bbc:podcast:p0pd1tdm"
-        },
-        {
-          "title": "Too much screen time 'can damage children as badly as poverty'",
-          "date": "Tue, 29 Sep 2026 04:43:00 +0000",
-          "description": "Researchers at the University of Calgary say spending too much time on social media, gaming or streaming can affect young people's wellbeing in similar ways to being poor, born prematurely or having bad parenting. The study also links excessive screen time to obesity, diabetes and heart problems. Critics say the findings are \"not insignificant\" but insist that screen time is not the only reason teenagers become emotionally distressed or fail to reach their academic goals. Also: Russian drone st…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pcysk2.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pcysqf",
-          "guid": "urn:bbc:podcast:p0pcysqf"
         }
       ]
     },
