@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-03T23:46:52Z",
+  "updatedAt": "2026-10-04T23:57:46Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Global Story: The Super El Nino - what happens when it hits us?",
+          "date": "Sun, 04 Oct 2026 19:00:00 +0000",
+          "description": "Climate scientists have put out a dire warning about this year’s El Niño; that it will likely be the worst in recorded history. And if previous ‘super’ El Niños are anything to go by, that means that this cycle will bring extreme weather - flooding, drought, wildfires, and hunger- across the world. But how do scientists know what the effects of an El Niño will be? And how do they communicate that information to governments and the public in a way that causes calm preparedness instead of panic?…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdndr4.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pdnflq",
+          "guid": "urn:bbc:podcast:p0pdnflq"
+        },
+        {
+          "title": "Failed US execution sparks death penalty debate",
+          "date": "Sun, 04 Oct 2026 03:46:00 +0000",
+          "description": "Christa Pike's botched execution has reignited the debate surrounding the death penalty in the United States. Tennessee's head of prisons is to resign amid growing scrutiny. Also: Ethiopians fear a return to civil war after government forces take control of the Tigrayan regional capital. Tens of thousands of people protest against the housing crisis in Spain. Investigators say the co-pilot of the FlyDubai plane attacked his captain with an axe kept inside the cockpit. Nearly 200 people are unde…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdwchx.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pdwcw6",
+          "guid": "urn:bbc:podcast:p0pdwcw6"
+        },
+        {
           "title": "The Happy Pod: Fat Bear Week returns",
           "date": "Sat, 03 Oct 2026 11:00:00 +0000",
           "description": "Fat Bear Week is back! The annual contest sees people around the world vote for their favourite bear, ahead of hibernation season. More than two million votes were cast this year's tournament which is based at Katmai National Park and Preserve in Alaska. Also, meet the tattoo artist covering people's scars with artwork to make them feel more confident. Cath Bowie, aka GrumpyGran 1948, tells us how she got into streaming and the game Fortnite. She's just been recognised by Guiness World Records…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pd9pz7.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pd9q13",
           "guid": "urn:bbc:podcast:p0pd9q13"
-        },
-        {
-          "title": "Israel-bound flight diverted after fight between pilots",
-          "date": "Wed, 30 Sep 2026 14:57:00 +0000",
-          "description": "An Israel-bound flight with about 170 people on board has landed safely in Saudi Arabia after a fight broke out between pilots, triggering a hijacking alert. Two Israeli officials said the co-pilot is believed to have stabbed the captain and tried to crash the plane. Officials from Tabuk airport, where the Flydubai flight landed, say they are being treated in hospital. Also; Russia has carried out another massive overnight attack on Ukraine's Kyiv region, hitting energy infrastructure and resid…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pd6n9q.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pd6wf5",
-          "guid": "urn:bbc:podcast:p0pd6wf5"
-        },
-        {
-          "title": "AI bosses sign self-regulation accord",
-          "date": "Wed, 30 Sep 2026 04:53:00 +0000",
-          "description": "After talks with AI industry executives at the White House, President Trump says they've signed a deal to police themselves which is \"morally binding\". Meanwhile, he has ruled out a joint venture with China on Artificial Intelligence, saying it would amount to \"giving away secrets\" to Ameria's main economic rival. Also: South Africa's president Cyril Ramaphosa addresses the nation amid growing alarm about violence against women. The English Premier League confirms Manchester City have been foun…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pd3pfq.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pd3pkd",
-          "guid": "urn:bbc:podcast:p0pd3pkd"
         }
       ]
     },
