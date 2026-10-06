@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-04T23:57:46Z",
+  "updatedAt": "2026-10-06T01:46:00Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Reports say Flydubai suspect was 'lone wolf' extremist",
+          "date": "Mon, 05 Oct 2026 15:32:00 +0000",
+          "description": "Investigators believe the co-pilot accused of trying to take over a Flydubai plane heading for Israel was a \"lone wolf\" extremist who wanted to fly the aircraft into an airport or tower block. Also: why did the US military withdraw expensive bombers from a base in the UK? Oil exports from the Middle East are getting back to levels last achieved before the US began bombing Iran. Spain's prime minister calls an election over a housing crisis. Researchers try to find out why more young people are…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pf3g9z.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pf3jwx",
+          "guid": "urn:bbc:podcast:p0pf3jwx"
+        },
+        {
+          "title": "Brazil's presidential election goes to runoff",
+          "date": "Mon, 05 Oct 2026 04:49:00 +0000",
+          "description": "Brazilians voted on Sunday in a high-stakes presidential election pitting incumbent left-wing Luiz Inácio Lula da Silva against the right-wing challenger Flávio Bolsonaro amid a regional shift to the right. Bolsonaro won the first round, but failed to win an outright majority, with a run-off scheduled for 25 October. Also: The US has pulled its B1 bombers from an airbase in England which was the target of a suspected terror plot. Israel has barred the British Green Party leader after his party…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdzk48.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pdzkkh",
+          "guid": "urn:bbc:podcast:p0pdzkkh"
+        },
+        {
           "title": "The Global Story: The Super El Nino - what happens when it hits us?",
           "date": "Sun, 04 Oct 2026 19:00:00 +0000",
           "description": "Climate scientists have put out a dire warning about this year’s El Niño; that it will likely be the worst in recorded history. And if previous ‘super’ El Niños are anything to go by, that means that this cycle will bring extreme weather - flooding, drought, wildfires, and hunger- across the world. But how do scientists know what the effects of an El Niño will be? And how do they communicate that information to governments and the public in a way that causes calm preparedness instead of panic?…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdkxgd.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pdkxtf",
           "guid": "urn:bbc:podcast:p0pdkxtf"
-        },
-        {
-          "title": "US death row inmate survives execution attempt",
-          "date": "Thu, 01 Oct 2026 15:25:00 +0000",
-          "description": "The US state of Tennessee fails to execute a woman on death row, who survived two lethal injection attempts. Christa Pike, who was convicted of murder thirty years ago, has been taken to hospital. The governor of Tennessee has ordered a temporary halt to executions. Also: A sell-off in global bond markets intensifies; government forces in Ethiopia appear to have captured the strategic town of Alamata, in the Northern Tigray Region; Cubans living in Florida create a new organisation to plan for…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdgqz9.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pdgrtm",
-          "guid": "urn:bbc:podcast:p0pdgrtm"
-        },
-        {
-          "title": "FlyDubai passengers recount terrifying ordeal",
-          "date": "Thu, 01 Oct 2026 04:35:00 +0000",
-          "description": "The Israeli prime minister Benjamin Netanyahu says it's too early to say who was behind the foiled attempt to crash an airliner travelling from Dubai to Tel Aviv. Israeli passengers have described how they overpowered the co-pilot after he stabbed the pilot and sent the plane into a nosedive. Two other aircrew who were on board then took control and made an emergency landing in Saudi Arabia. Mr Netanyahu said investigators would examine whether the attacker had accomplices or ties to Iran. Also…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pd9pz7.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pd9q13",
-          "guid": "urn:bbc:podcast:p0pd9q13"
         }
       ]
     },
