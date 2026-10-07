@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-06T01:46:00Z",
+  "updatedAt": "2026-10-07T00:43:15Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Life in Yemen under Houthi sniper fire",
+          "date": "Tue, 06 Oct 2026 15:17:00 +0000",
+          "description": "As fighting surges again in Yemen, government forces supported by Saudi Arabia say they've been making significant gains in an offensive against the Iran-backed Houthis. We hear how the conflict is affecting people in one of the key battlegrounds - the southwestern city of Taiz, which is surrounded by the Houthis. Also: protesters and police clash in several French cities, as students, parents and unions join demonstrations across the country calling for more investment in schools. The space sc…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pf8p9z.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pf8qbb",
+          "guid": "urn:bbc:podcast:p0pf8qbb"
+        },
+        {
+          "title": "Fighting intensifies in Yemen",
+          "date": "Tue, 06 Oct 2026 04:24:00 +0000",
+          "description": "Iran-backed Houthis claim they hit several targets in Saudi Arabia, including Riyadh Airport, while Saudi-led forces attacked Houthi military strongholds on the Red Sea coast. The Yemeni government has launched an offensive against the Houthi-held capital, Sanaa. Also: Student demonstrations intensify in France ahead of a national day of protests. The Nobel Prize in Medicine is awarded to Karl Deisseroth from America and Peter Hegemann and Georg Nagel from Germany for their work in the field of…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pf5854.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pf589q",
+          "guid": "urn:bbc:podcast:p0pf589q"
+        },
+        {
           "title": "Reports say Flydubai suspect was 'lone wolf' extremist",
           "date": "Mon, 05 Oct 2026 15:32:00 +0000",
           "description": "Investigators believe the co-pilot accused of trying to take over a Flydubai plane heading for Israel was a \"lone wolf\" extremist who wanted to fly the aircraft into an airport or tower block. Also: why did the US military withdraw expensive bombers from a base in the UK? Oil exports from the Middle East are getting back to levels last achieved before the US began bombing Iran. Spain's prime minister calls an election over a housing crisis. Researchers try to find out why more young people are…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pds2d5.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pds379",
           "guid": "urn:bbc:podcast:p0pds379"
-        },
-        {
-          "title": "Hero pilot tells his story from hospital bed",
-          "date": "Fri, 02 Oct 2026 15:12:00 +0000",
-          "description": "An Indian pilot, Smit Machchhar, says he fought to open the cockpit door of the stricken Flydubai airliner because he was determined to save the lives of his passengers and crew. Also: Washington urges European countries to start using their diesel reserves. We look at the student demonstrations against school conditions in France, where there have been more violent clashes. Kenya is at a crossroads, as its young people challenge the political elites who've governed the country for decades. The…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdpn9y.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pdpprq",
-          "guid": "urn:bbc:podcast:p0pdpprq"
-        },
-        {
-          "title": "France rocked by student protests",
-          "date": "Fri, 02 Oct 2026 04:48:00 +0000",
-          "description": "French students set fire to bins and erected blockades outside schools, as they protest against overcrowded classrooms, teacher shortages and crumbling facilities. Hundreds of people have been arrested and dozens injured. Fires have broken out at some schools that are being blockaded. President Macron said concerns over funding and studying conditions were legitimate but do not justify violence. Also, from the US: the family of Renee Good, who was killed by an ICE agent in Minneapolis, is suing…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdkxgd.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pdkxtf",
-          "guid": "urn:bbc:podcast:p0pdkxtf"
         }
       ]
     },
