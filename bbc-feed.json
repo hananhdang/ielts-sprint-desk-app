@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-07T00:43:15Z",
+  "updatedAt": "2026-10-08T01:01:18Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Israelis mark three years since 7 October attacks",
+          "date": "Wed, 07 Oct 2026 15:10:00 +0000",
+          "description": "Israel has been remembering the deadliest single day in its history on 7th October 2023 when Hamas and other Palestinian armed groups stormed communities along the border with Gaza, killing more than 1,200 people and taking 251 hostages. The anniversary comes weeks before an election in which the question of Israeli Prime Minister Benjamin Netanyahu's personal culpability for the country's worst-ever security failure will be a central issue. Also: the Ukrainian President Volodymyr Zelensky has…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfgshf.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pfgw2p",
+          "guid": "urn:bbc:podcast:p0pfgw2p"
+        },
+        {
+          "title": "French government holds crisis talks after school protests",
+          "date": "Wed, 07 Oct 2026 04:21:00 +0000",
+          "description": "President Macron holds an emergency meeting after more than a quarter of a million French people take part in fresh school protests. Although most gatherings were peaceful, there were sporadic clashes, with police using batons and tear gas to disperse crowds. Lawyers for Christa Pike, the American woman who survived a botched execution attempt last week, say she's regained consciousness and is able to talk. They say she's receiving critical care and remains handcuffed to a hospital bed. Events…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfbs5c.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pfbs75",
+          "guid": "urn:bbc:podcast:p0pfbs75"
+        },
+        {
           "title": "Life in Yemen under Houthi sniper fire",
           "date": "Tue, 06 Oct 2026 15:17:00 +0000",
           "description": "As fighting surges again in Yemen, government forces supported by Saudi Arabia say they've been making significant gains in an offensive against the Iran-backed Houthis. We hear how the conflict is affecting people in one of the key battlegrounds - the southwestern city of Taiz, which is surrounded by the Houthis. Also: protesters and police clash in several French cities, as students, parents and unions join demonstrations across the country calling for more investment in schools. The space sc…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdwchx.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pdwcw6",
           "guid": "urn:bbc:podcast:p0pdwcw6"
-        },
-        {
-          "title": "The Happy Pod: Fat Bear Week returns",
-          "date": "Sat, 03 Oct 2026 11:00:00 +0000",
-          "description": "Fat Bear Week is back! The annual contest sees people around the world vote for their favourite bear, ahead of hibernation season. More than two million votes were cast this year's tournament which is based at Katmai National Park and Preserve in Alaska. Also, meet the tattoo artist covering people's scars with artwork to make them feel more confident. Cath Bowie, aka GrumpyGran 1948, tells us how she got into streaming and the game Fortnite. She's just been recognised by Guiness World Records…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdnrp9.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pdntpt",
-          "guid": "urn:bbc:podcast:p0pdntpt"
-        },
-        {
-          "title": "Christa Pike: What next after failed execution?",
-          "date": "Sat, 03 Oct 2026 04:09:00 +0000",
-          "description": "Christa Pike's legal representatives say the convicted murderer is unconscious and on a ventilator in hospital in Tennessee, after surviving two lethal injections on Wednesday. They have requested that all evidence related to the incident be preserved. We hear the account of Nashville reporter Steven Hale, one of a small number of journalists who witnessed the botched execution. Also: G7 leaders agree to release up to 100 million barrels of diesel and crude reserves, days after President Trump'…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pds2d5.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pds379",
-          "guid": "urn:bbc:podcast:p0pds379"
         }
       ]
     },
