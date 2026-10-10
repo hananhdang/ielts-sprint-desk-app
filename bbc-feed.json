@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-09T01:13:47Z",
+  "updatedAt": "2026-10-10T00:52:00Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Former UN rights chief Navi Pillay wins Nobel Peace Prize",
+          "date": "Fri, 09 Oct 2026 15:54:00 +0000",
+          "description": "This year's Nobel Peace Prize has been awarded to Navi Pillay, the South African former UN human rights chief. The Nobel committee said Ms Pillay had shown that legal measures could help prevent acts of war and violence. At a news conference after being awarded the prize, she warned against growing political attacks on international law. Also: More airlines are suspending flights to Saudi Arabia after three people were killed in two Houthi attacks on Riyadh's international airport. The US Defen…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfxnwk.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pfxqzl",
+          "guid": "urn:bbc:podcast:p0pfxqzl"
+        },
+        {
+          "title": "US military execution to be livestreamed",
+          "date": "Fri, 09 Oct 2026 04:42:00 +0000",
+          "description": "Nidal Hasan, a former army psychiatrist who killed 13 unarmed soldiers at Fort Hood in Texas, will not only be the first person to die by a US military firing squad since 1945. His execution, which is set for December, would also be the first to be seen by the public in the US for 90 years. Also, cars have been set on fire and shops owned by foreigners were reportedly targeted during violence in South Africa because of tensions surrounding illegal immigration. Police in Britain have accepted th…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pft77y.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pft7hf",
+          "guid": "urn:bbc:podcast:p0pft7hf"
+        },
+        {
           "title": "Russian strike on buses in Ukraine kills at least 30",
           "date": "Thu, 08 Oct 2026 15:49:00 +0000",
           "description": "At least 30 people have been killed in a Russian air strike at a bus stop in the eastern Ukrainian city of Kramatorsk. Eighteen others were wounded. The attack follows a dramatic surge in Russian attacks across the country and a heavy increase in civilian casualties. President Volodymyr Zelensky says the attacks will not go unanswered. Also: Israel has downgraded the British consulate in East Jerusalem, after threatening to close the site completely over the UK's decision to sanction Israeli go…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pf5854.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pf589q",
           "guid": "urn:bbc:podcast:p0pf589q"
-        },
-        {
-          "title": "Reports say Flydubai suspect was 'lone wolf' extremist",
-          "date": "Mon, 05 Oct 2026 15:32:00 +0000",
-          "description": "Investigators believe the co-pilot accused of trying to take over a Flydubai plane heading for Israel was a \"lone wolf\" extremist who wanted to fly the aircraft into an airport or tower block. Also: why did the US military withdraw expensive bombers from a base in the UK? Oil exports from the Middle East are getting back to levels last achieved before the US began bombing Iran. Spain's prime minister calls an election over a housing crisis. Researchers try to find out why more young people are…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pf3g9z.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pf3jwx",
-          "guid": "urn:bbc:podcast:p0pf3jwx"
-        },
-        {
-          "title": "Brazil's presidential election goes to runoff",
-          "date": "Mon, 05 Oct 2026 04:49:00 +0000",
-          "description": "Brazilians voted on Sunday in a high-stakes presidential election pitting incumbent left-wing Luiz Inácio Lula da Silva against the right-wing challenger Flávio Bolsonaro amid a regional shift to the right. Bolsonaro won the first round, but failed to win an outright majority, with a run-off scheduled for 25 October. Also: The US has pulled its B1 bombers from an airbase in England which was the target of a suspected terror plot. Israel has barred the British Green Party leader after his party…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pdzk48.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pdzkkh",
-          "guid": "urn:bbc:podcast:p0pdzkkh"
         }
       ]
     },
@@ -146,6 +146,14 @@
       "label": "Learning English Drama",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9s1.rss",
       "episodes": [
+        {
+          "title": "Classic Stories: Cinderella",
+          "date": "Fri, 09 Oct 2026 10:12:00 +0000",
+          "description": "Enjoy a classic story in English and learn 12 uses of ‘go’ - in 5 minutes. SKILLS: ✔️ https://www.bbc.co.uk/learningenglish/english/skills SUBSCRIBE TO OUR NEWSLETTER: ✔️ https://www.bbc.co.uk/learningenglish/newsletters FIND BBC LEARNING ENGLISH HERE: Visit our website ✔️ https://www.bbc.co.uk/learningenglish Follow us ✔️ https://www.bbc.co.uk/learningenglish/followus LIKE PODCASTS? Try some of our other popular podcasts including: ✔️ 6 Minute English ✔️ Learning English from the News ✔️ Learn…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfvtdk.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pfvvjz",
+          "guid": "urn:bbc:podcast:p0pfvvjz"
+        },
         {
           "title": "Classic Stories: The Snow Queen",
           "date": "Fri, 02 Oct 2026 09:05:00 +0000",
@@ -201,14 +209,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p36nk3.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0p36p49",
           "guid": "urn:bbc:podcast:p0p36p49"
-        },
-        {
-          "title": "Classic Stories: Frankenstein",
-          "date": "Fri, 31 Jul 2026 07:00:00 +0000",
-          "description": "Enjoy a classic story in English and learn 10 uses of ‘make’ - in 5 minutes. Visit our website https://www.bbc.co.uk/learningenglish Get our latest programmes. Subscribe to our free email newsletter https://www.bbc.co.uk/learningenglish/newsletters",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ny3h5g.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0ny3jgz",
-          "guid": "urn:bbc:podcast:p0ny3jgz"
         }
       ]
     }
