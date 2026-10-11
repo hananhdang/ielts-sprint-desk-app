@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-10T00:52:00Z",
+  "updatedAt": "2026-10-11T00:14:41Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Happy Pod: Why I danced for seven days straight",
+          "date": "Sat, 10 Oct 2026 11:00:00 +0000",
+          "description": "A Nigerian man has completed a 168-hour dance marathon in a bid to set a new world record. Benjamin Daniel - better known as 'Ben Dancer' - moved and grooved for seven days straight in an attempt to break the Guinness World Record for the longest individual dance marathon. The 33-year-old would dance for eight hours before taking a 40-minute rest break. There were many times Ben wanted to give up, but he was spurred on by cheering crowds at Freedom Park in Lagos. Also: How Dolly Parton's dream…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfyg0m.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pfyh48",
+          "guid": "urn:bbc:podcast:p0pfyh48"
+        },
+        {
+          "title": "Trump strikes deal with Putin to buy Russian diesel",
+          "date": "Sat, 10 Oct 2026 03:35:00 +0000",
+          "description": "President Trump is temporarily lifting a number of sanctions on Russia in a deal which will see Moscow supply the US and global markets with diesel to try to bring down energy costs. President Zelensky of Ukraine said easing sanctions without a clear de-escalation agreement was weak and would allow Russia to continue to wage war. Democrats on the US Senate foreign relations committee called the move a total betrayal of Ukraine, European allies and American national security. Also: the US impose…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfzqc9.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pfzrs3",
+          "guid": "urn:bbc:podcast:p0pfzrs3"
+        },
+        {
           "title": "Former UN rights chief Navi Pillay wins Nobel Peace Prize",
           "date": "Fri, 09 Oct 2026 15:54:00 +0000",
           "description": "This year's Nobel Peace Prize has been awarded to Navi Pillay, the South African former UN human rights chief. The Nobel committee said Ms Pillay had shown that legal measures could help prevent acts of war and violence. At a news conference after being awarded the prize, she warned against growing political attacks on international law. Also: More airlines are suspending flights to Saudi Arabia after three people were killed in two Houthi attacks on Riyadh's international airport. The US Defen…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfbs5c.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pfbs75",
           "guid": "urn:bbc:podcast:p0pfbs75"
-        },
-        {
-          "title": "Life in Yemen under Houthi sniper fire",
-          "date": "Tue, 06 Oct 2026 15:17:00 +0000",
-          "description": "As fighting surges again in Yemen, government forces supported by Saudi Arabia say they've been making significant gains in an offensive against the Iran-backed Houthis. We hear how the conflict is affecting people in one of the key battlegrounds - the southwestern city of Taiz, which is surrounded by the Houthis. Also: protesters and police clash in several French cities, as students, parents and unions join demonstrations across the country calling for more investment in schools. The space sc…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pf8p9z.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pf8qbb",
-          "guid": "urn:bbc:podcast:p0pf8qbb"
-        },
-        {
-          "title": "Fighting intensifies in Yemen",
-          "date": "Tue, 06 Oct 2026 04:24:00 +0000",
-          "description": "Iran-backed Houthis claim they hit several targets in Saudi Arabia, including Riyadh Airport, while Saudi-led forces attacked Houthi military strongholds on the Red Sea coast. The Yemeni government has launched an offensive against the Houthi-held capital, Sanaa. Also: Student demonstrations intensify in France ahead of a national day of protests. The Nobel Prize in Medicine is awarded to Karl Deisseroth from America and Peter Hegemann and Georg Nagel from Germany for their work in the field of…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pf5854.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pf589q",
-          "guid": "urn:bbc:podcast:p0pf589q"
         }
       ]
     },
