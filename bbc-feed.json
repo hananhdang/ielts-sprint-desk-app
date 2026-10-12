@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-11T00:14:41Z",
+  "updatedAt": "2026-10-12T00:32:59Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Global Story: Smart glasses or ‘pervert glasses’?",
+          "date": "Sun, 11 Oct 2026 19:00:00 +0000",
+          "description": "At a recent Meta product launch, Mark Zuckerberg promised that the company’s smart glasses would give wearers “new superpowers”, but what are they? Amid criticisms of its privacy and child protection policies, Meta is betting big on smart glasses as a way to restyle the company’s image, but they too have caused controversy – dubbed by critics ‘pervert glasses’ because they have been used to film women without their knowledge. So why are Meta and other big tech firms investing billions in this t…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfvp21.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pfvq1p",
+          "guid": "urn:bbc:podcast:p0pfvq1p"
+        },
+        {
+          "title": "Trump calls for Zelensky to be replaced",
+          "date": "Sun, 11 Oct 2026 03:52:00 +0000",
+          "description": "A major diplomatic row has erupted between President Trump and his Ukrainian counterpart, Volodymyr Zelensky. After Mr Zelensky criticised a decision by Mr Trump to buy Russian diesel, the US president lashed out. He called for a new leader in Ukraine, and said Mr Zelensky was prolonging the war with Moscow. Mr Trump warned the Ukrainian leader not to bomb Russian oil refineries. Also: people in Mexico are bracing themselves for another hurricane. The Indian government stops a protest calling f…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pg3dq8.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pg3dsv",
+          "guid": "urn:bbc:podcast:p0pg3dsv"
+        },
+        {
           "title": "The Happy Pod: Why I danced for seven days straight",
           "date": "Sat, 10 Oct 2026 11:00:00 +0000",
           "description": "A Nigerian man has completed a 168-hour dance marathon in a bid to set a new world record. Benjamin Daniel - better known as 'Ben Dancer' - moved and grooved for seven days straight in an attempt to break the Guinness World Record for the longest individual dance marathon. The 33-year-old would dance for eight hours before taking a 40-minute rest break. There were many times Ben wanted to give up, but he was spurred on by cheering crowds at Freedom Park in Lagos. Also: How Dolly Parton's dream…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfkrfk.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pfkryt",
           "guid": "urn:bbc:podcast:p0pfkryt"
-        },
-        {
-          "title": "Israelis mark three years since 7 October attacks",
-          "date": "Wed, 07 Oct 2026 15:10:00 +0000",
-          "description": "Israel has been remembering the deadliest single day in its history on 7th October 2023 when Hamas and other Palestinian armed groups stormed communities along the border with Gaza, killing more than 1,200 people and taking 251 hostages. The anniversary comes weeks before an election in which the question of Israeli Prime Minister Benjamin Netanyahu's personal culpability for the country's worst-ever security failure will be a central issue. Also: the Ukrainian President Volodymyr Zelensky has…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfgshf.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pfgw2p",
-          "guid": "urn:bbc:podcast:p0pfgw2p"
-        },
-        {
-          "title": "French government holds crisis talks after school protests",
-          "date": "Wed, 07 Oct 2026 04:21:00 +0000",
-          "description": "President Macron holds an emergency meeting after more than a quarter of a million French people take part in fresh school protests. Although most gatherings were peaceful, there were sporadic clashes, with police using batons and tear gas to disperse crowds. Lawyers for Christa Pike, the American woman who survived a botched execution attempt last week, say she's regained consciousness and is able to talk. They say she's receiving critical care and remains handcuffed to a hospital bed. Events…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfbs5c.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pfbs75",
-          "guid": "urn:bbc:podcast:p0pfbs75"
         }
       ]
     },
