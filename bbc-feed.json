@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-12T00:32:59Z",
+  "updatedAt": "2026-10-13T02:34:56Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "French supermarkets say fridges targeted in cyberattack",
+          "date": "Mon, 12 Oct 2026 15:04:00 +0000",
+          "description": "Major French supermarket chains have reported being hit by a cyberattack that caused their refrigerators to defrost. More than 150 Intermarché stores were targeted, along with almost 100 Coopérative U outlets. The hackers may have also hit other major chains in France and neighbouring countries. Also: Saudi airspace remains heavily disrupted, as Yemen's Houthis continue a barrage of missile attacks. President Zelensky says Washington has to make Russia respect the energy ceasefire announced by…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pg9vg2.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pg9xc5",
+          "guid": "urn:bbc:podcast:p0pg9xc5"
+        },
+        {
+          "title": "Houthis attack Saudi airport for third time in four days",
+          "date": "Mon, 12 Oct 2026 04:20:00 +0000",
+          "description": "The main international airport in the Saudi Arabian capital, Riyadh, is attacked on consecutive days by the Iran-backed Houthis in Yemen. More than a dozen people have been killed and hundreds injured. The Houthis say they launched the strikes because of the Saudis' support for government forces in Yemen's civil war. Also: a BBC investigation looks into the circumstances surrounding the shooting of mourners in Kenya at a national farewell for a former prime minister. The Pope is to undergo surg…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pg6pcc.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pg6pdj",
+          "guid": "urn:bbc:podcast:p0pg6pdj"
+        },
+        {
           "title": "The Global Story: Smart glasses or ‘pervert glasses’?",
           "date": "Sun, 11 Oct 2026 19:00:00 +0000",
           "description": "At a recent Meta product launch, Mark Zuckerberg promised that the company’s smart glasses would give wearers “new superpowers”, but what are they? Amid criticisms of its privacy and child protection policies, Meta is betting big on smart glasses as a way to restyle the company’s image, but they too have caused controversy – dubbed by critics ‘pervert glasses’ because they have been used to film women without their knowledge. So why are Meta and other big tech firms investing billions in this t…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pft77y.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pft7hf",
           "guid": "urn:bbc:podcast:p0pft7hf"
-        },
-        {
-          "title": "Russian strike on buses in Ukraine kills at least 30",
-          "date": "Thu, 08 Oct 2026 15:49:00 +0000",
-          "description": "At least 30 people have been killed in a Russian air strike at a bus stop in the eastern Ukrainian city of Kramatorsk. Eighteen others were wounded. The attack follows a dramatic surge in Russian attacks across the country and a heavy increase in civilian casualties. President Volodymyr Zelensky says the attacks will not go unanswered. Also: Israel has downgraded the British consulate in East Jerusalem, after threatening to close the site completely over the UK's decision to sanction Israeli go…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfqrm4.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pfqtdk",
-          "guid": "urn:bbc:podcast:p0pfqtdk"
-        },
-        {
-          "title": "Woman at the centre of Spain's housing crisis dies",
-          "date": "Thu, 08 Oct 2026 04:53:00 +0000",
-          "description": "Hundreds of protesters have demonstrated outside parliament in Madrid after the death of an 87 year old woman who became a symbol of Spain's housing crisis. Maricarmen Abascal was forcibly removed on a stretcher from her apartment of more than 70 years last month after she was unable to afford big rent increases. The company that owned the flat later offered to allow her to return at a lower rate - but she was unable to sign an agreement as she had been admitted to hospital. Also, US prosecutor…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfkrfk.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pfkryt",
-          "guid": "urn:bbc:podcast:p0pfkryt"
         }
       ]
     },
