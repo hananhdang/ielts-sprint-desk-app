@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-13T02:34:56Z",
+  "updatedAt": "2026-10-14T00:18:41Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "IMF upgrades global economy outlook",
+          "date": "Tue, 13 Oct 2026 14:44:00 +0000",
+          "description": "The International Monetary Fund says in its latest report that global growth has weathered the Middle East conflict better than had been feared, with rerouting of oil supplies and the release of energy stocks helping reduce the negative impact of the Iran war. But the IMF also warns that emergency stocks are now depleted. Also; the authorities in the American state of Tennessee release dramatic phone calls that were made to the emergency services after the botched execution of Christa Pike; Pop…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pggq4p.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pggr8v",
+          "guid": "urn:bbc:podcast:p0pggr8v"
+        },
+        {
+          "title": "Annual dementia cases could double by 2050",
+          "date": "Tue, 13 Oct 2026 04:26:00 +0000",
+          "description": "Researchers in Australia say there were 11.4 million new dementia cases in 2023. They expect that number to more than double to 24.7 million by 2050. Women and people from lower- and middle-income countries are most likely to be affected. We speak to Professor Henry Brodaty, co-author of the study, who tells us this is because of \"an epidemic of ageing\". Also: the BBC reports from the frontline of the conflict in Yemen. US federal agents have raided the home in Washington of the Democratic cong…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgcv5c.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pgcv8s",
+          "guid": "urn:bbc:podcast:p0pgcv8s"
+        },
+        {
           "title": "French supermarkets say fridges targeted in cyberattack",
           "date": "Mon, 12 Oct 2026 15:04:00 +0000",
           "description": "Major French supermarket chains have reported being hit by a cyberattack that caused their refrigerators to defrost. More than 150 Intermarché stores were targeted, along with almost 100 Coopérative U outlets. The hackers may have also hit other major chains in France and neighbouring countries. Also: Saudi airspace remains heavily disrupted, as Yemen's Houthis continue a barrage of missile attacks. President Zelensky says Washington has to make Russia respect the energy ceasefire announced by…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfzqc9.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pfzrs3",
           "guid": "urn:bbc:podcast:p0pfzrs3"
-        },
-        {
-          "title": "Former UN rights chief Navi Pillay wins Nobel Peace Prize",
-          "date": "Fri, 09 Oct 2026 15:54:00 +0000",
-          "description": "This year's Nobel Peace Prize has been awarded to Navi Pillay, the South African former UN human rights chief. The Nobel committee said Ms Pillay had shown that legal measures could help prevent acts of war and violence. At a news conference after being awarded the prize, she warned against growing political attacks on international law. Also: More airlines are suspending flights to Saudi Arabia after three people were killed in two Houthi attacks on Riyadh's international airport. The US Defen…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfxnwk.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pfxqzl",
-          "guid": "urn:bbc:podcast:p0pfxqzl"
-        },
-        {
-          "title": "US military execution to be livestreamed",
-          "date": "Fri, 09 Oct 2026 04:42:00 +0000",
-          "description": "Nidal Hasan, a former army psychiatrist who killed 13 unarmed soldiers at Fort Hood in Texas, will not only be the first person to die by a US military firing squad since 1945. His execution, which is set for December, would also be the first to be seen by the public in the US for 90 years. Also, cars have been set on fire and shops owned by foreigners were reportedly targeted during violence in South Africa because of tensions surrounding illegal immigration. Police in Britain have accepted th…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pft77y.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pft7hf",
-          "guid": "urn:bbc:podcast:p0pft7hf"
         }
       ]
     },
