@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-14T00:18:41Z",
+  "updatedAt": "2026-10-14T23:55:14Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Russian attacks leave 600,000 Ukrainians without power",
+          "date": "Wed, 14 Oct 2026 14:53:00 +0000",
+          "description": "Russian missile and drone strikes hit \"critical\" infrastructure in Kyiv and Kharkiv despite US President Donald Trump's claim on Sunday that an \"energy ceasefire\" was in place between Russia and Ukraine. Ukraine says it received no warning from allies and was hampered by restrictions to the Starlink communications network during another night of intense attacks. Separately, speed restrictions on the key Starlink communications network have disrupted Ukraine's battlefield \"missions\", President V…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgmx1w.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pgn12v",
+          "guid": "urn:bbc:podcast:p0pgn12v"
+        },
+        {
+          "title": "Pope has surgery for lung cancer",
+          "date": "Wed, 14 Oct 2026 04:46:00 +0000",
+          "description": "A medical bulletin from the Vatican has announced that Pope Leo has undergone a successful operation to remove a cancerous tumour from his right lung. It said the Pope had woken up normally and returned to his room after a brief period of observation. Pope Leo had announced on Sunday that his operation was imminent but the cancer diagnosis only came after the procedure had been carried out. Also: 30 years after the American rapper Tupac Shakur was killed in a drive-by shooting in Las Vegas, a f…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgjx74.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pgjxdp",
+          "guid": "urn:bbc:podcast:p0pgjxdp"
+        },
+        {
           "title": "IMF upgrades global economy outlook",
           "date": "Tue, 13 Oct 2026 14:44:00 +0000",
           "description": "The International Monetary Fund says in its latest report that global growth has weathered the Middle East conflict better than had been feared, with rerouting of oil supplies and the release of energy stocks helping reduce the negative impact of the Iran war. But the IMF also warns that emergency stocks are now depleted. Also; the authorities in the American state of Tennessee release dramatic phone calls that were made to the emergency services after the botched execution of Christa Pike; Pop…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pg3dq8.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pg3dsv",
           "guid": "urn:bbc:podcast:p0pg3dsv"
-        },
-        {
-          "title": "The Happy Pod: Why I danced for seven days straight",
-          "date": "Sat, 10 Oct 2026 11:00:00 +0000",
-          "description": "A Nigerian man has completed a 168-hour dance marathon in a bid to set a new world record. Benjamin Daniel - better known as 'Ben Dancer' - moved and grooved for seven days straight in an attempt to break the Guinness World Record for the longest individual dance marathon. The 33-year-old would dance for eight hours before taking a 40-minute rest break. There were many times Ben wanted to give up, but he was spurred on by cheering crowds at Freedom Park in Lagos. Also: How Dolly Parton's dream…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfyg0m.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pfyh48",
-          "guid": "urn:bbc:podcast:p0pfyh48"
-        },
-        {
-          "title": "Trump strikes deal with Putin to buy Russian diesel",
-          "date": "Sat, 10 Oct 2026 03:35:00 +0000",
-          "description": "President Trump is temporarily lifting a number of sanctions on Russia in a deal which will see Moscow supply the US and global markets with diesel to try to bring down energy costs. President Zelensky of Ukraine said easing sanctions without a clear de-escalation agreement was weak and would allow Russia to continue to wage war. Democrats on the US Senate foreign relations committee called the move a total betrayal of Ukraine, European allies and American national security. Also: the US impose…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfzqc9.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pfzrs3",
-          "guid": "urn:bbc:podcast:p0pfzrs3"
         }
       ]
     },
