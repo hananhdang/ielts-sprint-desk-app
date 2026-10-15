@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-14T23:55:14Z",
+  "updatedAt": "2026-10-15T23:42:01Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
       "episodes": [
+        {
+          "title": "Why has gold got so expensive?",
+          "date": "Thu, 15 Oct 2026 09:24:00 +0000",
+          "description": "Many of us own jewellery or other items that are gold coloured, but do you own anything that is made from real gold? Gold is a precious metal, which means that there is a limited supply in the world. This not only makes it expensive, but also means that it holds a relatively stable value. So, why are investors interested in it, and should the rest of us start buying more of it? Georgie and Phil discuss this and teach you some new vocabulary. 6 Minute English now has a VIDEO VERSION! 6 Minute En…",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261015_6_minute_english_why_do_people_buy_gold_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261015",
+          "guid": "urn:bbc:podcast:p0pgs2w6"
+        },
         {
           "title": "Are people drinking less alcohol?",
           "date": "Thu, 08 Oct 2026 08:28:00 +0000",
@@ -61,14 +69,6 @@
           "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260827_6_minute_english_smells_download.mp3",
           "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260827",
           "guid": "urn:bbc:podcast:p0p6j3xx"
-        },
-        {
-          "title": "Sharing the road with driverless cars",
-          "date": "Thu, 20 Aug 2026 13:13:00 +0000",
-          "description": "Imagine crossing a road and turning to see a car heading towards you... without a driver! While this might seem scary, driverless cars are already operating safely in many cities around the world. These autonomous cars contain huge amounts of technology to help them drive alongside other road users carefully. But will humans behave as carefully around them? Can we communicate clearly with these 'robotaxis', or are we simply incompatible? Phil and Pippa discuss this and teach you some new vocabu…",
-          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260820_6_minute_english_sharing_the_road_with_driverless_cars_download.mp3",
-          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260820",
-          "guid": "urn:bbc:podcast:p0p5h8tg"
         }
       ]
     },
@@ -76,6 +76,22 @@
       "label": "Global News Podcast",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
+        {
+          "title": "Deadly school disaster in Pakistan",
+          "date": "Thu, 15 Oct 2026 15:25:00 +0000",
+          "description": "More than 30 people have been killed after a school roof collapsed in Peshawar, Pakistan, with the majority thought to be children under the age of 13. The owner of the school has been arrested, with police warning the building was extremely dangerous and there was a risk of further collapse. Also: the BBC has identified 254 incidents in which the Israeli military has been accused of killing or injuring people in Gaza, Lebanon, the occupied West Bank and Israel, which it said it would investiga…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgwl6v.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pgwm5v",
+          "guid": "urn:bbc:podcast:p0pgwm5v"
+        },
+        {
+          "title": "Zelensky feels 'betrayed' by Trump",
+          "date": "Thu, 15 Oct 2026 04:34:00 +0000",
+          "description": "Volodymyr Zelensky says he feels \"betrayed\" by Donald Trump after the US-Russia diesel deal and an apparent decision to curb access to the Starlink network, which has been vital to Ukraine during the war. President Zelensky accused the White House of being on the wrong side of history. Also: student protesters attack government buildings in Albania; Turkish police raid and shut down the opposition station Halk TV; China and North Korea build bridges - metaphorically and literally; the Wildlife…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgqvvk.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pgqw3y",
+          "guid": "urn:bbc:podcast:p0pgqw3y"
+        },
         {
           "title": "Russian attacks leave 600,000 Ukrainians without power",
           "date": "Wed, 14 Oct 2026 14:53:00 +0000",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pg6pcc.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pg6pdj",
           "guid": "urn:bbc:podcast:p0pg6pdj"
-        },
-        {
-          "title": "The Global Story: Smart glasses or ‘pervert glasses’?",
-          "date": "Sun, 11 Oct 2026 19:00:00 +0000",
-          "description": "At a recent Meta product launch, Mark Zuckerberg promised that the company’s smart glasses would give wearers “new superpowers”, but what are they? Amid criticisms of its privacy and child protection policies, Meta is betting big on smart glasses as a way to restyle the company’s image, but they too have caused controversy – dubbed by critics ‘pervert glasses’ because they have been used to film women without their knowledge. So why are Meta and other big tech firms investing billions in this t…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pfvp21.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pfvq1p",
-          "guid": "urn:bbc:podcast:p0pfvq1p"
-        },
-        {
-          "title": "Trump calls for Zelensky to be replaced",
-          "date": "Sun, 11 Oct 2026 03:52:00 +0000",
-          "description": "A major diplomatic row has erupted between President Trump and his Ukrainian counterpart, Volodymyr Zelensky. After Mr Zelensky criticised a decision by Mr Trump to buy Russian diesel, the US president lashed out. He called for a new leader in Ukraine, and said Mr Zelensky was prolonging the war with Moscow. Mr Trump warned the Ukrainian leader not to bomb Russian oil refineries. Also: people in Mexico are bracing themselves for another hurricane. The Indian government stops a protest calling f…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pg3dq8.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pg3dsv",
-          "guid": "urn:bbc:podcast:p0pg3dsv"
         }
       ]
     },
