@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-15T23:42:01Z",
+  "updatedAt": "2026-10-16T23:36:22Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Israeli settlers attack Palestinians during olive harvest",
+          "date": "Fri, 16 Oct 2026 14:54:00 +0000",
+          "description": "The BBC has witnessed Israeli settlers attack Palestinians and set fire to olive trees in the occupied West Bank. Also: President Volodymyr Zelensky has said he is \"only standing up for Ukraine's interests\" after scathing criticism from Donald Trump. There has been a stark rise in anti-government activists deported to Russia from the EU and US, where they'd been seeking sanctuary. Researchers at the University of Maryland in the US have developed a tool to spot whether ideas are AI generated. A…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ph3jfv.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ph3k57",
+          "guid": "urn:bbc:podcast:p0ph3k57"
+        },
+        {
+          "title": "Four killed in school shooting in US state of Oregon",
+          "date": "Fri, 16 Oct 2026 04:42:00 +0000",
+          "description": "A 16-year-old has shot dead three children and a teacher at Silver Rail Elementary School in Bend, in the US state of Oregon. The gunman was shot dead by a member of the public. Also: Britain's defence secretary says he's been reassured by the US that Starlink satellite services used by Ukraine’s military have been restored. In Yemen, the presidential palace and seat of the government in the port city of Aden has been attacked by Houthi rebels. Venezuela's ousted President Nicolas Maduro pleads…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgzqy6.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pgzr4b",
+          "guid": "urn:bbc:podcast:p0pgzr4b"
+        },
+        {
           "title": "Deadly school disaster in Pakistan",
           "date": "Thu, 15 Oct 2026 15:25:00 +0000",
           "description": "More than 30 people have been killed after a school roof collapsed in Peshawar, Pakistan, with the majority thought to be children under the age of 13. The owner of the school has been arrested, with police warning the building was extremely dangerous and there was a risk of further collapse. Also: the BBC has identified 254 incidents in which the Israeli military has been accused of killing or injuring people in Gaza, Lebanon, the occupied West Bank and Israel, which it said it would investiga…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgcv5c.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pgcv8s",
           "guid": "urn:bbc:podcast:p0pgcv8s"
-        },
-        {
-          "title": "French supermarkets say fridges targeted in cyberattack",
-          "date": "Mon, 12 Oct 2026 15:04:00 +0000",
-          "description": "Major French supermarket chains have reported being hit by a cyberattack that caused their refrigerators to defrost. More than 150 Intermarché stores were targeted, along with almost 100 Coopérative U outlets. The hackers may have also hit other major chains in France and neighbouring countries. Also: Saudi airspace remains heavily disrupted, as Yemen's Houthis continue a barrage of missile attacks. President Zelensky says Washington has to make Russia respect the energy ceasefire announced by…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pg9vg2.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pg9xc5",
-          "guid": "urn:bbc:podcast:p0pg9xc5"
-        },
-        {
-          "title": "Houthis attack Saudi airport for third time in four days",
-          "date": "Mon, 12 Oct 2026 04:20:00 +0000",
-          "description": "The main international airport in the Saudi Arabian capital, Riyadh, is attacked on consecutive days by the Iran-backed Houthis in Yemen. More than a dozen people have been killed and hundreds injured. The Houthis say they launched the strikes because of the Saudis' support for government forces in Yemen's civil war. Also: a BBC investigation looks into the circumstances surrounding the shooting of mourners in Kenya at a national farewell for a former prime minister. The Pope is to undergo surg…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pg6pcc.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pg6pdj",
-          "guid": "urn:bbc:podcast:p0pg6pdj"
         }
       ]
     },
@@ -146,6 +146,14 @@
       "label": "Learning English Drama",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9s1.rss",
       "episodes": [
+        {
+          "title": "Classic Stories: The Adventures of Huckleberry Finn",
+          "date": "Fri, 16 Oct 2026 08:27:00 +0000",
+          "description": "Enjoy a classic story in English and learn 9 uses of ‘come’ - in 5 minutes. THE READING ROOM: ✔️ https://www.bbc.co.uk/learningenglish/features/the_reading_room SUBSCRIBE TO OUR NEWSLETTER: ✔️ https://www.bbc.co.uk/learningenglish/newsletters FIND BBC LEARNING ENGLISH HERE: Visit our website ✔️ https://www.bbc.co.uk/learningenglish Follow us ✔️ https://www.bbc.co.uk/learningenglish/followus LIKE PODCASTS? Try some of our other popular podcasts including: ✔️ 6 Minute English ✔️ Learning English…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ph0tzp.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ph0vkc",
+          "guid": "urn:bbc:podcast:p0ph0vkc"
+        },
         {
           "title": "Classic Stories: Cinderella",
           "date": "Fri, 09 Oct 2026 10:12:00 +0000",
@@ -201,14 +209,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p6t31b.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0p6t4sq",
           "guid": "urn:bbc:podcast:p0p6t4sq"
-        },
-        {
-          "title": "Classic Stories: Far From the Madding Crowd",
-          "date": "Fri, 07 Aug 2026 09:21:00 +0000",
-          "description": "Enjoy a classic story in English and boost your listening skills. Find more programmes to practise your reading, writing, speaking and listening skills here: https://www.bbc.co.uk/learningenglish/english/skills Have you tried learning English from the news? https://www.bbc.co.uk/learningenglish/english/news_english And as always... don't forget to sign up to our weekly newsletter to get tips and resources from your favourite presenters! https://www.bbc.co.uk/send/u178220599",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p36nk3.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p36p49",
-          "guid": "urn:bbc:podcast:p0p36p49"
         }
       ]
     }
