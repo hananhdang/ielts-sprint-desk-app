@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-16T23:36:22Z",
+  "updatedAt": "2026-10-17T23:08:18Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Happy Pod: An island of strangers saved our wedding",
+          "date": "Sat, 17 Oct 2026 11:00:00 +0000",
+          "description": "When a storm washed out the only road connecting North Carolina's Outer Banks, Kimberly and Jayden turned to the locals of Hatteras Island for help. None of their family or wedding suppliers could get there for their big day. But, after a social media appeal, the locals rallied round the couple and their wedding went ahead. The couple estimate between 500 to 800 strangers attended their wedding. Also, a black Labrador has just been named as Animal of the Year. Six year old Sgaith sniffs out an…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgx6qp.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pgx7l6",
+          "guid": "urn:bbc:podcast:p0pgx7l6"
+        },
+        {
+          "title": "Trump fires press secretary Katie Zacharia",
+          "date": "Sat, 17 Oct 2026 03:31:00 +0000",
+          "description": "The White House press secretary Katie Zacharia has been ousted after just five days, amid criticism of her first media briefing and questions about her legal background. Also: figures released by the Brazilian government indicate that deforestation in the Amazon has hit record lows. Police in the US state of Oregon have described how a teacher and a school parent fought off the gunman who killed four people at a primary school on Thursday. Ukraine says a counteroffensive has liberated more than…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ph5w2b.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ph5wr3",
+          "guid": "urn:bbc:podcast:p0ph5wr3"
+        },
+        {
           "title": "Israeli settlers attack Palestinians during olive harvest",
           "date": "Fri, 16 Oct 2026 14:54:00 +0000",
           "description": "The BBC has witnessed Israeli settlers attack Palestinians and set fire to olive trees in the occupied West Bank. Also: President Volodymyr Zelensky has said he is \"only standing up for Ukraine's interests\" after scathing criticism from Donald Trump. There has been a stark rise in anti-government activists deported to Russia from the EU and US, where they'd been seeking sanctuary. Researchers at the University of Maryland in the US have developed a tool to spot whether ideas are AI generated. A…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgjx74.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pgjxdp",
           "guid": "urn:bbc:podcast:p0pgjxdp"
-        },
-        {
-          "title": "IMF upgrades global economy outlook",
-          "date": "Tue, 13 Oct 2026 14:44:00 +0000",
-          "description": "The International Monetary Fund says in its latest report that global growth has weathered the Middle East conflict better than had been feared, with rerouting of oil supplies and the release of energy stocks helping reduce the negative impact of the Iran war. But the IMF also warns that emergency stocks are now depleted. Also; the authorities in the American state of Tennessee release dramatic phone calls that were made to the emergency services after the botched execution of Christa Pike; Pop…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pggq4p.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pggr8v",
-          "guid": "urn:bbc:podcast:p0pggr8v"
-        },
-        {
-          "title": "Annual dementia cases could double by 2050",
-          "date": "Tue, 13 Oct 2026 04:26:00 +0000",
-          "description": "Researchers in Australia say there were 11.4 million new dementia cases in 2023. They expect that number to more than double to 24.7 million by 2050. Women and people from lower- and middle-income countries are most likely to be affected. We speak to Professor Henry Brodaty, co-author of the study, who tells us this is because of \"an epidemic of ageing\". Also: the BBC reports from the frontline of the conflict in Yemen. US federal agents have raided the home in Washington of the Democratic cong…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgcv5c.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pgcv8s",
-          "guid": "urn:bbc:podcast:p0pgcv8s"
         }
       ]
     },
