@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-17T23:08:18Z",
+  "updatedAt": "2026-10-18T23:13:25Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Global Story:Was World War Two worth it? Some US conservatives have doubts",
+          "date": "Sun, 18 Oct 2026 19:00:00 +0000",
+          "description": "Since World War Two ended, most people living in the United States or Europe have generally upheld a consensus about its morality; that it was a just war fought against an evil Nazi regime, and the allies were right to fight it. But in a viral podcast debate with the British conservative Sir Jacob Rees-Mogg, Tucker Carlson seemed to disagree with that narrative, causing deep consternation within the wider conservative movement. The Global Story’s Tristan Redman speaks to BBC Newscast’s Adam Fle…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ph1k8q.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ph1mk9",
+          "guid": "urn:bbc:podcast:p0ph1mk9"
+        },
+        {
+          "title": "President Macron vows to punish French rioters",
+          "date": "Sun, 18 Oct 2026 03:40:00 +0000",
+          "description": "President Macron has promised that vandals and looters will be punished after a day of rioting saw businesses and public buildings damaged and set on fire across France. The protests - that have turned violent - are part of an ongoing wave of anger over declining public services and the cost of living. Also: The US, France and Belgium condemn Israeli settler attacks on diplomats and a journalist in the occupied West Bank. Donald Trump waives newly announced sanctions on Russia. We look back at…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ph9kym.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ph9l0c",
+          "guid": "urn:bbc:podcast:p0ph9l0c"
+        },
+        {
           "title": "The Happy Pod: An island of strangers saved our wedding",
           "date": "Sat, 17 Oct 2026 11:00:00 +0000",
           "description": "When a storm washed out the only road connecting North Carolina's Outer Banks, Kimberly and Jayden turned to the locals of Hatteras Island for help. None of their family or wedding suppliers could get there for their big day. But, after a social media appeal, the locals rallied round the couple and their wedding went ahead. The couple estimate between 500 to 800 strangers attended their wedding. Also, a black Labrador has just been named as Animal of the Year. Six year old Sgaith sniffs out an…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgqvvk.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pgqw3y",
           "guid": "urn:bbc:podcast:p0pgqw3y"
-        },
-        {
-          "title": "Russian attacks leave 600,000 Ukrainians without power",
-          "date": "Wed, 14 Oct 2026 14:53:00 +0000",
-          "description": "Russian missile and drone strikes hit \"critical\" infrastructure in Kyiv and Kharkiv despite US President Donald Trump's claim on Sunday that an \"energy ceasefire\" was in place between Russia and Ukraine. Ukraine says it received no warning from allies and was hampered by restrictions to the Starlink communications network during another night of intense attacks. Separately, speed restrictions on the key Starlink communications network have disrupted Ukraine's battlefield \"missions\", President V…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgmx1w.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pgn12v",
-          "guid": "urn:bbc:podcast:p0pgn12v"
-        },
-        {
-          "title": "Pope has surgery for lung cancer",
-          "date": "Wed, 14 Oct 2026 04:46:00 +0000",
-          "description": "A medical bulletin from the Vatican has announced that Pope Leo has undergone a successful operation to remove a cancerous tumour from his right lung. It said the Pope had woken up normally and returned to his room after a brief period of observation. Pope Leo had announced on Sunday that his operation was imminent but the cancer diagnosis only came after the procedure had been carried out. Also: 30 years after the American rapper Tupac Shakur was killed in a drive-by shooting in Las Vegas, a f…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgjx74.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pgjxdp",
-          "guid": "urn:bbc:podcast:p0pgjxdp"
         }
       ]
     },
