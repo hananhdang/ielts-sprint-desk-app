@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-20T00:20:50Z",
+  "updatedAt": "2026-10-20T23:53:06Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Alberta rejects move towards Canada independence",
+          "date": "Tue, 20 Oct 2026 15:49:00 +0000",
+          "description": "Canada’s most oil and gas rich province, Alberta, has voted to reject a move towards holding a referendum on independence from Canada. The Alberta Premier Danielle Smith and Prime Minister Mark Carney said they were pleased with the result. More than three quarters of voters said they were against holding a future binding referendum that would have split Alberta from the rest of Canada. The vote took place at a time when Canada is embroiled in a trade war with the US. Also: More civilians have…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0phnr2p.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0phnspw",
+          "guid": "urn:bbc:podcast:p0phnspw"
+        },
+        {
+          "title": "France halts protests with curfew crackdown",
+          "date": "Tue, 20 Oct 2026 05:14:00 +0000",
+          "description": "Overnight curfews are in place in parts of Paris, Lyon, Lille and Nice as the French authorities try to crack down on violence and looting which has scarred the country since Saturday. Demonstrations have been banned in the French capital, which experienced some of the worst unrest that spilled over from massive protests against the cost of living. Also: Japan heads to Mars to make history in space exploration; young Israeli voters speak to the BBC ahead of next week's election; a Bangladesh mi…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0phl963.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0phlcv5",
+          "guid": "urn:bbc:podcast:p0phlcv5"
+        },
+        {
           "title": "World Food Programme to cut aid to Gaza",
           "date": "Mon, 19 Oct 2026 15:37:00 +0000",
           "description": "Residents of Gaza have described the World Food Programme's decision to drastically reduce lifesaving assistance as \"disastrous\". The number of people helped by the UN agency will be reduced by around a third to one-point-one million people, as it grapples with a funding shortfall. Also: An Australian lawmaker is in a critical condition after being hit by a car in what the prime minister described as an attack. A Kenyan court delivers its judgement in the trial of a cult leader accused of murde…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pgx6qp.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pgx7l6",
           "guid": "urn:bbc:podcast:p0pgx7l6"
-        },
-        {
-          "title": "Trump fires press secretary Katie Zacharia",
-          "date": "Sat, 17 Oct 2026 03:31:00 +0000",
-          "description": "The White House press secretary Katie Zacharia has been ousted after just five days, amid criticism of her first media briefing and questions about her legal background. Also: figures released by the Brazilian government indicate that deforestation in the Amazon has hit record lows. Police in the US state of Oregon have described how a teacher and a school parent fought off the gunman who killed four people at a primary school on Thursday. Ukraine says a counteroffensive has liberated more than…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ph5w2b.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0ph5wr3",
-          "guid": "urn:bbc:podcast:p0ph5wr3"
-        },
-        {
-          "title": "Israeli settlers attack Palestinians during olive harvest",
-          "date": "Fri, 16 Oct 2026 14:54:00 +0000",
-          "description": "The BBC has witnessed Israeli settlers attack Palestinians and set fire to olive trees in the occupied West Bank. Also: President Volodymyr Zelensky has said he is \"only standing up for Ukraine's interests\" after scathing criticism from Donald Trump. There has been a stark rise in anti-government activists deported to Russia from the EU and US, where they'd been seeking sanctuary. Researchers at the University of Maryland in the US have developed a tool to spot whether ideas are AI generated. A…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ph3jfv.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0ph3k57",
-          "guid": "urn:bbc:podcast:p0ph3k57"
         }
       ]
     },
