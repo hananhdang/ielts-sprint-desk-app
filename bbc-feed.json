@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-23T23:51:37Z",
+  "updatedAt": "2026-10-24T23:15:16Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Happy Pod: Lost my ring, found some friends",
+          "date": "Sat, 24 Oct 2026 11:00:00 +0000",
+          "description": "Patrick Mohr thought his wedding ring was gone after it fell off his hand while he swam in Italy, but it led to an international friendship with three locals who dived to find it. Filippo Palagi, Nicola Malloggi and Edoardo Poggi went on a trip to return it to Patrick in Ireland. Also: the grandmother who competed at Miss Great Britain and made history in the process. Glamour Gran Ann wants other women to see that getting older does not mean disappearing. In Australia, the reporter who ended up…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pj9f1x.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pj9wyz",
+          "guid": "urn:bbc:podcast:p0pj9wyz"
+        },
+        {
+          "title": "Melania Trump brokers ceasefire for Ukrainian city",
+          "date": "Sat, 24 Oct 2026 03:45:00 +0000",
+          "description": "The White House says the US first lady, Melania Trump, has brokered a local ceasefire for a frontline city in a Russian-occupied part of Ukraine. The truce in Oleshky, in the Kherson region, is due to begin on October 29. The White House says the city is on \"the brink of disaster\" without medicine, food and clean water. Residents of the city have resorted to eating garden weeds to survive. Also: Donald Trump files a lawsuit seeking to block Alaska's result in the midterms if the Republican incu…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjcwsp.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pjcwvy",
+          "guid": "urn:bbc:podcast:p0pjcwvy"
+        },
+        {
           "title": "Sudan's hospitals deliberately targeted by RSF fighters",
           "date": "Fri, 23 Oct 2026 14:31:00 +0000",
           "description": "A BBC investigation has found evidence that Sudanese paramilitary fighters systematically destroyed El-Fasher's healthcare system during their long siege and subsequent takeover of the city in Darfur a year ago. UN human rights chief Volker Türk called the findings \"deeply disturbing\", saying multiple attacks by the Rapid Support Forces (RSF) on civilian infrastructure, including health facilities, were serious violations of international humanitarian law and may amount to war crimes. Also: the…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0phqskt.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0phqt0f",
           "guid": "urn:bbc:podcast:p0phqt0f"
-        },
-        {
-          "title": "Alberta rejects move towards Canada independence",
-          "date": "Tue, 20 Oct 2026 15:49:00 +0000",
-          "description": "Canada’s most oil and gas rich province, Alberta, has voted to reject a move towards holding a referendum on independence from Canada. The Alberta Premier Danielle Smith and Prime Minister Mark Carney said they were pleased with the result. More than three quarters of voters said they were against holding a future binding referendum that would have split Alberta from the rest of Canada. The vote took place at a time when Canada is embroiled in a trade war with the US. Also: More civilians have…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0phnr2p.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0phnspw",
-          "guid": "urn:bbc:podcast:p0phnspw"
-        },
-        {
-          "title": "France halts protests with curfew crackdown",
-          "date": "Tue, 20 Oct 2026 05:14:00 +0000",
-          "description": "Overnight curfews are in place in parts of Paris, Lyon, Lille and Nice as the French authorities try to crack down on violence and looting which has scarred the country since Saturday. Demonstrations have been banned in the French capital, which experienced some of the worst unrest that spilled over from massive protests against the cost of living. Also: Japan heads to Mars to make history in space exploration; young Israeli voters speak to the BBC ahead of next week's election; a Bangladesh mi…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0phl963.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0phlcv5",
-          "guid": "urn:bbc:podcast:p0phlcv5"
         }
       ]
     },
