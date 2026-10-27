@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-25T23:16:58Z",
+  "updatedAt": "2026-10-27T00:26:25Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,30 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "What's next for China after Xi Jinping?",
+          "date": "Tue, 27 Oct 2026 00:01:00 +0000",
+          "description": "This week the Chinese President Xi Jinping and his inner circle are meeting in Beijing for a series of closed-door meetings, known as plenums. Once those meetings have concluded, we're expecting to learn more about the senior figures that could shape the look of China's ruling Communist Party in the years to come. In this bonus episode we answer your questions about the next generation of Chinese leaders and how they might run the world superpower. Presenter Celia Hatton is joined by the BBC's…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjptfq.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pjpv9t",
+          "guid": "urn:bbc:podcast:p0pjpv9t"
+        },
+        {
+          "title": "Leaderless student movement wins Serbian election",
+          "date": "Mon, 26 Oct 2026 16:31:00 +0000",
+          "description": "Serbia's long-standing leader, Aleksander Vučić, is defeated in parliamentary elections by the Student List Party. The movement grew out of protests against corruption and authoritarianism. Also: we speak to Israelis about what many see as the most critical election in their history. Brazil's incumbent left-wing President, Luiz Inacio Lula da Silva, wins a stunning victory in a run-off vote. Around 300 top politicians gather in Beijing, as China's communist leadership holds its most important m…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjptg9.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pjpv1c",
+          "guid": "urn:bbc:podcast:p0pjpv1c"
+        },
+        {
+          "title": "Brazil's President Lula defeats Bolsonaro",
+          "date": "Mon, 26 Oct 2026 05:37:00 +0000",
+          "description": "Brazil's left-wing President Luiz Inácio Lula da Silva has been elected to a fourth term in office, defeating Flávio Bolsonaro in the runoff of the presidential election. The right-wing challenger Bolsonaro has called for the election to be annulled, following in his father Jair Bolsonaro’s footsteps by not recognising the results. Lula becomes the first president in Brazil's history to win a fourth term. Also: joy and disbelief on Serbia's streets as a student-led protest movement defeats the…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjlxzm.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pjlyh7",
+          "guid": "urn:bbc:podcast:p0pjlyh7"
+        },
+        {
           "title": "The Global Story: They were loyal Democrats. Then came Gaza",
           "date": "Sun, 25 Oct 2026 20:00:00 +0000",
           "description": "Midterm elections in the United States are normally about domestic issues such as the economy and the cost of living. They’re often a pulse check on voter sentiment towards the party in power, or a reflection of local political battles and regional trends. Midterms are rarely impassioned referendums on a specific foreign policy issue. But this year in Michigan, for some voters, the Senate race is shaping up to be just that. Today on the show, The Global Story’s Asma Khalid shares her reporting…",
@@ -115,30 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pj924b.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pj95j1",
           "guid": "urn:bbc:podcast:p0pj95j1"
-        },
-        {
-          "title": "Yemen's humanitarian crisis",
-          "date": "Fri, 23 Oct 2026 04:46:00 +0000",
-          "description": "Our senior international corrrespondent Orla Guerin reports from Yemen where fighting has intensified between government forces and Houthi rebels. Also: Kim Jong-un's sister, Kim Yo-jong steps into the limelight as rumours swirl over the health of the North Korean leader. Demonstrators stage peaceful protests across Venezuela calling for the safe return of opposition leader Maria Corina Machado. President Trump is ordered to answer questions under oath in BBC lawsuit. New York city council vote…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pj5smt.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pj5sxl",
-          "guid": "urn:bbc:podcast:p0pj5sxl"
-        },
-        {
-          "title": "Ukraine comes under renewed Russian attack",
-          "date": "Thu, 22 Oct 2026 15:22:00 +0000",
-          "description": "The Ukrainian president has accused Russia of responding to the latest negotiations about ending the war by launching three waves of ballistic missiles. Nine people were killed and more than 30 injured across Ukraine, as homes, power facilities, shops and a medical centre were hit. The attacks came after Russia had said it was \"ready in principle\" to resume peace talks, and the US said an end to the war was close. Also: American media reports say the US and Israel are developing plans for renew…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pj1qgg.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pj1x9c",
-          "guid": "urn:bbc:podcast:p0pj1x9c"
-        },
-        {
-          "title": "US and European websites go offline over security concerns",
-          "date": "Thu, 22 Oct 2026 04:41:00 +0000",
-          "description": "A cyber security flaw has prompted governments in Finland and the Netherlands and websites such as Wikipedia and the BBC to go completely dark temporarily. The flaws in a programming language were discovered by AI. PHP is a scripting language that powers 70 per cent of all websites in the world. Also: Three-way talks between Russia, Ukraine and the United States are scheduled to take place in Abu Dhabi next month to try to bring an end to the Russia-Ukraine war. We hear about an Iranian prisone…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0phxwfv.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0phxwpq",
-          "guid": "urn:bbc:podcast:p0phxwpq"
         }
       ]
     },
