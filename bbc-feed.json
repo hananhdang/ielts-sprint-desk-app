@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-27T00:26:25Z",
+  "updatedAt": "2026-10-28T00:31:54Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Huge turnout in Israeli election",
+          "date": "Tue, 27 Oct 2026 16:30:00 +0000",
+          "description": "Israelis turn out in large numbers to vote in what many view as one of the most pivotal elections in the country's history. The campaign has been shaped by the issues of democracy and security and is widely being seen as a referendum on Benjamin Netanyahu's leadership. Also: Officials aligned with the Rapid Support Forces in Sudan say drone strikes on the city of Nyala have killed over a hundred people. A ceasefire between Russia and Ukraine is holding in the Russia-occupied city of Oleshky, to…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjw48x.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pjwfwn",
+          "guid": "urn:bbc:podcast:p0pjwfwn"
+        },
+        {
+          "title": "Israel holds first election since October 7th attacks",
+          "date": "Tue, 27 Oct 2026 05:28:00 +0000",
+          "description": "Israel is holding its first general election since the October 7th Hamas attacks in 2023, with Benjamin Netanyahu seeking to maintain his hold on power after three years of war. Also: after his shock defeat in the Brazilian election, the right wing opposition candidate, Flávio Bolsonaro, says he's now been banned from leaving the country. Anthropic files for a potentially record-breaking stock market valuation. Two Catholic bishops in the US say they regret meeting President Trump, after images…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjrn53.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pjrnd4",
+          "guid": "urn:bbc:podcast:p0pjrnd4"
+        },
+        {
           "title": "What's next for China after Xi Jinping?",
           "date": "Tue, 27 Oct 2026 00:01:00 +0000",
           "description": "This week the Chinese President Xi Jinping and his inner circle are meeting in Beijing for a series of closed-door meetings, known as plenums. Once those meetings have concluded, we're expecting to learn more about the senior figures that could shape the look of China's ruling Communist Party in the years to come. In this bonus episode we answer your questions about the next generation of Chinese leaders and how they might run the world superpower. Presenter Celia Hatton is joined by the BBC's…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pj9f1x.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pj9wyz",
           "guid": "urn:bbc:podcast:p0pj9wyz"
-        },
-        {
-          "title": "Melania Trump brokers ceasefire for Ukrainian city",
-          "date": "Sat, 24 Oct 2026 03:45:00 +0000",
-          "description": "The White House says the US first lady, Melania Trump, has brokered a local ceasefire for a frontline city in a Russian-occupied part of Ukraine. The truce in Oleshky, in the Kherson region, is due to begin on October 29. The White House says the city is on \"the brink of disaster\" without medicine, food and clean water. Residents of the city have resorted to eating garden weeds to survive. Also: Donald Trump files a lawsuit seeking to block Alaska's result in the midterms if the Republican incu…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjcwsp.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pjcwvy",
-          "guid": "urn:bbc:podcast:p0pjcwvy"
-        },
-        {
-          "title": "Sudan's hospitals deliberately targeted by RSF fighters",
-          "date": "Fri, 23 Oct 2026 14:31:00 +0000",
-          "description": "A BBC investigation has found evidence that Sudanese paramilitary fighters systematically destroyed El-Fasher's healthcare system during their long siege and subsequent takeover of the city in Darfur a year ago. UN human rights chief Volker Türk called the findings \"deeply disturbing\", saying multiple attacks by the Rapid Support Forces (RSF) on civilian infrastructure, including health facilities, were serious violations of international humanitarian law and may amount to war crimes. Also: the…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pj924b.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pj95j1",
-          "guid": "urn:bbc:podcast:p0pj95j1"
         }
       ]
     },
