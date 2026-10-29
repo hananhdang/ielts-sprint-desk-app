@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-28T00:31:54Z",
+  "updatedAt": "2026-10-29T00:57:32Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Dozens killed in train crash in Spain",
+          "date": "Wed, 28 Oct 2026 16:28:00 +0000",
+          "description": "More than 60 people have died after two high-speed trains collided south of the Spanish capital, Madrid. The accident happened on the same rail line where 46 people died earlier this year. Also: with most votes counted in the Israeli election, Benjamin Netanyahu's bloc is slightly ahead, but short of a majority. A luxury cruise ship on a years-long voyage around the world has suspended operations because of high fuel costs, leaving passengers stranded in Cambodia. King Charles has begun his tou…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pk3gws.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pk3hmm",
+          "guid": "urn:bbc:podcast:p0pk3hmm"
+        },
+        {
+          "title": "Israel election too close to call",
+          "date": "Wed, 28 Oct 2026 05:23:00 +0000",
+          "description": "There is no clear winner in Israel's election, with results remaining too close to call. As votes are being counted, Benjamin Netanyahu tells supporters he wants to form a right-wing government and \"remove the Iranian threat once and for all.\" His challenger, opposition leader Gadi Eisenkot, urges the prime minister to step down, saying the country has voted \"for change\". Arab parties are on track to record their best results ever. Also: Brazil's defeated right-wing presidential candidate, Fláv…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjz1h1.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pjz1m1",
+          "guid": "urn:bbc:podcast:p0pjz1m1"
+        },
+        {
           "title": "Huge turnout in Israeli election",
           "date": "Tue, 27 Oct 2026 16:30:00 +0000",
           "description": "Israelis turn out in large numbers to vote in what many view as one of the most pivotal elections in the country's history. The campaign has been shaped by the issues of democracy and security and is widely being seen as a referendum on Benjamin Netanyahu's leadership. Also: Officials aligned with the Rapid Support Forces in Sudan say drone strikes on the city of Nyala have killed over a hundred people. A ceasefire between Russia and Ukraine is holding in the Russia-occupied city of Oleshky, to…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pj7lrp.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pj7lzx",
           "guid": "urn:bbc:podcast:p0pj7lzx"
-        },
-        {
-          "title": "French protesters return to the streets",
-          "date": "Sun, 25 Oct 2026 04:39:00 +0000",
-          "description": "Protests against poor economic conditions have been held across France. Nearly 1,000 people have been arrested after clashes with riot police in cities including Paris and Marseilles. Also: campaigning intensifies ahead of the US mid-term elections. We have a special report from the Rio Grande Valley in South Texas. Gianni Infantino claims the \"vast majority\" supports his bid for re-election as head of world football's governing body, FIFA. Final rallies are held in Brazil ahead of Sunday's pre…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjhn2n.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pjhnc5",
-          "guid": "urn:bbc:podcast:p0pjhnc5"
-        },
-        {
-          "title": "The Happy Pod: Lost my ring, found some friends",
-          "date": "Sat, 24 Oct 2026 11:00:00 +0000",
-          "description": "Patrick Mohr thought his wedding ring was gone after it fell off his hand while he swam in Italy, but it led to an international friendship with three locals who dived to find it. Filippo Palagi, Nicola Malloggi and Edoardo Poggi went on a trip to return it to Patrick in Ireland. Also: the grandmother who competed at Miss Great Britain and made history in the process. Glamour Gran Ann wants other women to see that getting older does not mean disappearing. In Australia, the reporter who ended up…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pj9f1x.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pj9wyz",
-          "guid": "urn:bbc:podcast:p0pj9wyz"
         }
       ]
     },
