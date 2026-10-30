@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-29T00:57:32Z",
+  "updatedAt": "2026-10-30T01:00:15Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
       "episodes": [
+        {
+          "title": "Is aircon the answer to a heating world?",
+          "date": "Thu, 29 Oct 2026 09:09:00 +0000",
+          "description": "Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected by hot weather. In many locations, air conditioning is used to help cool down homes and workplaces, but not everyone has access to this. And it isn't just about getting a good night's sleep – extremely hot weather can be a serious health risk. Georgie and Neil discuss this and teach you some new vocabulary. 6 Minute English now has a VI…",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261029_6_minute_english_is_aircon_the_answer_to_a_heating_world_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261029",
+          "guid": "urn:bbc:podcast:p0pk7d0p"
+        },
         {
           "title": "What should you eat for a better night’s sleep?",
           "date": "Thu, 22 Oct 2026 09:56:00 +0000",
@@ -61,14 +69,6 @@
           "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260910_6_minute_english_can_apps_teach_you_a_language_download.mp3",
           "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260910",
           "guid": "urn:bbc:podcast:p0p8w5sh"
-        },
-        {
-          "title": "Climate change and extreme weather",
-          "date": "Thu, 03 Sep 2026 08:33:00 +0000",
-          "description": "Every year we see damage, death and destruction caused by hurricanes, cyclones and typhoons - tropical storms. Is climate change making this impact worse? Climate change may be making this destruction worse. Phil is joined by BBC weather presenter and meteorologist Sarah Keith-Lucas to learn more about this and teach you some new vocabulary. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260903 Practise…",
-          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260903_6_minute_english_storms_and_climate_change_download.mp3",
-          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260903",
-          "guid": "urn:bbc:podcast:p0p7p9b8"
         }
       ]
     },
@@ -76,6 +76,22 @@
       "label": "Global News Podcast",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
+        {
+          "title": "Deadly Russian drone hits Ukrainian railway station",
+          "date": "Thu, 29 Oct 2026 15:48:00 +0000",
+          "description": "More than a dozen people are killed by a jet-powered drone from Russia as they board a train from a crowded platform in the Ukrainian city of Dnipro. Also: following the election in Israel, Arab-led parties could hold the balance of power. Would they ever agree to join a coalition government? Rescuers are still searching the wreckage of a crash involving two high-speed trains in Spain. There's been outrage in South Korea after the makers of the video game Call of Duty include footage from a rea…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pk9x5b.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pk9z25",
+          "guid": "urn:bbc:podcast:p0pk9z25"
+        },
+        {
+          "title": "Bolsonaro declares himself 'Brazil's leader'",
+          "date": "Thu, 29 Oct 2026 05:29:00 +0000",
+          "description": "Flávio Bolsonaro insists he is Brazil’s rightful leader, claiming fraud in the election he lost to President Lula da Silva - without providing evidence. He is currently in Miami in the United States but denies fleeing Brazil where he is under investigation. Also: Spanish investigators examine if negligence played a role in deadly rail crash; forest fires spark anti-government protests across Indonesia; the woman who pet a great white shark; and the art of short films, and even shorter microdram…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pk6j15.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pk6j6v",
+          "guid": "urn:bbc:podcast:p0pk6j6v"
+        },
         {
           "title": "Dozens killed in train crash in Spain",
           "date": "Wed, 28 Oct 2026 16:28:00 +0000",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjptg9.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pjpv1c",
           "guid": "urn:bbc:podcast:p0pjpv1c"
-        },
-        {
-          "title": "Brazil's President Lula defeats Bolsonaro",
-          "date": "Mon, 26 Oct 2026 05:37:00 +0000",
-          "description": "Brazil's left-wing President Luiz Inácio Lula da Silva has been elected to a fourth term in office, defeating Flávio Bolsonaro in the runoff of the presidential election. The right-wing challenger Bolsonaro has called for the election to be annulled, following in his father Jair Bolsonaro’s footsteps by not recognising the results. Lula becomes the first president in Brazil's history to win a fourth term. Also: joy and disbelief on Serbia's streets as a student-led protest movement defeats the…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjlxzm.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pjlyh7",
-          "guid": "urn:bbc:podcast:p0pjlyh7"
-        },
-        {
-          "title": "The Global Story: They were loyal Democrats. Then came Gaza",
-          "date": "Sun, 25 Oct 2026 20:00:00 +0000",
-          "description": "Midterm elections in the United States are normally about domestic issues such as the economy and the cost of living. They’re often a pulse check on voter sentiment towards the party in power, or a reflection of local political battles and regional trends. Midterms are rarely impassioned referendums on a specific foreign policy issue. But this year in Michigan, for some voters, the Senate race is shaping up to be just that. Today on the show, The Global Story’s Asma Khalid shares her reporting…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pj7lrp.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pj7lzx",
-          "guid": "urn:bbc:podcast:p0pj7lzx"
         }
       ]
     },
