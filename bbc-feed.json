@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-30T01:00:15Z",
+  "updatedAt": "2026-10-31T00:48:15Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Residents leave devastated Russian-occupied Oleshky",
+          "date": "Fri, 30 Oct 2026 16:51:00 +0000",
+          "description": "Officials confirm the evacuation of the Ukrainian city of Oleshky is under way. Russia and Ukraine have agreed a temporary local ceasefire. People who decided to leave Oleshky had a four-hour window to do so. Also: Binance, the world's biggest crypto exchange, has been hit by what could be the biggest hack in history. We report from Syria, two years on from the fall of the Assad regime. Experts say the online “manosphere” should be treated as a public health issue. We look at what role Israel’s…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkhvcv.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pkhvpg",
+          "guid": "urn:bbc:podcast:p0pkhvpg"
+        },
+        {
+          "title": "Venezuelan opposition leader criticises US oil deal",
+          "date": "Fri, 30 Oct 2026 05:57:00 +0000",
+          "description": "The Venezuelan opposition leader, Maria Corina Machado, has questioned a massive oil deal agreed between Caracas and Washington earlier this year. The accord will see Venezuela hand over twenty per cent of its oil reserves to the US. Speaking at a news conference after her return from exile over the weekend, Ms Machado insisted elections would be held next year, as part of the democratic transition she said was backed by the US. Also: Spanish families desperately search local hospitals in the h…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkdh9g.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pkds06",
+          "guid": "urn:bbc:podcast:p0pkds06"
+        },
+        {
           "title": "Deadly Russian drone hits Ukrainian railway station",
           "date": "Thu, 29 Oct 2026 15:48:00 +0000",
           "description": "More than a dozen people are killed by a jet-powered drone from Russia as they board a train from a crowded platform in the Ukrainian city of Dnipro. Also: following the election in Israel, Arab-led parties could hold the balance of power. Would they ever agree to join a coalition government? Rescuers are still searching the wreckage of a crash involving two high-speed trains in Spain. There's been outrage in South Korea after the makers of the video game Call of Duty include footage from a rea…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjrn53.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pjrnd4",
           "guid": "urn:bbc:podcast:p0pjrnd4"
-        },
-        {
-          "title": "What's next for China after Xi Jinping?",
-          "date": "Tue, 27 Oct 2026 00:01:00 +0000",
-          "description": "This week the Chinese President Xi Jinping and his inner circle are meeting in Beijing for a series of closed-door meetings, known as plenums. Once those meetings have concluded, we're expecting to learn more about the senior figures that could shape the look of China's ruling Communist Party in the years to come. In this bonus episode we answer your questions about the next generation of Chinese leaders and how they might run the world superpower. Presenter Celia Hatton is joined by the BBC's…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjptfq.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pjpv9t",
-          "guid": "urn:bbc:podcast:p0pjpv9t"
-        },
-        {
-          "title": "Leaderless student movement wins Serbian election",
-          "date": "Mon, 26 Oct 2026 16:31:00 +0000",
-          "description": "Serbia's long-standing leader, Aleksander Vučić, is defeated in parliamentary elections by the Student List Party. The movement grew out of protests against corruption and authoritarianism. Also: we speak to Israelis about what many see as the most critical election in their history. Brazil's incumbent left-wing President, Luiz Inacio Lula da Silva, wins a stunning victory in a run-off vote. Around 300 top politicians gather in Beijing, as China's communist leadership holds its most important m…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjptg9.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pjpv1c",
-          "guid": "urn:bbc:podcast:p0pjpv1c"
         }
       ]
     },
@@ -146,6 +146,14 @@
       "label": "Learning English Drama",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9s1.rss",
       "episodes": [
+        {
+          "title": "Classic Stories: The Island of Dr Moreau",
+          "date": "Fri, 30 Oct 2026 09:00:00 +0000",
+          "description": "Enjoy a classic story in English and learn 8 uses of ‘with’ - in 5 minutes. FIND BBC LEARNING ENGLISH HERE: Visit our website ✔️ https://www.bbc.co.uk/learningenglish Follow us ✔️ https://www.bbc.co.uk/learningenglish/followus LIKE PODCASTS? Try some of our other popular podcasts including: ✔️ 6 Minute English ✔️ Learning English from the News ✔️ Learning English Conversations They're all available by searching in your podcast app.",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkbjxd.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pkbkxm",
+          "guid": "urn:bbc:podcast:p0pkbkxm"
+        },
         {
           "title": "Classic Stories: The Adventures of Huckleberry Finn",
           "date": "Fri, 16 Oct 2026 08:27:00 +0000",
@@ -201,14 +209,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p7yhzq.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0p7yky3",
           "guid": "urn:bbc:podcast:p0p7yky3"
-        },
-        {
-          "title": "Classic Stories: The Murders in the Rue Morgue",
-          "date": "Fri, 28 Aug 2026 11:42:00 +0000",
-          "description": "Enjoy a classic story in English and learn 9 uses of ‘run’ - in 5 minutes. For more great language tips and programmes visit bbclearningenglish.com Did you know that we have many other podcasts to help you improve your English? Listen to a real conversation, learn English from the news and lots more. Check them out here https://www.bbc.co.uk/learningenglish/english/podcasts Sign up to weekly updates with our email newsletter: https://www.bbc.co.uk/send/u178220599 Explore our website to find ple…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p6t31b.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p6t4sq",
-          "guid": "urn:bbc:podcast:p0p6t4sq"
         }
       ]
     }
