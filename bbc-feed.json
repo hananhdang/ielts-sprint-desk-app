@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-31T00:48:15Z",
+  "updatedAt": "2026-11-01T00:08:29Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Happy Pod: Personalised cancer vaccine shows promise in major trial",
+          "date": "Sat, 31 Oct 2026 12:00:00 +0000",
+          "description": "A new personalised skin cancer vaccine has been found to reduce the risk of patients dying or their cancer returning by 42%. As part of a global two-year clinical trial, more than 1,000 patients who had already had their tumours removed were given a widely used immunotherapy drug. Around two-thirds were then given the experimental vaccine, which was developed using cells from their own tumours. Researchers say the results could mark a turning point in cancer treatment. Also: How a man achieved…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkj482.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pkj52k",
+          "guid": "urn:bbc:podcast:p0pkj52k"
+        },
+        {
+          "title": "US approves sale of 500 Patriot missiles to Ukraine",
+          "date": "Sat, 31 Oct 2026 05:01:00 +0000",
+          "description": "The US State Department says it has approved the sale of more than two billion dollars' worth of Patriot missiles to Ukraine. The 500 missiles have been paid for by contributions from Canada, Germany and Norway. Ukraine needs the interceptors to defend itself from escalating Russian attacks, but there is a global shortage due to their use by the US in its war against Iran. Also: Russia's most prominent independant paper closes after years of state persecution. Shares in US technology companies…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkkvq7.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pkkxk0",
+          "guid": "urn:bbc:podcast:p0pkkxk0"
+        },
+        {
           "title": "Residents leave devastated Russian-occupied Oleshky",
           "date": "Fri, 30 Oct 2026 16:51:00 +0000",
           "description": "Officials confirm the evacuation of the Ukrainian city of Oleshky is under way. Russia and Ukraine have agreed a temporary local ceasefire. People who decided to leave Oleshky had a four-hour window to do so. Also: Binance, the world's biggest crypto exchange, has been hit by what could be the biggest hack in history. We report from Syria, two years on from the fall of the Assad regime. Experts say the online “manosphere” should be treated as a public health issue. We look at what role Israel’s…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjz1h1.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pjz1m1",
           "guid": "urn:bbc:podcast:p0pjz1m1"
-        },
-        {
-          "title": "Huge turnout in Israeli election",
-          "date": "Tue, 27 Oct 2026 16:30:00 +0000",
-          "description": "Israelis turn out in large numbers to vote in what many view as one of the most pivotal elections in the country's history. The campaign has been shaped by the issues of democracy and security and is widely being seen as a referendum on Benjamin Netanyahu's leadership. Also: Officials aligned with the Rapid Support Forces in Sudan say drone strikes on the city of Nyala have killed over a hundred people. A ceasefire between Russia and Ukraine is holding in the Russia-occupied city of Oleshky, to…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjw48x.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pjwfwn",
-          "guid": "urn:bbc:podcast:p0pjwfwn"
-        },
-        {
-          "title": "Israel holds first election since October 7th attacks",
-          "date": "Tue, 27 Oct 2026 05:28:00 +0000",
-          "description": "Israel is holding its first general election since the October 7th Hamas attacks in 2023, with Benjamin Netanyahu seeking to maintain his hold on power after three years of war. Also: after his shock defeat in the Brazilian election, the right wing opposition candidate, Flávio Bolsonaro, says he's now been banned from leaving the country. Anthropic files for a potentially record-breaking stock market valuation. Two Catholic bishops in the US say they regret meeting President Trump, after images…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjrn53.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pjrnd4",
-          "guid": "urn:bbc:podcast:p0pjrnd4"
         }
       ]
     },
