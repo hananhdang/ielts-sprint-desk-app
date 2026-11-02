@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-01T00:08:29Z",
+  "updatedAt": "2026-11-02T00:45:48Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,14 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Violent protests in France for the third weekend in a row",
+          "date": "Sun, 01 Nov 2026 04:47:00 +0000",
+          "description": "The French interior ministry says that more than 500 people were arrested during riots across the country. Paving stones and petrol bombs were thrown at the police after trouble broke out following mainly peaceful demonstrations about falling living standards. Also: anti-government protests have broken out again in Albania where water canon was used to try to disperse protestors. Emotions run high in Ukraine where people evacuated from the Russian-occupied town of Oleshky were reunited with fri…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkpfz4.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pkpg0p",
+          "guid": "urn:bbc:podcast:p0pkpg0p"
+        },
+        {
           "title": "The Happy Pod: Personalised cancer vaccine shows promise in major trial",
           "date": "Sat, 31 Oct 2026 12:00:00 +0000",
           "description": "A new personalised skin cancer vaccine has been found to reduce the risk of patients dying or their cancer returning by 42%. As part of a global two-year clinical trial, more than 1,000 patients who had already had their tumours removed were given a widely used immunotherapy drug. Around two-thirds were then given the experimental vaccine, which was developed using cells from their own tumours. Researchers say the results could mark a turning point in cancer treatment. Also: How a man achieved…",
@@ -131,14 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pk3gws.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pk3hmm",
           "guid": "urn:bbc:podcast:p0pk3hmm"
-        },
-        {
-          "title": "Israel election too close to call",
-          "date": "Wed, 28 Oct 2026 05:23:00 +0000",
-          "description": "There is no clear winner in Israel's election, with results remaining too close to call. As votes are being counted, Benjamin Netanyahu tells supporters he wants to form a right-wing government and \"remove the Iranian threat once and for all.\" His challenger, opposition leader Gadi Eisenkot, urges the prime minister to step down, saying the country has voted \"for change\". Arab parties are on track to record their best results ever. Also: Brazil's defeated right-wing presidential candidate, Fláv…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pjz1h1.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pjz1m1",
-          "guid": "urn:bbc:podcast:p0pjz1m1"
         }
       ]
     },
