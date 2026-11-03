@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-02T00:45:48Z",
+  "updatedAt": "2026-11-03T02:55:28Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Ukraine and Russia hit by fake emergency alerts",
+          "date": "Mon, 02 Nov 2026 16:31:00 +0000",
+          "description": "Ukraine reported late on Sunday that an air alert app had been compromised - with citizens receiving several false notifications about chemical and radiological threats. A few hours later, the authorities in Russia said a similar app had been hacked after fake messages appeared about nuclear warheads being launched towards the country. The apparent cyberattack came on the same day the humanitarian ceasefire in the Russian-occupied city of Oleshky officially ended. Also: Monday is the last day o…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkwrw5.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pkww1f",
+          "guid": "urn:bbc:podcast:p0pkww1f"
+        },
+        {
+          "title": "Trump celebrates shock endorsement ahead of US midterms",
+          "date": "Mon, 02 Nov 2026 05:46:00 +0000",
+          "description": "A shock endorsement in Michigan just days before the US midterm elections has been welcomed by President Trump. Democratic Congresswoman Haley Stevens backed Republican, Mike Rogers, rather than her own party's candidate, Abdul El- Sayed. Also: Hamas says at least eight people have been killed during Israeli air strikes on Gaza. Thousands participate in demonstrations in Germany over the cost of living and spending on education. Buddhists in Bhutan gather to build 108 structures in 24 hours in…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pksm1b.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pksmf2",
+          "guid": "urn:bbc:podcast:p0pksmf2"
+        },
+        {
           "title": "Violent protests in France for the third weekend in a row",
           "date": "Sun, 01 Nov 2026 04:47:00 +0000",
           "description": "The French interior ministry says that more than 500 people were arrested during riots across the country. Paving stones and petrol bombs were thrown at the police after trouble broke out following mainly peaceful demonstrations about falling living standards. Also: anti-government protests have broken out again in Albania where water canon was used to try to disperse protestors. Emotions run high in Ukraine where people evacuated from the Russian-occupied town of Oleshky were reunited with fri…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pk9x5b.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pk9z25",
           "guid": "urn:bbc:podcast:p0pk9z25"
-        },
-        {
-          "title": "Bolsonaro declares himself 'Brazil's leader'",
-          "date": "Thu, 29 Oct 2026 05:29:00 +0000",
-          "description": "Flávio Bolsonaro insists he is Brazil’s rightful leader, claiming fraud in the election he lost to President Lula da Silva - without providing evidence. He is currently in Miami in the United States but denies fleeing Brazil where he is under investigation. Also: Spanish investigators examine if negligence played a role in deadly rail crash; forest fires spark anti-government protests across Indonesia; the woman who pet a great white shark; and the art of short films, and even shorter microdram…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pk6j15.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pk6j6v",
-          "guid": "urn:bbc:podcast:p0pk6j6v"
-        },
-        {
-          "title": "Dozens killed in train crash in Spain",
-          "date": "Wed, 28 Oct 2026 16:28:00 +0000",
-          "description": "More than 60 people have died after two high-speed trains collided south of the Spanish capital, Madrid. The accident happened on the same rail line where 46 people died earlier this year. Also: with most votes counted in the Israeli election, Benjamin Netanyahu's bloc is slightly ahead, but short of a majority. A luxury cruise ship on a years-long voyage around the world has suspended operations because of high fuel costs, leaving passengers stranded in Cambodia. King Charles has begun his tou…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pk3gws.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pk3hmm",
-          "guid": "urn:bbc:podcast:p0pk3hmm"
         }
       ]
     },
