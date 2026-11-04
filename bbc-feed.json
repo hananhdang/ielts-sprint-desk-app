@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-03T02:55:28Z",
+  "updatedAt": "2026-11-04T01:21:44Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Americans vote in pivotal midterm elections",
+          "date": "Tue, 03 Nov 2026 16:45:00 +0000",
+          "description": "US voters decide whether Donald Trump keeps control of Congress in the midterm elections. The Democrats are predicted to win back control of the House, and possibly the Senate, although many key contests are within the margin of error. Also: several flights land at airports around Europe after all being targeted by suspected bomb threats; Tenerife footballer, Jesus de Miguel, dies after on-field collision; King Charles calls the slave trade a \"shameful chapter\" in Britain's history; hundreds of…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pl42gf.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pl435f",
+          "guid": "urn:bbc:podcast:p0pl435f"
+        },
+        {
+          "title": "Ukraine accuses Russia of hitting school used as aid centre",
+          "date": "Tue, 03 Nov 2026 05:32:00 +0000",
+          "description": "President Zelensky described as utterly horrific a Russian attack in the southern Ukrainian region of Zaporizhzhia that killed at least 26 people. He said the first air strike was on a school building which was being used as an aid distribution centre. It was followed by nine more bombs targeting a shelter where people were taking cover. Among those killed in the second attack were police and rescue workers who had gone to help. Also: final campaigning has been taking place in the United States…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkz8zd.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pkz9jt",
+          "guid": "urn:bbc:podcast:p0pkz9jt"
+        },
+        {
           "title": "Ukraine and Russia hit by fake emergency alerts",
           "date": "Mon, 02 Nov 2026 16:31:00 +0000",
           "description": "Ukraine reported late on Sunday that an air alert app had been compromised - with citizens receiving several false notifications about chemical and radiological threats. A few hours later, the authorities in Russia said a similar app had been hacked after fake messages appeared about nuclear warheads being launched towards the country. The apparent cyberattack came on the same day the humanitarian ceasefire in the Russian-occupied city of Oleshky officially ended. Also: Monday is the last day o…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkhvcv.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pkhvpg",
           "guid": "urn:bbc:podcast:p0pkhvpg"
-        },
-        {
-          "title": "Venezuelan opposition leader criticises US oil deal",
-          "date": "Fri, 30 Oct 2026 05:57:00 +0000",
-          "description": "The Venezuelan opposition leader, Maria Corina Machado, has questioned a massive oil deal agreed between Caracas and Washington earlier this year. The accord will see Venezuela hand over twenty per cent of its oil reserves to the US. Speaking at a news conference after her return from exile over the weekend, Ms Machado insisted elections would be held next year, as part of the democratic transition she said was backed by the US. Also: Spanish families desperately search local hospitals in the h…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkdh9g.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pkds06",
-          "guid": "urn:bbc:podcast:p0pkds06"
-        },
-        {
-          "title": "Deadly Russian drone hits Ukrainian railway station",
-          "date": "Thu, 29 Oct 2026 15:48:00 +0000",
-          "description": "More than a dozen people are killed by a jet-powered drone from Russia as they board a train from a crowded platform in the Ukrainian city of Dnipro. Also: following the election in Israel, Arab-led parties could hold the balance of power. Would they ever agree to join a coalition government? Rescuers are still searching the wreckage of a crash involving two high-speed trains in Spain. There's been outrage in South Korea after the makers of the video game Call of Duty include footage from a rea…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pk9x5b.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pk9z25",
-          "guid": "urn:bbc:podcast:p0pk9z25"
         }
       ]
     },
