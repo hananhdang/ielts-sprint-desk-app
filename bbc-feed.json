@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-04T01:21:44Z",
+  "updatedAt": "2026-11-05T01:27:45Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Democrats storm to success in US midterm elections",
+          "date": "Wed, 04 Nov 2026 16:36:00 +0000",
+          "description": "Democrats have stormed to success in the US midterm elections, capitalising on voter anger about the Iran war, the economy and threats to democracy under Donald Trump. Both the Senate and the House have been flipped by a wide margin. Senate seats turned from Republican to Democrat in Texas, Ohio, Iowa, Kansas and Maine, as well as North and South Carolina. Many of the seats had been held by Republicans for decades. In a first reaction, Iran's supreme leader said he doesn't expect US policy to c…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pl9mdm.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pl9nf9",
+          "guid": "urn:bbc:podcast:p0pl9nf9"
+        },
+        {
+          "title": "Democrats projected to take control of US Congress",
+          "date": "Wed, 04 Nov 2026 05:51:00 +0000",
+          "description": "The Democratic Party inflicted a huge upset on the Republicans in the US midterm elections. In the Senate race in Texas, the Democrat James Talarico is projected to beat the Republican Ken Paxton. He'll join Democratic Senators from South and North Carolina, and Ohio, who've flipped seats in a change that will see the Republicans lose control of the Senate. The Democrats are already expected to win a majority in the House of Representatives - a victory which will have a major impact on Presiden…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pl6lg9.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pl6m46",
+          "guid": "urn:bbc:podcast:p0pl6m46"
+        },
+        {
           "title": "Americans vote in pivotal midterm elections",
           "date": "Tue, 03 Nov 2026 16:45:00 +0000",
           "description": "US voters decide whether Donald Trump keeps control of Congress in the midterm elections. The Democrats are predicted to win back control of the House, and possibly the Senate, although many key contests are within the margin of error. Also: several flights land at airports around Europe after all being targeted by suspected bomb threats; Tenerife footballer, Jesus de Miguel, dies after on-field collision; King Charles calls the slave trade a \"shameful chapter\" in Britain's history; hundreds of…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkj482.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pkj52k",
           "guid": "urn:bbc:podcast:p0pkj52k"
-        },
-        {
-          "title": "US approves sale of 500 Patriot missiles to Ukraine",
-          "date": "Sat, 31 Oct 2026 05:01:00 +0000",
-          "description": "The US State Department says it has approved the sale of more than two billion dollars' worth of Patriot missiles to Ukraine. The 500 missiles have been paid for by contributions from Canada, Germany and Norway. Ukraine needs the interceptors to defend itself from escalating Russian attacks, but there is a global shortage due to their use by the US in its war against Iran. Also: Russia's most prominent independant paper closes after years of state persecution. Shares in US technology companies…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkkvq7.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pkkxk0",
-          "guid": "urn:bbc:podcast:p0pkkxk0"
-        },
-        {
-          "title": "Residents leave devastated Russian-occupied Oleshky",
-          "date": "Fri, 30 Oct 2026 16:51:00 +0000",
-          "description": "Officials confirm the evacuation of the Ukrainian city of Oleshky is under way. Russia and Ukraine have agreed a temporary local ceasefire. People who decided to leave Oleshky had a four-hour window to do so. Also: Binance, the world's biggest crypto exchange, has been hit by what could be the biggest hack in history. We report from Syria, two years on from the fall of the Assad regime. Experts say the online “manosphere” should be treated as a public health issue. We look at what role Israel’s…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkhvcv.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pkhvpg",
-          "guid": "urn:bbc:podcast:p0pkhvpg"
         }
       ]
     },
