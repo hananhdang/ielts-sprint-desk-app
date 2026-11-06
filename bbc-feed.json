@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-05T01:27:45Z",
+  "updatedAt": "2026-11-06T01:34:05Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
       "episodes": [
+        {
+          "title": "Could vaccines cure cancer?",
+          "date": "Thu, 05 Nov 2026 09:36:00 +0000",
+          "description": "When was the last time you had a vaccination, and what was it for? Many of us get vaccinations when we are children or when we go travelling, but did you know that scientists have been developing vaccines that can be personalised to help your body keep itself clear of some specific cancer types? Georgie and Phil discuss this and teach you some new vocabulary. 6 Minute English now has a VIDEO VERSION! 6 Minute English now comes with a video! It's the same programme that you know and love, but no…",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261105_6_minute_english_could_vaccines_cure_cancer_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261105",
+          "guid": "urn:bbc:podcast:p0pldm3h"
+        },
         {
           "title": "Is aircon the answer to a heating world?",
           "date": "Thu, 29 Oct 2026 09:09:00 +0000",
@@ -61,14 +69,6 @@
           "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260917_6_minute_english_is_rejection_good_for_us_download.mp3",
           "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260917",
           "guid": "urn:bbc:podcast:p0pb0rd0"
-        },
-        {
-          "title": "Can apps teach you a language?",
-          "date": "Thu, 10 Sep 2026 07:46:00 +0000",
-          "description": "Have you ever used Duolingo, Babbel, Busuu or perhaps another language-learning app? How did you get on? Some people love the convenience of these apps – you can learn on the go, like during your commute to work, rather than committing to a certain time each week, like learning in a class. But are they teaching the languages effectively? Neil and Pippa discuss this and teach you some new vocabulary. Get a free worksheet, quiz and transcript for this episode: https://www.bbc.co.uk/learningenglis…",
-          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260910_6_minute_english_can_apps_teach_you_a_language_download.mp3",
-          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260910",
-          "guid": "urn:bbc:podcast:p0p8w5sh"
         }
       ]
     },
@@ -76,6 +76,22 @@
       "label": "Global News Podcast",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
+        {
+          "title": "Fresh mass protests in France",
+          "date": "Thu, 05 Nov 2026 16:22:00 +0000",
+          "description": "French riot police have fired tear gas at protesters in several cities in the latest day of demonstrations over the rising cost of living and public services that began with student strikes in September. French riot police have fired tear gas at protesters in several cities. A school near the southern city of Toulouse has been set on fire. Unions, who've called a general strike to demand higher pay, say they expect 800,000 people on the streets across France. Also: Flights across Europe have ag…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plh23f.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0plh2tw",
+          "guid": "urn:bbc:podcast:p0plh2tw"
+        },
+        {
+          "title": "Trump blames Iran war for midterm defeat",
+          "date": "Thu, 05 Nov 2026 05:22:00 +0000",
+          "description": "President Trump said it was \"largely true\" that the Republicans' defeat in the US midterm elections was because of the war on Iran. The Vice-President, JD Vance, went further, suggesting the political fallout from the conflict wasn't worth it. We'll also have the latest on the Senate race in Alaska, in which a winner has yet to be declared. Also: tens of thousands of secret police files are released in Hungary. A Hong Kong activist is sentenced to 10 years in prison. And there's outrage in Denm…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plcmxt.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0plcn0g",
+          "guid": "urn:bbc:podcast:p0plcn0g"
+        },
         {
           "title": "Democrats storm to success in US midterm elections",
           "date": "Wed, 04 Nov 2026 16:36:00 +0000",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pksm1b.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pksmf2",
           "guid": "urn:bbc:podcast:p0pksmf2"
-        },
-        {
-          "title": "Violent protests in France for the third weekend in a row",
-          "date": "Sun, 01 Nov 2026 04:47:00 +0000",
-          "description": "The French interior ministry says that more than 500 people were arrested during riots across the country. Paving stones and petrol bombs were thrown at the police after trouble broke out following mainly peaceful demonstrations about falling living standards. Also: anti-government protests have broken out again in Albania where water canon was used to try to disperse protestors. Emotions run high in Ukraine where people evacuated from the Russian-occupied town of Oleshky were reunited with fri…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkpfz4.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pkpg0p",
-          "guid": "urn:bbc:podcast:p0pkpg0p"
-        },
-        {
-          "title": "The Happy Pod: Personalised cancer vaccine shows promise in major trial",
-          "date": "Sat, 31 Oct 2026 12:00:00 +0000",
-          "description": "A new personalised skin cancer vaccine has been found to reduce the risk of patients dying or their cancer returning by 42%. As part of a global two-year clinical trial, more than 1,000 patients who had already had their tumours removed were given a widely used immunotherapy drug. Around two-thirds were then given the experimental vaccine, which was developed using cells from their own tumours. Researchers say the results could mark a turning point in cancer treatment. Also: How a man achieved…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkj482.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pkj52k",
-          "guid": "urn:bbc:podcast:p0pkj52k"
         }
       ]
     },
