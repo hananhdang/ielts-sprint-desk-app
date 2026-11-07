@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-06T01:34:05Z",
+  "updatedAt": "2026-11-07T00:56:34Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Tech stocks tank over AI panic",
+          "date": "Fri, 06 Nov 2026 16:06:00 +0000",
+          "description": "Investors dump tech shares over fears of slowdown in AI development following the sweeping Democrat victory in the US midterm elections. Markets in Asia suffer sharp losses. Japan’s Nikkei index and South Korea’s Kospi closed 6% down on Friday. Also: the leader of a doomsday cult in Kenya is sentenced to 200 years in prison after being found guilty of murdering more than 190 people; Paraguay's president faces impeachment after a banking scandal puts the country in crisis; another wave of bomb t…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plnwcw.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0plnyvn",
+          "guid": "urn:bbc:podcast:p0plnyvn"
+        },
+        {
+          "title": "Pete Hegseth under pressure after US elections",
+          "date": "Fri, 06 Nov 2026 05:39:00 +0000",
+          "description": "Pressure grows on the US defence secretary following the Republicans' midterm losses. The war in Iran, which Pete Hegseth supported, is being blamed for the defeats - but President Trump said he intended to keep Mr Hegseth on. The defence secretary issues a defiant video statement defending his record. Also: Melania Trump hosts Russian and Ukrainian representatives at the White House. US tech stocks lose hundreds of billions of dollars over fears the Democrats could slow down AI development. Pa…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plk8hr.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0plk945",
+          "guid": "urn:bbc:podcast:p0plk945"
+        },
+        {
           "title": "Fresh mass protests in France",
           "date": "Thu, 05 Nov 2026 16:22:00 +0000",
           "description": "French riot police have fired tear gas at protesters in several cities in the latest day of demonstrations over the rising cost of living and public services that began with student strikes in September. French riot police have fired tear gas at protesters in several cities. A school near the southern city of Toulouse has been set on fire. Unions, who've called a general strike to demand higher pay, say they expect 800,000 people on the streets across France. Also: Flights across Europe have ag…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkz8zd.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pkz9jt",
           "guid": "urn:bbc:podcast:p0pkz9jt"
-        },
-        {
-          "title": "Ukraine and Russia hit by fake emergency alerts",
-          "date": "Mon, 02 Nov 2026 16:31:00 +0000",
-          "description": "Ukraine reported late on Sunday that an air alert app had been compromised - with citizens receiving several false notifications about chemical and radiological threats. A few hours later, the authorities in Russia said a similar app had been hacked after fake messages appeared about nuclear warheads being launched towards the country. The apparent cyberattack came on the same day the humanitarian ceasefire in the Russian-occupied city of Oleshky officially ended. Also: Monday is the last day o…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkwrw5.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pkww1f",
-          "guid": "urn:bbc:podcast:p0pkww1f"
-        },
-        {
-          "title": "Trump celebrates shock endorsement ahead of US midterms",
-          "date": "Mon, 02 Nov 2026 05:46:00 +0000",
-          "description": "A shock endorsement in Michigan just days before the US midterm elections has been welcomed by President Trump. Democratic Congresswoman Haley Stevens backed Republican, Mike Rogers, rather than her own party's candidate, Abdul El- Sayed. Also: Hamas says at least eight people have been killed during Israeli air strikes on Gaza. Thousands participate in demonstrations in Germany over the cost of living and spending on education. Buddhists in Bhutan gather to build 108 structures in 24 hours in…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pksm1b.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pksmf2",
-          "guid": "urn:bbc:podcast:p0pksmf2"
         }
       ]
     },
@@ -146,6 +146,14 @@
       "label": "Learning English Drama",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9s1.rss",
       "episodes": [
+        {
+          "title": "Classic Stories: Emma",
+          "date": "Fri, 06 Nov 2026 09:36:00 +0000",
+          "description": "Enjoy a classic story in English and learn 8 uses of ‘right’ - in 5 minutes. FIND BBC LEARNING ENGLISH HERE: Visit our website ✔️ https://www.bbc.co.uk/learningenglish Follow us ✔️ https://www.bbc.co.uk/learningenglish/followus LIKE PODCASTS? Try some of our other popular podcasts including: ✔️ 6 Minute English ✔️ Learning English from the News ✔️ Learning English Conversations They're all available by searching in your podcast app.",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pllb87.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pllbc0",
+          "guid": "urn:bbc:podcast:p0pllbc0"
+        },
         {
           "title": "Classic Stories: The Island of Dr Moreau",
           "date": "Fri, 30 Oct 2026 09:00:00 +0000",
@@ -201,14 +209,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p93n3x.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0p93njt",
           "guid": "urn:bbc:podcast:p0p93njt"
-        },
-        {
-          "title": "Classic Stories: Orpheus and Eurydice",
-          "date": "Fri, 04 Sep 2026 09:02:00 +0000",
-          "description": "Enjoy a classic story in English and learn 13 uses of ‘long’ - in 5 minutes. FIND BBC LEARNING ENGLISH HERE: Visit our website ✔️ https://www.bbc.co.uk/learningenglish Follow us ✔️ https://www.bbc.co.uk/learningenglish/followus LIKE PODCASTS? Try some of our other popular podcasts including: ✔️ 6 Minute English ✔️ Learning English from the News ✔️ Learning English Conversations They're all available by searching in your podcast app.",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p7yhzq.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p7yky3",
-          "guid": "urn:bbc:podcast:p0p7yky3"
         }
       ]
     }
