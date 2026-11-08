@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-07T00:56:34Z",
+  "updatedAt": "2026-11-08T00:36:43Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Happy Pod: Celebrating the wedding that never happened",
+          "date": "Sat, 07 Nov 2026 12:00:00 +0000",
+          "description": "When Bridget's relationship fell apart, she turned to the internet with a proposal: come to Northern Ireland and celebrate the wedding that never happened. What followed was a story that has resonated worldwide as 11 strangers answered the call and helped transform loss and heartbreak into an unforgettable week of connection, companionship and adventure. Also on this podcast; meet the 25-year-old who is on a mission to give one million people access to safe water by 2030. Diana Virgovicova was…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plpklc.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0plplrh",
+          "guid": "urn:bbc:podcast:p0plplrh"
+        },
+        {
+          "title": "Trump appoints new chief of staff after midterm defeat",
+          "date": "Sat, 07 Nov 2026 04:19:00 +0000",
+          "description": "Donald Trump names the immigration hardliner, Stephen Miller, as the new White House chief of staff after the Republican Party's historic losses in the US midterm elections. Mr Miller's appointment to one of the most powerful positions in Washington has been criticised by Democrats and some Republicans. Also: Paraguay's president, Santiago Peña, is impeached and placed under house arrest. Thomas Markle - the estranged father of Prince Harry's wife, Meghan - appears in court over child sex abuse…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plrs0b.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0plrs2j",
+          "guid": "urn:bbc:podcast:p0plrs2j"
+        },
+        {
           "title": "Tech stocks tank over AI panic",
           "date": "Fri, 06 Nov 2026 16:06:00 +0000",
           "description": "Investors dump tech shares over fears of slowdown in AI development following the sweeping Democrat victory in the US midterm elections. Markets in Asia suffer sharp losses. Japan’s Nikkei index and South Korea’s Kospi closed 6% down on Friday. Also: the leader of a doomsday cult in Kenya is sentenced to 200 years in prison after being found guilty of murdering more than 190 people; Paraguay's president faces impeachment after a banking scandal puts the country in crisis; another wave of bomb t…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pl6lg9.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pl6m46",
           "guid": "urn:bbc:podcast:p0pl6m46"
-        },
-        {
-          "title": "Americans vote in pivotal midterm elections",
-          "date": "Tue, 03 Nov 2026 16:45:00 +0000",
-          "description": "US voters decide whether Donald Trump keeps control of Congress in the midterm elections. The Democrats are predicted to win back control of the House, and possibly the Senate, although many key contests are within the margin of error. Also: several flights land at airports around Europe after all being targeted by suspected bomb threats; Tenerife footballer, Jesus de Miguel, dies after on-field collision; King Charles calls the slave trade a \"shameful chapter\" in Britain's history; hundreds of…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pl42gf.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pl435f",
-          "guid": "urn:bbc:podcast:p0pl435f"
-        },
-        {
-          "title": "Ukraine accuses Russia of hitting school used as aid centre",
-          "date": "Tue, 03 Nov 2026 05:32:00 +0000",
-          "description": "President Zelensky described as utterly horrific a Russian attack in the southern Ukrainian region of Zaporizhzhia that killed at least 26 people. He said the first air strike was on a school building which was being used as an aid distribution centre. It was followed by nine more bombs targeting a shelter where people were taking cover. Among those killed in the second attack were police and rescue workers who had gone to help. Also: final campaigning has been taking place in the United States…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pkz8zd.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pkz9jt",
-          "guid": "urn:bbc:podcast:p0pkz9jt"
         }
       ]
     },
