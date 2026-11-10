@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-09T00:55:13Z",
+  "updatedAt": "2026-11-10T03:34:57Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -10,7 +10,7 @@
           "title": "Could vaccines cure cancer?",
           "date": "Thu, 05 Nov 2026 09:36:00 +0000",
           "description": "When was the last time you had a vaccination, and what was it for? Many of us get vaccinations when we are children or when we go travelling, but did you know that scientists have been developing vaccines that can be personalised to help your body keep itself clear of some specific cancer types? Georgie and Phil discuss this and teach you some new vocabulary. 6 Minute English now has a VIDEO VERSION! 6 Minute English now comes with a video! It's the same programme that you know and love, but no…",
-          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261105_6_minute_english_could_vaccines_cure_cancer_download.mp3",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261105_6min_could_vaccines_cure_cancer_download.mp3",
           "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261105",
           "guid": "urn:bbc:podcast:p0pldm3h"
         },
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "China denies spying on Nvidia boss",
+          "date": "Mon, 09 Nov 2026 15:29:00 +0000",
+          "description": "Nvidia says it's investigating CEO's affair with tech executive Alice Huang, as shares in the firm fall in pre-market trading. Also: BBC investigation finds one of Europe’s most powerful drug gangs recruits teenagers from across France to carry out murders and kidnappings. COP31 UN Climate summit gets underway in Turkey, focusing on delivering on past promises. The former Bangladeshi Prime Minister Sheikh Hasina, who's facing the death penalty in her home country, requests a new passport and id…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pm35rk.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pm36r2",
+          "guid": "urn:bbc:podcast:p0pm36r2"
+        },
+        {
+          "title": "Nvidia investigates CEO's affair with suspected Chinese spy",
+          "date": "Mon, 09 Nov 2026 05:32:00 +0000",
+          "description": "The US tech giant Nvidia has opened an independent investigation following reports its chief executive, Jensen Huang, had a relationship with a woman suspected of spying for China. Mr Huang apologized to his wife and his children for being unfaithful. The chip maker said it had no reason to believe its secrets or US national security were compromised. Also: an anti-terrorism investigation is launched in Poland after a mass shooting in the city of Krakow left six people dead. In Egypt two trains…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plzjbf.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0plzjqt",
+          "guid": "urn:bbc:podcast:p0plzjqt"
+        },
+        {
           "title": "The Global Story: They fled Russia. The US sent them back",
           "date": "Sun, 08 Nov 2026 20:00:00 +0000",
           "description": "After Russia invaded Ukraine in 2022, many Russians who opposed the war – or feared being sent to fight in it – fled the country. In much of the West, they were welcomed as courageous dissidents. But four years on, the number of Russians being forcibly returned from the US to Russia is rising. Is the tougher stance on Russian asylum seekers evidence of the Trump administration seeking closer ties with Moscow? Or is it part of a wider immigration crackdown, driven by domestic politics? In this e…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plk8hr.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0plk945",
           "guid": "urn:bbc:podcast:p0plk945"
-        },
-        {
-          "title": "Fresh mass protests in France",
-          "date": "Thu, 05 Nov 2026 16:22:00 +0000",
-          "description": "French riot police have fired tear gas at protesters in several cities in the latest day of demonstrations over the rising cost of living and public services that began with student strikes in September. French riot police have fired tear gas at protesters in several cities. A school near the southern city of Toulouse has been set on fire. Unions, who've called a general strike to demand higher pay, say they expect 800,000 people on the streets across France. Also: Flights across Europe have ag…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plh23f.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0plh2tw",
-          "guid": "urn:bbc:podcast:p0plh2tw"
-        },
-        {
-          "title": "Trump blames Iran war for midterm defeat",
-          "date": "Thu, 05 Nov 2026 05:22:00 +0000",
-          "description": "President Trump said it was \"largely true\" that the Republicans' defeat in the US midterm elections was because of the war on Iran. The Vice-President, JD Vance, went further, suggesting the political fallout from the conflict wasn't worth it. We'll also have the latest on the Senate race in Alaska, in which a winner has yet to be declared. Also: tens of thousands of secret police files are released in Hungary. A Hong Kong activist is sentenced to 10 years in prison. And there's outrage in Denm…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plcmxt.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0plcn0g",
-          "guid": "urn:bbc:podcast:p0plcn0g"
         }
       ]
     },
