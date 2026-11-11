@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-10T03:34:57Z",
+  "updatedAt": "2026-11-11T01:14:22Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "How US model agencies helped Epstein access victims",
+          "date": "Tue, 10 Nov 2026 15:47:00 +0000",
+          "description": "A BBC investigation uncovers new evidence about how model agencies, scouts and powerful fashion figures helped Jeffrey Epstein gain access to young women after his conviction for sex offences. A woman raped by the financier says the president of her model agency put her in danger when he sent her to two photoshoots at Epstein's Florida beach house. At the time, in 2009, Epstein was serving a jail sentence for sex offences against a minor but was allowed to work each day from his home. Also: doz…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pm9s2k.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pm9szt",
+          "guid": "urn:bbc:podcast:p0pm9szt"
+        },
+        {
+          "title": "Trump backs Hegseth as he faces impeachment push",
+          "date": "Tue, 10 Nov 2026 05:19:00 +0000",
+          "description": "President Trump has said the resumption of US strikes against Iran is \"quite unlikely and unnecessary\". He expressed support for his defence secretary, Pete Hegseth, after a Republican Congressman, Thomas Massie, introduced articles of impeachment against him for waging war in Iran and elsewhere without Congressional approval. Also: President Trump says the FBI is investigating claims that Jensen Huang, the boss of the US tech giant Nvidia, had an affair with a suspected Chinese agent. He said…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pm6qfc.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pm6qtr",
+          "guid": "urn:bbc:podcast:p0pm6qtr"
+        },
+        {
           "title": "China denies spying on Nvidia boss",
           "date": "Mon, 09 Nov 2026 15:29:00 +0000",
           "description": "Nvidia says it's investigating CEO's affair with tech executive Alice Huang, as shares in the firm fall in pre-market trading. Also: BBC investigation finds one of Europe’s most powerful drug gangs recruits teenagers from across France to carry out murders and kidnappings. COP31 UN Climate summit gets underway in Turkey, focusing on delivering on past promises. The former Bangladeshi Prime Minister Sheikh Hasina, who's facing the death penalty in her home country, requests a new passport and id…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plrs0b.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0plrs2j",
           "guid": "urn:bbc:podcast:p0plrs2j"
-        },
-        {
-          "title": "Tech stocks tank over AI panic",
-          "date": "Fri, 06 Nov 2026 16:06:00 +0000",
-          "description": "Investors dump tech shares over fears of slowdown in AI development following the sweeping Democrat victory in the US midterm elections. Markets in Asia suffer sharp losses. Japan’s Nikkei index and South Korea’s Kospi closed 6% down on Friday. Also: the leader of a doomsday cult in Kenya is sentenced to 200 years in prison after being found guilty of murdering more than 190 people; Paraguay's president faces impeachment after a banking scandal puts the country in crisis; another wave of bomb t…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plnwcw.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0plnyvn",
-          "guid": "urn:bbc:podcast:p0plnyvn"
-        },
-        {
-          "title": "Pete Hegseth under pressure after US elections",
-          "date": "Fri, 06 Nov 2026 05:39:00 +0000",
-          "description": "Pressure grows on the US defence secretary following the Republicans' midterm losses. The war in Iran, which Pete Hegseth supported, is being blamed for the defeats - but President Trump said he intended to keep Mr Hegseth on. The defence secretary issues a defiant video statement defending his record. Also: Melania Trump hosts Russian and Ukrainian representatives at the White House. US tech stocks lose hundreds of billions of dollars over fears the Democrats could slow down AI development. Pa…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plk8hr.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0plk945",
-          "guid": "urn:bbc:podcast:p0plk945"
         }
       ]
     },
