@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-11T01:14:22Z",
+  "updatedAt": "2026-11-12T02:16:07Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Russia-Ukraine talks: Prisoner release agreed",
+          "date": "Wed, 11 Nov 2026 16:24:00 +0000",
+          "description": "Russia and Ukraine agree to a large prisoner exchange during trilateral talks mediated by the US, but significant differences remain to achieve a peace deal. Kyiv says a ceasefire must come before any discussions on territory, while Moscow demands Ukrainian forces withdraw from parts of eastern Ukraine. The US envoys Steve Witkoff and Jared Kushner are to travel to Moscow on Thursday to meet Russia's Vladimir Putin, before debriefing Ukraine's President Zelensky during his visit to Dublin. Also…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmgrp4.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pmgsdd",
+          "guid": "urn:bbc:podcast:p0pmgsdd"
+        },
+        {
+          "title": "US soldier arrested in UK on suspicion of spying for Russia",
+          "date": "Wed, 11 Nov 2026 05:27:00 +0000",
+          "description": "A senior American soldier is in custody at a London police station after being arrested on suspicion of spying for Russia. The 41-year-old man was held during a counter-terrorism operation involving the US military and the FBI, and is understood to have been stationed at Imjin Barracks in Gloucestershire - the headquarters of NATO's Allied Rapid Reaction Corps. Also: US Republicans block efforts to impeach the defence secretary, Pete Hegseth. Anti-homosexuality laws are overturned in Trinidad a…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmcsh6.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pmcskb",
+          "guid": "urn:bbc:podcast:p0pmcskb"
+        },
+        {
           "title": "How US model agencies helped Epstein access victims",
           "date": "Tue, 10 Nov 2026 15:47:00 +0000",
           "description": "A BBC investigation uncovers new evidence about how model agencies, scouts and powerful fashion figures helped Jeffrey Epstein gain access to young women after his conviction for sex offences. A woman raped by the financier says the president of her model agency put her in danger when he sent her to two photoshoots at Epstein's Florida beach house. At the time, in 2009, Epstein was serving a jail sentence for sex offences against a minor but was allowed to work each day from his home. Also: doz…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plw70f.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0plw73g",
           "guid": "urn:bbc:podcast:p0plw73g"
-        },
-        {
-          "title": "The Happy Pod: Celebrating the wedding that never happened",
-          "date": "Sat, 07 Nov 2026 12:00:00 +0000",
-          "description": "When Bridget's relationship fell apart, she turned to the internet with a proposal: come to Northern Ireland and celebrate the wedding that never happened. What followed was a story that has resonated worldwide as 11 strangers answered the call and helped transform loss and heartbreak into an unforgettable week of connection, companionship and adventure. Also on this podcast; meet the 25-year-old who is on a mission to give one million people access to safe water by 2030. Diana Virgovicova was…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plpklc.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0plplrh",
-          "guid": "urn:bbc:podcast:p0plplrh"
-        },
-        {
-          "title": "Trump appoints new chief of staff after midterm defeat",
-          "date": "Sat, 07 Nov 2026 04:19:00 +0000",
-          "description": "Donald Trump names the immigration hardliner, Stephen Miller, as the new White House chief of staff after the Republican Party's historic losses in the US midterm elections. Mr Miller's appointment to one of the most powerful positions in Washington has been criticised by Democrats and some Republicans. Also: Paraguay's president, Santiago Peña, is impeached and placed under house arrest. Thomas Markle - the estranged father of Prince Harry's wife, Meghan - appears in court over child sex abuse…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plrs0b.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0plrs2j",
-          "guid": "urn:bbc:podcast:p0plrs2j"
         }
       ]
     },
