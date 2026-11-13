@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-12T02:16:07Z",
+  "updatedAt": "2026-11-13T01:50:15Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
       "episodes": [
+        {
+          "title": "Learning from different generations",
+          "date": "Thu, 12 Nov 2026 09:59:00 +0000",
+          "description": "When you were younger, did you have a special bond with your grandparents? Many of us develop particularly close attachments with older family members, but did you know that this ability for the oldest and youngest of our society to get along in a friendly way is not limited to families? In fact, there are some projects which pair together nurseries and retirement homes, to help reduce feelings of loneliness and improve everybody's general health and happiness. Georgie and Phil discuss this and…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmkqml.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pmkr5c",
+          "guid": "urn:bbc:podcast:p0pmkr5c"
+        },
         {
           "title": "Could vaccines cure cancer?",
           "date": "Thu, 05 Nov 2026 09:36:00 +0000",
@@ -61,14 +69,6 @@
           "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260924_6_minute_english_why_do_we_itch_download.mp3",
           "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260924",
           "guid": "urn:bbc:podcast:p0pc61lm"
-        },
-        {
-          "title": "Is rejection good for us?",
-          "date": "Thu, 17 Sep 2026 08:34:00 +0000",
-          "description": "How would you feel about going up to a stranger on the street and asking them for a cheeky favour? If the idea makes you nervous, then don't worry – you are not alone! But recently, some people have been filming themselves doing this, as part of a social media trend called 'rejection therapy'. It's not an officially recognised form of therapy, but some have found that it improves their confidence. Georgie and Neil discuss this and teach you some new vocabulary. 6 Minute English now has a VIDEO…",
-          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260917_6_minute_english_is_rejection_good_for_us_download.mp3",
-          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260917",
-          "guid": "urn:bbc:podcast:p0pb0rd0"
         }
       ]
     },
@@ -76,6 +76,22 @@
       "label": "Global News Podcast",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
+        {
+          "title": "Nvidia CEO Jensen Huang resigns",
+          "date": "Thu, 12 Nov 2026 16:07:00 +0000",
+          "description": "Nvidia's chief financial officer, Colette Kress, will take over as interim CEO following Jensen Huang's departure. Shares in the company plummeted as US markets opened. It comes days after Huang admitted to an affair with a suspected Chinese spy, although Beijing denies the allegations. It also follows a New York Times report of a second affair with an executive at his own company.",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmn5x9.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pmn84n",
+          "guid": "urn:bbc:podcast:p0pmn84n"
+        },
+        {
+          "title": "Democrat Scott Colom wins Mississippi in historic victory",
+          "date": "Thu, 12 Nov 2026 05:19:00 +0000",
+          "description": "Democrat Scott Colom has won the Mississippi senate race in a shock midterms victory. He will become the state's first Democratic senator in four decades. Exit polls showed Mr Colom benefitted from surging support among black and young voters. Also: Nvidia considers ousting CEO Jensen Huang after his admitted affair with a suspected Chinese spy. A warm welcome for the Pope on his homecoming to Peru. The US Treasure Secretary, Scott Besset, relocates from his home to an unnamed military base aft…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmjmlw.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pmjmtq",
+          "guid": "urn:bbc:podcast:p0pmjmtq"
+        },
         {
           "title": "Russia-Ukraine talks: Prisoner release agreed",
           "date": "Wed, 11 Nov 2026 16:24:00 +0000",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plzjbf.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0plzjqt",
           "guid": "urn:bbc:podcast:p0plzjqt"
-        },
-        {
-          "title": "The Global Story: They fled Russia. The US sent them back",
-          "date": "Sun, 08 Nov 2026 20:00:00 +0000",
-          "description": "After Russia invaded Ukraine in 2022, many Russians who opposed the war – or feared being sent to fight in it – fled the country. In much of the West, they were welcomed as courageous dissidents. But four years on, the number of Russians being forcibly returned from the US to Russia is rising. Is the tougher stance on Russian asylum seekers evidence of the Trump administration seeking closer ties with Moscow? Or is it part of a wider immigration crackdown, driven by domestic politics? In this e…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pllbml.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pllbwj",
-          "guid": "urn:bbc:podcast:p0pllbwj"
-        },
-        {
-          "title": "Poland in shock as six killed in shooting",
-          "date": "Sun, 08 Nov 2026 04:44:00 +0000",
-          "description": "Poland has begun two days of mourning after a gunman opened fire on the main square in the city of Krakow, killing six and injuring 15 others; three more bodies were found at the suspect's home. The authorities say he used military weapons and is thought to have been inspired by far-right ideologies. Also: Israel's president invites Gadi Eisenkot, the main rival of Prime Minister Benjamin Netanyahu, to try to form a government after last week’s inconclusive election. Heavy rains in Gaza cause f…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plw70f.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0plw73g",
-          "guid": "urn:bbc:podcast:p0plw73g"
         }
       ]
     },
