@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-13T01:50:15Z",
+  "updatedAt": "2026-11-14T01:27:07Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Microsoft outage: Millions affected in over 70 countries",
+          "date": "Fri, 13 Nov 2026 15:51:00 +0000",
+          "description": "A global Microsoft outage hits schools, doctors and businesses. The tech giant is scrambling the fix the issue - but with so many of us relying on its products such as Outlook and Teams, it has prompted a conversation about how reliant we are on its services. Microsoft says it's not found any evidence that malicious activity caused the problems, and in its latest update it reported that \"broader improvements\" were being observed in North America and Europe. Also: El Salvador soldiers use combat…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmwqby.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pmwsp6",
+          "guid": "urn:bbc:podcast:p0pmwsp6"
+        },
+        {
+          "title": "Putin lets Europe join Ukraine peace talks",
+          "date": "Fri, 13 Nov 2026 05:28:00 +0000",
+          "description": "Ukraine's President Zelensky has welcomed efforts by Jared Kushner and Steve Witkoff, to secure European involvement at the next round of peace talks with Russia. He was speaking alongside the US envoys in Dublin, where they'd flown to brief Mr Zelensky on their earlier discussions with Vladimir Putin in Moscow. Mr Zelensky said it made sense for Europeans to be involved as Ukraine would eventually be an EU member. Also: One of the most powerful men in the AI industry -Jensen Huang- will appear…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmr8dk.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pmr8st",
+          "guid": "urn:bbc:podcast:p0pmr8st"
+        },
+        {
           "title": "Nvidia CEO Jensen Huang resigns",
           "date": "Thu, 12 Nov 2026 16:07:00 +0000",
           "description": "Nvidia's chief financial officer, Colette Kress, will take over as interim CEO following Jensen Huang's departure. Shares in the company plummeted as US markets opened. It comes days after Huang admitted to an affair with a suspected Chinese spy, although Beijing denies the allegations. It also follows a New York Times report of a second affair with an executive at his own company.",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pm6qfc.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pm6qtr",
           "guid": "urn:bbc:podcast:p0pm6qtr"
-        },
-        {
-          "title": "China denies spying on Nvidia boss",
-          "date": "Mon, 09 Nov 2026 15:29:00 +0000",
-          "description": "Nvidia says it's investigating CEO's affair with tech executive Alice Huang, as shares in the firm fall in pre-market trading. Also: BBC investigation finds one of Europe’s most powerful drug gangs recruits teenagers from across France to carry out murders and kidnappings. COP31 UN Climate summit gets underway in Turkey, focusing on delivering on past promises. The former Bangladeshi Prime Minister Sheikh Hasina, who's facing the death penalty in her home country, requests a new passport and id…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pm35rk.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pm36r2",
-          "guid": "urn:bbc:podcast:p0pm36r2"
-        },
-        {
-          "title": "Nvidia investigates CEO's affair with suspected Chinese spy",
-          "date": "Mon, 09 Nov 2026 05:32:00 +0000",
-          "description": "The US tech giant Nvidia has opened an independent investigation following reports its chief executive, Jensen Huang, had a relationship with a woman suspected of spying for China. Mr Huang apologized to his wife and his children for being unfaithful. The chip maker said it had no reason to believe its secrets or US national security were compromised. Also: an anti-terrorism investigation is launched in Poland after a mass shooting in the city of Krakow left six people dead. In Egypt two trains…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0plzjbf.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0plzjqt",
-          "guid": "urn:bbc:podcast:p0plzjqt"
         }
       ]
     },
@@ -146,6 +146,14 @@
       "label": "Learning English Drama",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9s1.rss",
       "episodes": [
+        {
+          "title": "Classic Stories: 20,000 Leagues Under the Sea",
+          "date": "Fri, 13 Nov 2026 11:10:00 +0000",
+          "description": "Enjoy a classic story in English and learn 10 uses of ‘get’ - in 5 minutes. FIND BBC LEARNING ENGLISH HERE: Visit our website ✔️ https://www.bbc.co.uk/learningenglish Follow us ✔️ https://www.bbc.co.uk/learningenglish/followus LIKE PODCASTS? Try some of our other popular podcasts including: ✔️ 6 Minute English ✔️ Learning English from the News ✔️ Learning English Conversations They're all available by searching in your podcast app.",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmsr0m.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pmswfb",
+          "guid": "urn:bbc:podcast:p0pmswfb"
+        },
         {
           "title": "Classic Stories: Emma",
           "date": "Fri, 06 Nov 2026 09:36:00 +0000",
@@ -201,14 +209,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pb8478.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pb7tyv",
           "guid": "urn:bbc:podcast:p0pb7tyv"
-        },
-        {
-          "title": "Classic Stories: Pygmalion",
-          "date": "Fri, 11 Sep 2026 08:22:00 +0000",
-          "description": "Enjoy a classic story in English and learn 8 uses of ‘round’ - in 5 minutes. FIND BBC LEARNING ENGLISH HERE: Visit our website ✔️ https://www.bbc.co.uk/learningenglish Follow us ✔️ https://www.bbc.co.uk/learningenglish/followus LIKE PODCASTS? Try some of our other popular podcasts including: ✔️ 6 Minute English ✔️ Learning English from the News ✔️ Learning English Conversations They're all available by searching in your podcast app.",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0p93n3x.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0p93njt",
-          "guid": "urn:bbc:podcast:p0p93njt"
         }
       ]
     }
