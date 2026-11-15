@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-14T01:27:07Z",
+  "updatedAt": "2026-11-15T01:03:50Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,9 +77,25 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Happy Pod: I've put women on the map with Antarctic record",
+          "date": "Sat, 14 Nov 2026 12:00:00 +0000",
+          "description": "Before taking on Antarctica's 160 kilometre ultramarathon, Stephanie Case said she wanted to show her daughter what mothers can achieve even in the toughest places on Earth. The Canadian ultra-runner has now made history, becoming the first woman to complete the race. Case says she wanted to prove that ''motherhood isn't the finish line''. Also: we catch up with a young Sudanese boy who received a surprise message from his favourite footballer, the Real Madrid player Vinícius Júnior. We visit a…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmvz62.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pmw5pp",
+          "guid": "urn:bbc:podcast:p0pmw5pp"
+        },
+        {
+          "title": "US airspace reopens after flights grounded for several hours",
+          "date": "Sat, 14 Nov 2026 04:41:00 +0000",
+          "description": "On Friday, the US made the rare decision to ground flights nationwide, leaving tens of thousands of people stranded. An overloaded air traffic control system triggered communications failures across the country. The White House says there's no evidence of a cyberattack. Flights resumed after four hours, but Transportation Secretary Sean Duffy has warned that getting the aviation network back to normal will take time. Also: Divisions deepen inside the Trump administration as the US Commerce Secr…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmzy3x.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pmzyrg",
+          "guid": "urn:bbc:podcast:p0pmzyrg"
+        },
+        {
           "title": "Microsoft outage: Millions affected in over 70 countries",
           "date": "Fri, 13 Nov 2026 15:51:00 +0000",
-          "description": "A global Microsoft outage hits schools, doctors and businesses. The tech giant is scrambling the fix the issue - but with so many of us relying on its products such as Outlook and Teams, it has prompted a conversation about how reliant we are on its services. Microsoft says it's not found any evidence that malicious activity caused the problems, and in its latest update it reported that \"broader improvements\" were being observed in North America and Europe. Also: El Salvador soldiers use combat…",
+          "description": "A global Microsoft outage hits schools, doctors and businesses. The tech giant is scrambling to fix the issue - but with so many of us relying on its products such as Outlook and Teams, it has prompted a conversation about how reliant we are on its services. Microsoft says it's not found any evidence that malicious activity caused the problems, and in its latest update it reported that \"broader improvements\" were being observed in North America and Europe. Also: El Salvador soldiers use combat…",
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmwqby.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pmwsp6",
           "guid": "urn:bbc:podcast:p0pmwsp6"
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmcsh6.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pmcskb",
           "guid": "urn:bbc:podcast:p0pmcskb"
-        },
-        {
-          "title": "How US model agencies helped Epstein access victims",
-          "date": "Tue, 10 Nov 2026 15:47:00 +0000",
-          "description": "A BBC investigation uncovers new evidence about how model agencies, scouts and powerful fashion figures helped Jeffrey Epstein gain access to young women after his conviction for sex offences. A woman raped by the financier says the president of her model agency put her in danger when he sent her to two photoshoots at Epstein's Florida beach house. At the time, in 2009, Epstein was serving a jail sentence for sex offences against a minor but was allowed to work each day from his home. Also: doz…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pm9s2k.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pm9szt",
-          "guid": "urn:bbc:podcast:p0pm9szt"
-        },
-        {
-          "title": "Trump backs Hegseth as he faces impeachment push",
-          "date": "Tue, 10 Nov 2026 05:19:00 +0000",
-          "description": "President Trump has said the resumption of US strikes against Iran is \"quite unlikely and unnecessary\". He expressed support for his defence secretary, Pete Hegseth, after a Republican Congressman, Thomas Massie, introduced articles of impeachment against him for waging war in Iran and elsewhere without Congressional approval. Also: President Trump says the FBI is investigating claims that Jensen Huang, the boss of the US tech giant Nvidia, had an affair with a suspected Chinese agent. He said…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pm6qfc.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pm6qtr",
-          "guid": "urn:bbc:podcast:p0pm6qtr"
         }
       ]
     },
