@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-15T01:03:50Z",
+  "updatedAt": "2026-11-16T01:02:11Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Global Story: How North Korea pulled off a $6bn heist",
+          "date": "Sun, 15 Nov 2026 20:00:00 +0000",
+          "description": "Last week saw what could be the biggest heist in history: $6.3bn was stolen from the cryptocurrency exchange Binance. North Korean hackers are suspected of being behind the attack, which saw billions of dollars disappear in just 20 minutes. It’s far from the first time North Korea has been accused of a major cyber-attack. Over the past decade, hackers linked to the country have targeted banks, public institutions and even Sony Pictures. On The Global Story, Asma Khalid speaks with journalist Ge…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmv7s7.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pmv9b1",
+          "guid": "urn:bbc:podcast:p0pmv9b1"
+        },
+        {
+          "title": "SpaceX makes history catching part of returning spacecraft",
+          "date": "Sun, 15 Nov 2026 04:59:00 +0000",
+          "description": "Part of SpaceX's Starship rocket was caught as it descended back to Earth in Texas. It's the first time the upper section of a reusable rocket has ever been captured. Mechanical arms carried out a \"chopstick\" manoeuvre to catch the spacecraft. The breakthrough could dramatically cut the cost of space travel and marks a major step towards making Starship suitable for human spaceflight. Also: Ukraine's president says the US has, for the first time, floated the idea of Ukraine joining NATO in exch…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pn353v.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pn35d7",
+          "guid": "urn:bbc:podcast:p0pn35d7"
+        },
+        {
           "title": "The Happy Pod: I've put women on the map with Antarctic record",
           "date": "Sat, 14 Nov 2026 12:00:00 +0000",
           "description": "Before taking on Antarctica's 160 kilometre ultramarathon, Stephanie Case said she wanted to show her daughter what mothers can achieve even in the toughest places on Earth. The Canadian ultra-runner has now made history, becoming the first woman to complete the race. Case says she wanted to prove that ''motherhood isn't the finish line''. Also: we catch up with a young Sudanese boy who received a surprise message from his favourite footballer, the Real Madrid player Vinícius Júnior. We visit a…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmjmlw.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pmjmtq",
           "guid": "urn:bbc:podcast:p0pmjmtq"
-        },
-        {
-          "title": "Russia-Ukraine talks: Prisoner release agreed",
-          "date": "Wed, 11 Nov 2026 16:24:00 +0000",
-          "description": "Russia and Ukraine agree to a large prisoner exchange during trilateral talks mediated by the US, but significant differences remain to achieve a peace deal. Kyiv says a ceasefire must come before any discussions on territory, while Moscow demands Ukrainian forces withdraw from parts of eastern Ukraine. The US envoys Steve Witkoff and Jared Kushner are to travel to Moscow on Thursday to meet Russia's Vladimir Putin, before debriefing Ukraine's President Zelensky during his visit to Dublin. Also…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmgrp4.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pmgsdd",
-          "guid": "urn:bbc:podcast:p0pmgsdd"
-        },
-        {
-          "title": "US soldier arrested in UK on suspicion of spying for Russia",
-          "date": "Wed, 11 Nov 2026 05:27:00 +0000",
-          "description": "A senior American soldier is in custody at a London police station after being arrested on suspicion of spying for Russia. The 41-year-old man was held during a counter-terrorism operation involving the US military and the FBI, and is understood to have been stationed at Imjin Barracks in Gloucestershire - the headquarters of NATO's Allied Rapid Reaction Corps. Also: US Republicans block efforts to impeach the defence secretary, Pete Hegseth. Anti-homosexuality laws are overturned in Trinidad a…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmcsh6.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pmcskb",
-          "guid": "urn:bbc:podcast:p0pmcskb"
         }
       ]
     },
