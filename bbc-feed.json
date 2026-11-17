@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-16T01:02:11Z",
+  "updatedAt": "2026-11-17T03:54:23Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Crimea Kerch Bridge hit in a huge Ukrainian drone attack",
+          "date": "Mon, 16 Nov 2026 16:25:00 +0000",
+          "description": "The Russian defence ministry says a record number of drones were fired from Ukraine overnight and more than 1300 were brought down by its air defences. An oil refinery in the Krasnodar region was targeted and there was damage to the Kerch Bridge which links Russia to occupied Crimea. Western countries call on Israel to allow rapid humanitarian access to Gaza. The Indonesian president apologises to neighbouring countries for the thick haze caused by massive forest fires in his country. The direc…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pn97sf.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pn98q4",
+          "guid": "urn:bbc:podcast:p0pn98q4"
+        },
+        {
+          "title": "Government forces retreat in Yemen",
+          "date": "Mon, 16 Nov 2026 05:48:00 +0000",
+          "description": "Yemen's Saudi-backed government has been redeploying its forces to protect its temporary capital, Aden, after advances by the Houthi movement which is backed by Iran. They've withdrawn from an area overlooking the strategic Bab al-Mandeb Strait at the entrance to the Red Sea. It signalled the end of a six-week counter offensive to retake coastal territory from the Houthis, whose control over the Yemeni side of the Strait has further constrained Middle East oil exports. Also: the architect of Me…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pn65f7.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pn65z8",
+          "guid": "urn:bbc:podcast:p0pn65z8"
+        },
+        {
           "title": "The Global Story: How North Korea pulled off a $6bn heist",
           "date": "Sun, 15 Nov 2026 20:00:00 +0000",
           "description": "Last week saw what could be the biggest heist in history: $6.3bn was stolen from the cryptocurrency exchange Binance. North Korean hackers are suspected of being behind the attack, which saw billions of dollars disappear in just 20 minutes. It’s far from the first time North Korea has been accused of a major cyber-attack. Over the past decade, hackers linked to the country have targeted banks, public institutions and even Sony Pictures. On The Global Story, Asma Khalid speaks with journalist Ge…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmr8dk.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pmr8st",
           "guid": "urn:bbc:podcast:p0pmr8st"
-        },
-        {
-          "title": "Nvidia CEO Jensen Huang resigns",
-          "date": "Thu, 12 Nov 2026 16:07:00 +0000",
-          "description": "Nvidia's chief financial officer, Colette Kress, will take over as interim CEO following Jensen Huang's departure. Shares in the company plummeted as US markets opened. It comes days after Huang admitted to an affair with a suspected Chinese spy, although Beijing denies the allegations. It also follows a New York Times report of a second affair with an executive at his own company.",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmn5x9.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pmn84n",
-          "guid": "urn:bbc:podcast:p0pmn84n"
-        },
-        {
-          "title": "Democrat Scott Colom wins Mississippi in historic victory",
-          "date": "Thu, 12 Nov 2026 05:19:00 +0000",
-          "description": "Democrat Scott Colom has won the Mississippi senate race in a shock midterms victory. He will become the state's first Democratic senator in four decades. Exit polls showed Mr Colom benefitted from surging support among black and young voters. Also: Nvidia considers ousting CEO Jensen Huang after his admitted affair with a suspected Chinese spy. A warm welcome for the Pope on his homecoming to Peru. The US Treasure Secretary, Scott Besset, relocates from his home to an unnamed military base aft…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmjmlw.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pmjmtq",
-          "guid": "urn:bbc:podcast:p0pmjmtq"
         }
       ]
     },
