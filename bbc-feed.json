@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-17T03:54:23Z",
+  "updatedAt": "2026-11-18T02:54:21Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,30 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Special episode: Trump, Putin and Xi meeting",
+          "date": "Tue, 17 Nov 2026 20:00:00 +0000",
+          "description": "This special episode of the Global News Podcast brings together our China specialist, our North America correspondent, and our Russia and Ukraine analyst, to discuss an unprecedented summit taking place this week. The US President Donald Trump, Russian President Vladimir Putin and Chinese President Xi Jinping are due to meet in Shenzhen, China, for their first-ever trilateral talks. President Trump has said the agenda will include denuclearisation, the war with Iran, and the war in Ukraine. So…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pnhmvc.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pnhq1p",
+          "guid": "urn:bbc:podcast:p0pnhq1p"
+        },
+        {
+          "title": "Red carpet for Trump in Asia",
+          "date": "Tue, 17 Nov 2026 16:10:00 +0000",
+          "description": "In Manila the US president meets leaders of Japan, India and Australia - a grouping known as the Quad. He will head to China on Wednesday. Also: Ukrainian airstrikes cause extensive damage to bridge connecting occupied Crimea to Russia. UK announces sanctions on eight Israeli companies involved in building Jewish settlements in the occupied West Bank. BBC World Service launches latest series of its education programme, for girls in Nigeria who cannot go to school. Panel of international judges…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pngg1l.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pngj3s",
+          "guid": "urn:bbc:podcast:p0pngj3s"
+        },
+        {
+          "title": "OpenAI sued by California over rogue cyber attacks",
+          "date": "Tue, 17 Nov 2026 05:35:00 +0000",
+          "description": "The California Attorney General Rob Bonta is suing OpenAI, alleging the ChatGPT maker misled the public and put people at risk by developing AI models without adequate safeguards. The lawsuit cites the July 2026 attack on the AI platform Hugging Face, in which experimental OpenAI agents accessed the internet and breached the company's internal systems. An OpenAI spokesperson told the BBC that the lawsuit \"appears to single out OpenAI over a challenge that's been identified by every major AI lab…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pnc1vp.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pnc231",
+          "guid": "urn:bbc:podcast:p0pnc231"
+        },
+        {
           "title": "Crimea Kerch Bridge hit in a huge Ukrainian drone attack",
           "date": "Mon, 16 Nov 2026 16:25:00 +0000",
           "description": "The Russian defence ministry says a record number of drones were fired from Ukraine overnight and more than 1300 were brought down by its air defences. An oil refinery in the Krasnodar region was targeted and there was damage to the Kerch Bridge which links Russia to occupied Crimea. Western countries call on Israel to allow rapid humanitarian access to Gaza. The Indonesian president apologises to neighbouring countries for the thick haze caused by massive forest fires in his country. The direc…",
@@ -115,30 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmvz62.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pmw5pp",
           "guid": "urn:bbc:podcast:p0pmw5pp"
-        },
-        {
-          "title": "US airspace reopens after flights grounded for several hours",
-          "date": "Sat, 14 Nov 2026 04:41:00 +0000",
-          "description": "On Friday, the US made the rare decision to ground flights nationwide, leaving tens of thousands of people stranded. An overloaded air traffic control system triggered communications failures across the country. The White House says there's no evidence of a cyberattack. Flights resumed after four hours, but Transportation Secretary Sean Duffy has warned that getting the aviation network back to normal will take time. Also: Divisions deepen inside the Trump administration as the US Commerce Secr…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmzy3x.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pmzyrg",
-          "guid": "urn:bbc:podcast:p0pmzyrg"
-        },
-        {
-          "title": "Microsoft outage: Millions affected in over 70 countries",
-          "date": "Fri, 13 Nov 2026 15:51:00 +0000",
-          "description": "A global Microsoft outage hits schools, doctors and businesses. The tech giant is scrambling to fix the issue - but with so many of us relying on its products such as Outlook and Teams, it has prompted a conversation about how reliant we are on its services. Microsoft says it's not found any evidence that malicious activity caused the problems, and in its latest update it reported that \"broader improvements\" were being observed in North America and Europe. Also: El Salvador soldiers use combat…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmwqby.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pmwsp6",
-          "guid": "urn:bbc:podcast:p0pmwsp6"
-        },
-        {
-          "title": "Putin lets Europe join Ukraine peace talks",
-          "date": "Fri, 13 Nov 2026 05:28:00 +0000",
-          "description": "Ukraine's President Zelensky has welcomed efforts by Jared Kushner and Steve Witkoff, to secure European involvement at the next round of peace talks with Russia. He was speaking alongside the US envoys in Dublin, where they'd flown to brief Mr Zelensky on their earlier discussions with Vladimir Putin in Moscow. Mr Zelensky said it made sense for Europeans to be involved as Ukraine would eventually be an EU member. Also: One of the most powerful men in the AI industry -Jensen Huang- will appear…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmr8dk.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pmr8st",
-          "guid": "urn:bbc:podcast:p0pmr8st"
         }
       ]
     },
