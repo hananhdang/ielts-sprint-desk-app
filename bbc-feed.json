@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-18T02:54:21Z",
+  "updatedAt": "2026-11-19T02:34:19Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Trump, Xi and Putin meet in China",
+          "date": "Wed, 18 Nov 2026 15:43:00 +0000",
+          "description": "President Trump was greeted by President Xi Jinping at the airport as he arrived in Shenzhen for a summit of Asia-Pacific leaders, which will culminate in a closely-watched meeting on Thursday between the pair and the Russian president. In a highly choreographed moment, Trump and Xi shook hands on the tarmac. Later the US leader met Mr Putin ahead of a gala dinner. Also: Thousands of people in Haiti have marched in the capital in support of troops from El Salvador, who've been deployed to confr…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pnncvn.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pnndk4",
+          "guid": "urn:bbc:podcast:p0pnndk4"
+        },
+        {
+          "title": "Nvidia rules out return for disgraced boss",
+          "date": "Wed, 18 Nov 2026 05:26:00 +0000",
+          "description": "Jensen Huang fails in his bid to be re-hired as CEO of Nvidia after a scandal over his affair with an alleged Chinese spy. The US Securities and Exchange Commission is reportedly investigating whether the company misled investors. Nvidia has meanwhile reported a doubling of revenues during his last quarter in charge. Also: President Donald Trump is attending a regional economic summit in China, a day ahead of a historic meeting with his Chinese counterpart, Xi Jinping, and the Russian leader, V…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pnjxxc.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pnjy0q",
+          "guid": "urn:bbc:podcast:p0pnjy0q"
+        },
+        {
           "title": "Special episode: Trump, Putin and Xi meeting",
           "date": "Tue, 17 Nov 2026 20:00:00 +0000",
           "description": "This special episode of the Global News Podcast brings together our China specialist, our North America correspondent, and our Russia and Ukraine analyst, to discuss an unprecedented summit taking place this week. The US President Donald Trump, Russian President Vladimir Putin and Chinese President Xi Jinping are due to meet in Shenzhen, China, for their first-ever trilateral talks. President Trump has said the agenda will include denuclearisation, the war with Iran, and the war in Ukraine. So…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmv7s7.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pmv9b1",
           "guid": "urn:bbc:podcast:p0pmv9b1"
-        },
-        {
-          "title": "SpaceX makes history catching part of returning spacecraft",
-          "date": "Sun, 15 Nov 2026 04:59:00 +0000",
-          "description": "Part of SpaceX's Starship rocket was caught as it descended back to Earth in Texas. It's the first time the upper section of a reusable rocket has ever been captured. Mechanical arms carried out a \"chopstick\" manoeuvre to catch the spacecraft. The breakthrough could dramatically cut the cost of space travel and marks a major step towards making Starship suitable for human spaceflight. Also: Ukraine's president says the US has, for the first time, floated the idea of Ukraine joining NATO in exch…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pn353v.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pn35d7",
-          "guid": "urn:bbc:podcast:p0pn35d7"
-        },
-        {
-          "title": "The Happy Pod: I've put women on the map with Antarctic record",
-          "date": "Sat, 14 Nov 2026 12:00:00 +0000",
-          "description": "Before taking on Antarctica's 160 kilometre ultramarathon, Stephanie Case said she wanted to show her daughter what mothers can achieve even in the toughest places on Earth. The Canadian ultra-runner has now made history, becoming the first woman to complete the race. Case says she wanted to prove that ''motherhood isn't the finish line''. Also: we catch up with a young Sudanese boy who received a surprise message from his favourite footballer, the Real Madrid player Vinícius Júnior. We visit a…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmvz62.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pmw5pp",
-          "guid": "urn:bbc:podcast:p0pmw5pp"
         }
       ]
     },
