@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-19T02:34:19Z",
+  "updatedAt": "2026-11-20T02:19:44Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
       "episodes": [
+        {
+          "title": "Are microplastics harming us?",
+          "date": "Thu, 19 Nov 2026 10:07:00 +0000",
+          "description": "How much plastic do you use on a daily basis? And how much of it is used to package or prepare food? Recently, scientists are becoming increasingly concerned that microplastics, tiny bits of plastic invisible to the naked eye, are entering our bodies through these food sources... but it is unclear exactly what the long-term health effects will be. Becca and Phil discuss this and teach you some new vocabulary. 6 Minute English now has a VIDEO VERSION! It's the same programme that you know and lo…",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261119_6_minute_english_are_microplastics_harming_us_download.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261119",
+          "guid": "urn:bbc:podcast:p0pnt62q"
+        },
         {
           "title": "Learning from different generations",
           "date": "Thu, 12 Nov 2026 09:59:00 +0000",
@@ -61,14 +69,6 @@
           "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261001_6_minute_english_why_does_heartbreak_hurt_so_much_download.mp3",
           "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261001",
           "guid": "urn:bbc:podcast:p0pdc9cq"
-        },
-        {
-          "title": "Why do we itch?",
-          "date": "Thu, 24 Sep 2026 07:47:00 +0000",
-          "description": "Feeling itchy is unpleasant, and the feeling of finally scratching that itch can be very satisfying! But why do we feel itchy in the first place? And is it possible to catch an itch from someone else? Neil and Georgie discuss this and teach you some new vocabulary. 6 Minute English now has a VIDEO VERSION! 6 Minute English now comes with a video! It's the same programme that you know and love, but now you can see us! Watch this podcast here (and find a free worksheet): https://www.bbc.co.uk/lea…",
-          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260924_6_minute_english_why_do_we_itch_download.mp3",
-          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260924",
-          "guid": "urn:bbc:podcast:p0pc61lm"
         }
       ]
     },
@@ -76,6 +76,22 @@
       "label": "Global News Podcast",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
+        {
+          "title": "UN court says Myanmar committed genocide against Rohingyas",
+          "date": "Thu, 19 Nov 2026 16:03:00 +0000",
+          "description": "The International Court of Justice finds Myanmar guilty of genocide against its Rohingya Muslim minority. It's the first such ruling against a state by the court. The ICJ rejected Myanmar’s argument that it had responded to insurgent attacks. Also: the presidents of China, the US and Russia stress the importance of stable energy flows, UN reform and the prevention of nuclear proliferation at a trilateral summit, internet access is cut in South Korean exam halls, amid fears of cheating. And a re…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pnw2mf.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pnw5rb",
+          "guid": "urn:bbc:podcast:p0pnw5rb"
+        },
+        {
+          "title": "BBC reports from Ukraine's undergound frontier",
+          "date": "Thu, 19 Nov 2026 05:19:00 +0000",
+          "description": "We go inside the old Soviet-era gas pipeline where Ukraine is fighting an underground war with Russia. The BBC is the first international broadcaster to enter the tunnels where this subterranean battle is taking place. Also: the AI giant Anthropic is set to raise more than 80 billion dollars in its initial public offering, breaking a record set by SpaceX. President Trump pushes back against global regulation of ''Super Intelligence'' - or AI - at the APEC summit in Shenzhen ahead of his meeting…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pnrnb6.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pnrndj",
+          "guid": "urn:bbc:podcast:p0pnrndj"
+        },
         {
           "title": "Trump, Xi and Putin meet in China",
           "date": "Wed, 18 Nov 2026 15:43:00 +0000",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pn97sf.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pn98q4",
           "guid": "urn:bbc:podcast:p0pn98q4"
-        },
-        {
-          "title": "Government forces retreat in Yemen",
-          "date": "Mon, 16 Nov 2026 05:48:00 +0000",
-          "description": "Yemen's Saudi-backed government has been redeploying its forces to protect its temporary capital, Aden, after advances by the Houthi movement which is backed by Iran. They've withdrawn from an area overlooking the strategic Bab al-Mandeb Strait at the entrance to the Red Sea. It signalled the end of a six-week counter offensive to retake coastal territory from the Houthis, whose control over the Yemeni side of the Strait has further constrained Middle East oil exports. Also: the architect of Me…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pn65f7.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pn65z8",
-          "guid": "urn:bbc:podcast:p0pn65z8"
-        },
-        {
-          "title": "The Global Story: How North Korea pulled off a $6bn heist",
-          "date": "Sun, 15 Nov 2026 20:00:00 +0000",
-          "description": "Last week saw what could be the biggest heist in history: $6.3bn was stolen from the cryptocurrency exchange Binance. North Korean hackers are suspected of being behind the attack, which saw billions of dollars disappear in just 20 minutes. It’s far from the first time North Korea has been accused of a major cyber-attack. Over the past decade, hackers linked to the country have targeted banks, public institutions and even Sony Pictures. On The Global Story, Asma Khalid speaks with journalist Ge…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pmv7s7.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pmv9b1",
-          "guid": "urn:bbc:podcast:p0pmv9b1"
         }
       ]
     },
