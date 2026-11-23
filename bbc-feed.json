@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-22T01:20:34Z",
+  "updatedAt": "2026-11-23T01:44:50Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "The Global Story: AI can imitate a human. But can it think like one?",
+          "date": "Sun, 22 Nov 2026 20:00:00 +0000",
+          "description": "For decades, computer scientists have been trying to figure out whether computers can think. But with the advent of highly sophisticated chatbots like Claude and ChatGPT…might we finally have our answer? This week we’re introducing The Global Backstory, the new strand of our show that explores the history behind the news today. We constantly hear stories about artificial intelligence, but most of them are about where AI is going; in this five-episode series we’re looking at where it came from.…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pp03f4.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pp0406",
+          "guid": "urn:bbc:podcast:p0pp0406"
+        },
+        {
+          "title": "Deadlock at UN climate summit in Turkey",
+          "date": "Sun, 22 Nov 2026 04:48:00 +0000",
+          "description": "The COP31 summit has gone into a second day of overtime after talks were suspended for the night. There is no agreement in sight with the European Union and Pacific Island nations threatening to walk away without agreeing to a deal because the draft text makes no mention of reducing global demand for fossil fuels. Also: Croatians take to the streets over the death in hospital of a psychiatric patient who was beaten and smothered. We hear from British endurance athlete Lewis Pugh who swam throug…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pp9hr7.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pp9hxv",
+          "guid": "urn:bbc:podcast:p0pp9hxv"
+        },
+        {
           "title": "The Happy Pod: The 'amazing’ device that controls Tourette's",
           "date": "Sat, 21 Nov 2026 12:00:00 +0000",
           "description": "We meet 17-year-old Mylo who's taken part in a trial of the watch-like device that suppresses his Tourette's tics. He can even now go to the cinema without fear of causing a disturbance by constantly moving or clearing his throat. Also: the chef in Japan who's known poverty and illness and now offers free meals to people in the position he was once in; the NASA spacecraft, Voyager One, that's become the first human-made object to reach a point one light day from Earth; the surf school in Senega…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pnrnb6.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pnrndj",
           "guid": "urn:bbc:podcast:p0pnrndj"
-        },
-        {
-          "title": "Trump, Xi and Putin meet in China",
-          "date": "Wed, 18 Nov 2026 15:43:00 +0000",
-          "description": "President Trump was greeted by President Xi Jinping at the airport as he arrived in Shenzhen for a summit of Asia-Pacific leaders, which will culminate in a closely-watched meeting on Thursday between the pair and the Russian president. In a highly choreographed moment, Trump and Xi shook hands on the tarmac. Later the US leader met Mr Putin ahead of a gala dinner. Also: Thousands of people in Haiti have marched in the capital in support of troops from El Salvador, who've been deployed to confr…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pnncvn.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pnndk4",
-          "guid": "urn:bbc:podcast:p0pnndk4"
-        },
-        {
-          "title": "Nvidia rules out return for disgraced boss",
-          "date": "Wed, 18 Nov 2026 05:26:00 +0000",
-          "description": "Jensen Huang fails in his bid to be re-hired as CEO of Nvidia after a scandal over his affair with an alleged Chinese spy. The US Securities and Exchange Commission is reportedly investigating whether the company misled investors. Nvidia has meanwhile reported a doubling of revenues during his last quarter in charge. Also: President Donald Trump is attending a regional economic summit in China, a day ahead of a historic meeting with his Chinese counterpart, Xi Jinping, and the Russian leader, V…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pnjxxc.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pnjy0q",
-          "guid": "urn:bbc:podcast:p0pnjy0q"
         }
       ]
     },
