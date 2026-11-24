@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-23T01:44:50Z",
+  "updatedAt": "2026-11-24T05:19:41Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Jensen Huang reinstated as Nvidia CEO",
+          "date": "Mon, 23 Nov 2026 16:08:00 +0000",
+          "description": "Shares in the tech giant Nvidia soar as its board votes unanimously to reappoint Huang as CEO and President, less than two weeks after he was forced to resign over reports of an affair with a suspected Chinese spy. President Trump welcomed his return, calling him a great patriot. Also: President Zelensky confirms that Ukrainian drones attacked two Russian ships off Libya's coast, sinking one of them; a BBC exclusive report on the radical far-left movement in France that President Emmanuel Macro…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pphdx7.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pphgd5",
+          "guid": "urn:bbc:podcast:p0pphgd5"
+        },
+        {
+          "title": "COP31 in Turkey ends without a deal",
+          "date": "Mon, 23 Nov 2026 05:48:00 +0000",
+          "description": "The UN climate summit in Turkey collapses after the final draft text makes no direct mention of fossil fuels, which proved unacceptable to the European Union and Pacific island countries. Poorer governments had also objected to the lack of clear financial commitments to help them adapt to climate change. Also: Russia hits Ukrainian energy facilities, straining power supplies and causing widespread power cuts. There's been a suspected drone attack on a Russian warship docked in Benghazi in Libya…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ppdf4f.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ppdfkn",
+          "guid": "urn:bbc:podcast:p0ppdfkn"
+        },
+        {
           "title": "The Global Story: AI can imitate a human. But can it think like one?",
           "date": "Sun, 22 Nov 2026 20:00:00 +0000",
           "description": "For decades, computer scientists have been trying to figure out whether computers can think. But with the advent of highly sophisticated chatbots like Claude and ChatGPT…might we finally have our answer? This week we’re introducing The Global Backstory, the new strand of our show that explores the history behind the news today. We constantly hear stories about artificial intelligence, but most of them are about where AI is going; in this five-episode series we’re looking at where it came from.…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pnyjht.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pnyk0h",
           "guid": "urn:bbc:podcast:p0pnyk0h"
-        },
-        {
-          "title": "UN court says Myanmar committed genocide against Rohingyas",
-          "date": "Thu, 19 Nov 2026 16:03:00 +0000",
-          "description": "The International Court of Justice finds Myanmar guilty of genocide against its Rohingya Muslim minority. It's the first such ruling against a state by the court. The ICJ rejected Myanmar’s argument that it had responded to insurgent attacks. Also: the presidents of China, the US and Russia stress the importance of stable energy flows, UN reform and the prevention of nuclear proliferation at a trilateral summit, internet access is cut in South Korean exam halls, amid fears of cheating. And a re…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pnw2mf.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pnw5rb",
-          "guid": "urn:bbc:podcast:p0pnw5rb"
-        },
-        {
-          "title": "BBC reports from Ukraine's undergound frontier",
-          "date": "Thu, 19 Nov 2026 05:19:00 +0000",
-          "description": "We go inside the old Soviet-era gas pipeline where Ukraine is fighting an underground war with Russia. The BBC is the first international broadcaster to enter the tunnels where this subterranean battle is taking place. Also: the AI giant Anthropic is set to raise more than 80 billion dollars in its initial public offering, breaking a record set by SpaceX. President Trump pushes back against global regulation of ''Super Intelligence'' - or AI - at the APEC summit in Shenzhen ahead of his meeting…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pnrnb6.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pnrndj",
-          "guid": "urn:bbc:podcast:p0pnrndj"
         }
       ]
     },
