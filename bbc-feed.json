@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-24T05:19:41Z",
+  "updatedAt": "2026-11-25T04:12:30Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Is Jensen Huang's reinstatement good news for China?",
+          "date": "Tue, 24 Nov 2026 16:47:00 +0000",
+          "description": "The surprise reinstatement of Jensen Huang as head of the US chipmaker, Nvidia, has seen mixed reactions worldwide -- but what do people in China make of it all? Also: Malaysia is criticised by human rights groups after saying it will send more migrants back to Myanmar - around two thirds of migrants living in Malaysia are Muslim Rohingyas. The security services in the UK are warning that British companies that provide military supplies to Ukraine could become a military target for Russia. The…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ppnzlx.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ppp111",
+          "guid": "urn:bbc:podcast:p0ppp111"
+        },
+        {
+          "title": "Stock markets jump after Nvidia boss reinstated",
+          "date": "Tue, 24 Nov 2026 05:48:00 +0000",
+          "description": "Global stock markets surge after the US chipmaker Nvidia reinstates its chief executive Jensen Huang. Shares in the firm close sharply higher in New York following the news. Nvidia has come under heavy pressure from President Trump to allow the return of Mr Huang, who resigned earlier this month after admitting having an affair with an alleged Chinese spy. Also, The head of Nato says the alliance will defend against threats in space following German media reports that Russia may be preparing to…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ppkq65.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ppkqn5",
+          "guid": "urn:bbc:podcast:p0ppkqn5"
+        },
+        {
           "title": "Jensen Huang reinstated as Nvidia CEO",
           "date": "Mon, 23 Nov 2026 16:08:00 +0000",
           "description": "Shares in the tech giant Nvidia soar as its board votes unanimously to reappoint Huang as CEO and President, less than two weeks after he was forced to resign over reports of an affair with a suspected Chinese spy. President Trump welcomed his return, calling him a great patriot. Also: President Zelensky confirms that Ukrainian drones attacked two Russian ships off Libya's coast, sinking one of them; a BBC exclusive report on the radical far-left movement in France that President Emmanuel Macro…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pp66mc.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pp66wy",
           "guid": "urn:bbc:podcast:p0pp66wy"
-        },
-        {
-          "title": "UK agrees deal on closer cooperation with EU",
-          "date": "Fri, 20 Nov 2026 15:29:00 +0000",
-          "description": "UK and EU agree new deal covering food exports, youth mobility and carbon emissions. European Commission President, Ursula von der Leyen, said it marked a \"turning point\" in relations. Also: BBC speaks to people inside the besieged city of Taiz in Yemen. Why the Malaysian government wants to settle 10,000 Rohingyas in Turkey. A group of eight European and developing countries at the UN climate summit in Turkey says a global call to \"accelerate the phase-out of fossil fuels\" must be restored to…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pp3ndk.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pp3pln",
-          "guid": "urn:bbc:podcast:p0pp3pln"
-        },
-        {
-          "title": "Abusers convicted in Joanne Young case echoing Pelicot",
-          "date": "Fri, 20 Nov 2026 05:33:00 +0000",
-          "description": "In the first trial of its kind in England, four men have been convicted of raping and sexually abusing a British woman, in a harrowing case that bears similarities to that of Gisèle Pelicot in France. Like Pelicot, Joanne Young chose to allow her name to be made public, after discovering that her then-husband had advertised her online to strangers for sex, repeatedly drugged her and raped her. British police sought the expertise of French investigators on the Pelicot case to assist them in brin…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pnyjht.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pnyk0h",
-          "guid": "urn:bbc:podcast:p0pnyk0h"
         }
       ]
     },
