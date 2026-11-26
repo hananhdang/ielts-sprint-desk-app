@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-25T04:12:30Z",
+  "updatedAt": "2026-11-26T03:34:25Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "US announces new tariffs on China and other countries",
+          "date": "Wed, 25 Nov 2026 16:47:00 +0000",
+          "description": "The US has announced a fresh raft of tariffs as Donald Trump pushes ahead with his signature trade policy. The new taxes charged on imports to America are set to hit many of the country's biggest trading partners, including China, the EU, India, and Japan. China is facing the highest rate of up to 40%, followed by Vietnam at up to 35%. The new duties are not expected to take effect until next year. Also: A hostage crisis involving dozens of people in Colombia has come to a dramatic end. South A…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ppwplz.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ppwqrn",
+          "guid": "urn:bbc:podcast:p0ppwqrn"
+        },
+        {
+          "title": "Huawei has been found guilty of bank fraud in the US",
+          "date": "Wed, 25 Nov 2026 06:05:00 +0000",
+          "description": "The Chinese telecoms company, which has rejected its convictions in the United States, said the allegations were baseless and has threatened to take legal action. The jury in the landmark trial in New York cleared the firm of a more serious charge of racketeering. Also, a hostage crisis is underway in Colombia where gunmen are holding more than a dozen people captive at a supermarket. Senegal have been reinstated as African football champions almost ten months after they beat Morocco. The victi…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ppr6k6.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pprc4x",
+          "guid": "urn:bbc:podcast:p0pprc4x"
+        },
+        {
           "title": "Is Jensen Huang's reinstatement good news for China?",
           "date": "Tue, 24 Nov 2026 16:47:00 +0000",
           "description": "The surprise reinstatement of Jensen Huang as head of the US chipmaker, Nvidia, has seen mixed reactions worldwide -- but what do people in China make of it all? Also: Malaysia is criticised by human rights groups after saying it will send more migrants back to Myanmar - around two thirds of migrants living in Malaysia are Muslim Rohingyas. The security services in the UK are warning that British companies that provide military supplies to Ukraine could become a military target for Russia. The…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pp9hr7.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0pp9hxv",
           "guid": "urn:bbc:podcast:p0pp9hxv"
-        },
-        {
-          "title": "The Happy Pod: The 'amazing’ device that controls Tourette's",
-          "date": "Sat, 21 Nov 2026 12:00:00 +0000",
-          "description": "We meet 17-year-old Mylo who's taken part in a trial of the watch-like device that suppresses his Tourette's tics. He can even now go to the cinema without fear of causing a disturbance by constantly moving or clearing his throat. Also: the chef in Japan who's known poverty and illness and now offers free meals to people in the position he was once in; the NASA spacecraft, Voyager One, that's become the first human-made object to reach a point one light day from Earth; the surf school in Senega…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pp4c96.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pp4d5y",
-          "guid": "urn:bbc:podcast:p0pp4d5y"
-        },
-        {
-          "title": "Man found guilty of starting deadly LA wildfire",
-          "date": "Sat, 21 Nov 2026 05:00:00 +0000",
-          "description": "Jonathan Rinderknecht is found guilty of starting the deadly Palisades fire in Los Angeles, which displaced thousands of people and became one of the most destructive fires in the city’s history. Also: Donald Trump describes his relationship with the leaders of Russia and China as “fantastic”, after meeting with them in Shenzhen. The US president also threatens a ban on American firms building AI data centres overseas, saying they must stay in the US. Russian drones continue to attack Ukraine,…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pp66mc.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pp66wy",
-          "guid": "urn:bbc:podcast:p0pp66wy"
         }
       ]
     },
