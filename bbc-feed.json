@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-26T03:34:25Z",
+  "updatedAt": "2026-11-27T03:38:25Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
       "episodes": [
+        {
+          "title": "Is Gen Z getting less intelligent?",
+          "date": "Thu, 26 Nov 2026 09:31:00 +0000",
+          "description": "When was the last time you read a physical book? For older generations, school was full of textbooks and workbooks, but for younger generations these have been replaced with laptops and tablets. But is this technology having a positive impact on test scores? Georgie and Phil discuss this and teach you some new vocabulary. 6 Minute English now has a VIDEO VERSION! It's the same programme that you know and love, but now you can see us! Watch this podcast here (and find a free worksheet): https://…",
+          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261126_6_minute_english_is_gen_z_getting_less_intelligent_download_.mp3",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261126",
+          "guid": "urn:bbc:podcast:p0ppzy2r"
+        },
         {
           "title": "Are microplastics harming us?",
           "date": "Thu, 19 Nov 2026 10:07:00 +0000",
@@ -61,14 +69,6 @@
           "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261008_6_minute_english_are_people_drinking_less_alcohol_download.mp3",
           "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261008",
           "guid": "urn:bbc:podcast:p0pflmn5"
-        },
-        {
-          "title": "Why does heartbreak hurt so much?",
-          "date": "Thu, 01 Oct 2026 09:47:00 +0000",
-          "description": "Anyone who has had their heart broken will know how horrible it feels. But did you know that the pain you feel is not just imaginary – it registers in the same part of the brain that processes physical pain. So, why do we feel this pain? And if it feels so bad, what is the point of being in love in the first place? Neil and Georgie discuss this and teach you some new vocabulary. 6 Minute English now has a VIDEO VERSION! 6 Minute English now comes with a video! It's the same programme that you k…",
-          "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261001_6_minute_english_why_does_heartbreak_hurt_so_much_download.mp3",
-          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261001",
-          "guid": "urn:bbc:podcast:p0pdc9cq"
         }
       ]
     },
@@ -76,6 +76,22 @@
       "label": "Global News Podcast",
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
+        {
+          "title": "Net migration to UK at lowest level since 1997",
+          "date": "Thu, 26 Nov 2026 16:09:00 +0000",
+          "description": "Net migration to Britain has fallen to the lowest level this century, excluding the Covid pandemic. Official data shows the number was 77,000 in the year ending in June - down about 90% from a peak in 2023. Tougher rules introduced in response to public concern have made it harder for people to come to work or study in the UK. Asylum claims are also down. Also: Israel has carried out more deadly airstrikes in the Gaza Strip, despite the ceasefire. A court in Kenya rules that the government brea…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pq2tz0.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pq2ymt",
+          "guid": "urn:bbc:podcast:p0pq2ymt"
+        },
+        {
+          "title": "Trump approves Elon Musk's plan for data centres in space",
+          "date": "Thu, 26 Nov 2026 05:34:00 +0000",
+          "description": "The Trump Administration has approved Elon Musk's plan to launch one million SpaceX satellites into space for AI data centres which will function using solar power. Also: At least thirty people have been killed in the Egyptian capital, Cairo, after a petrol tanker overturned and caught fire on a major ring road. We have a special report on the German boat dealer suspected of being a key supplier to migrant smugglers operating in the English Channel. A new survey suggests that young people in Br…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ppz1cj.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0ppz1kd",
+          "guid": "urn:bbc:podcast:p0ppz1kd"
+        },
         {
           "title": "US announces new tariffs on China and other countries",
           "date": "Wed, 25 Nov 2026 16:47:00 +0000",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ppdf4f.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0ppdfkn",
           "guid": "urn:bbc:podcast:p0ppdfkn"
-        },
-        {
-          "title": "The Global Story: AI can imitate a human. But can it think like one?",
-          "date": "Sun, 22 Nov 2026 20:00:00 +0000",
-          "description": "For decades, computer scientists have been trying to figure out whether computers can think. But with the advent of highly sophisticated chatbots like Claude and ChatGPT…might we finally have our answer? This week we’re introducing The Global Backstory, the new strand of our show that explores the history behind the news today. We constantly hear stories about artificial intelligence, but most of them are about where AI is going; in this five-episode series we’re looking at where it came from.…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pp03f4.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pp0406",
-          "guid": "urn:bbc:podcast:p0pp0406"
-        },
-        {
-          "title": "Deadlock at UN climate summit in Turkey",
-          "date": "Sun, 22 Nov 2026 04:48:00 +0000",
-          "description": "The COP31 summit has gone into a second day of overtime after talks were suspended for the night. There is no agreement in sight with the European Union and Pacific Island nations threatening to walk away without agreeing to a deal because the draft text makes no mention of reducing global demand for fossil fuels. Also: Croatians take to the streets over the death in hospital of a psychiatric patient who was beaten and smothered. We hear from British endurance athlete Lewis Pugh who swam throug…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pp9hr7.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pp9hxv",
-          "guid": "urn:bbc:podcast:p0pp9hxv"
         }
       ]
     },
