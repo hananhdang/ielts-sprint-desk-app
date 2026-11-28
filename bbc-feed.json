@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-27T03:38:25Z",
+  "updatedAt": "2026-11-28T03:19:03Z",
   "feeds": {
     "six": {
       "label": "6 Minute English",
@@ -77,6 +77,22 @@
       "sourceUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "episodes": [
         {
+          "title": "Can Pedro Sanchez hold on to Spain?",
+          "date": "Fri, 27 Nov 2026 16:13:00 +0000",
+          "description": "Polls tip Spain's Prime Minister, Pedro Sanchez, to lose Sunday's general election. The far-right Vox party is predicted to be part of a new coalition government led by the centre-right People's Party's Alberto Núñez Feijóo. Also: Mathematicians warn that AI could crack encryption in the banking system. Turkish officials say they've arrested nine people from one of the last pro-opposition broadcasters in the country. The World Health Organisation says nearly 700 suspected cases of meningitis ha…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pq8rz2.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pq8vbc",
+          "guid": "urn:bbc:podcast:p0pq8vbc"
+        },
+        {
+          "title": "President Zelensky voices his frustration with the US",
+          "date": "Fri, 27 Nov 2026 05:20:00 +0000",
+          "description": "Volodymyr Zelensky tells the BBC that it's up to Donald Trump to decide his own actions and opinions but it was clear that President Putin was an \"aggressor and a killer\" and therefore could not be a friend. The Ukrainian president also says the United States is too focused on the Middle East and it's not pushing Russia hard enough during peace talks. Also: the French actor, Gérard Depardieu, will stand trial for the alleged rape of the actress Charlotte Arnould; he denies wrongdoing. Thanksgiv…",
+          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pq5lc7.mp3",
+          "link": "https://www.bbc.co.uk/programmes/p0pq5lhm",
+          "guid": "urn:bbc:podcast:p0pq5lhm"
+        },
+        {
           "title": "Net migration to UK at lowest level since 1997",
           "date": "Thu, 26 Nov 2026 16:09:00 +0000",
           "description": "Net migration to Britain has fallen to the lowest level this century, excluding the Covid pandemic. Official data shows the number was 77,000 in the year ending in June - down about 90% from a peak in 2023. Tougher rules introduced in response to public concern have made it harder for people to come to work or study in the UK. Asylum claims are also down. Also: Israel has carried out more deadly airstrikes in the Gaza Strip, despite the ceasefire. A court in Kenya rules that the government brea…",
@@ -123,22 +139,6 @@
           "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ppkq65.mp3",
           "link": "https://www.bbc.co.uk/programmes/p0ppkqn5",
           "guid": "urn:bbc:podcast:p0ppkqn5"
-        },
-        {
-          "title": "Jensen Huang reinstated as Nvidia CEO",
-          "date": "Mon, 23 Nov 2026 16:08:00 +0000",
-          "description": "Shares in the tech giant Nvidia soar as its board votes unanimously to reappoint Huang as CEO and President, less than two weeks after he was forced to resign over reports of an affair with a suspected Chinese spy. President Trump welcomed his return, calling him a great patriot. Also: President Zelensky confirms that Ukrainian drones attacked two Russian ships off Libya's coast, sinking one of them; a BBC exclusive report on the radical far-left movement in France that President Emmanuel Macro…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0pphdx7.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0pphgd5",
-          "guid": "urn:bbc:podcast:p0pphgd5"
-        },
-        {
-          "title": "COP31 in Turkey ends without a deal",
-          "date": "Mon, 23 Nov 2026 05:48:00 +0000",
-          "description": "The UN climate summit in Turkey collapses after the final draft text makes no direct mention of fossil fuels, which proved unacceptable to the European Union and Pacific island countries. Poorer governments had also objected to the lack of clear financial commitments to help them adapt to climate change. Also: Russia hits Ukrainian energy facilities, straining power supplies and causing widespread power cuts. There's been a suspected drone attack on a Russian warship docked in Benghazi in Libya…",
-          "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/https/vpid/p0ppdf4f.mp3",
-          "link": "https://www.bbc.co.uk/programmes/p0ppdfkn",
-          "guid": "urn:bbc:podcast:p0ppdfkn"
         }
       ]
     },
